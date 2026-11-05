@@ -319,7 +319,9 @@ def generate_dashboard(snapshot, mplus, audit, history, raids, talents, weekly):
         f"Raider.IO вернул {len(weekly['weekly_highest_level_runs'])} записей о лучших недельных ключах. "
         "**Это не счётчик Великого хранилища.**",
         "",
-        "Полные данные и недельные аффиксы: [weekly.json](weekly.json).",
+        f"**Аффиксы EU:** {as_dict(weekly.get('affixes')).get('title') or 'нет данных'}",
+        "",
+        "Полные данные: [weekly.json](weekly.json).",
         "",
         "## Последние изменения шмота",
         "",
