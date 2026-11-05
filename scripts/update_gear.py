@@ -15,7 +15,15 @@ REGION = "eu"
 REALM = "gordunni"
 NAME = "Блафыч"
 API = "https://raider.io/api/v1/characters/profile"
-PARAMS = {"region": REGION, "realm": REALM, "name": NAME, "fields": "gear"}
+FIELDS = ",".join((
+    "gear",
+    "mythic_plus_scores_by_season:current",
+    "mythic_plus_best_runs:all",
+    "mythic_plus_recent_runs",
+    "mythic_plus_weekly_highest_level_runs",
+    "mythic_plus_ranks",
+))
+PARAMS = {"region": REGION, "realm": REALM, "name": NAME, "fields": FIELDS}
 URL = f"{API}?{urlencode(PARAMS)}"
 OUTPUT = Path(__file__).resolve().parent.parent / "gear.json"
 
@@ -57,6 +65,24 @@ def main():
     if not isinstance(gear, dict) or not isinstance(gear.get("items"), dict) or not gear["items"]:
         raise ValueError("No equipped gear in Raider.IO response; keeping previous snapshot")
 
+    mplus_fields = (
+        "mythic_plus_scores_by_season",
+        "mythic_plus_best_runs",
+        "mythic_plus_recent_runs",
+        "mythic_plus_weekly_highest_level_runs",
+        "mythic_plus_ranks",
+    )
+    if not any(field in source for field in mplus_fields):
+        raise ValueError("Raider.IO returned no Mythic+ fields; keeping previous snapshot")
+
+    mythic_plus = {
+        "scores_by_season": source.get("mythic_plus_scores_by_season", []),
+        "best_runs": source.get("mythic_plus_best_runs", []),
+        "recent_runs": source.get("mythic_plus_recent_runs", []),
+        "weekly_highest_level_runs": source.get("mythic_plus_weekly_highest_level_runs", []),
+        "ranks": source.get("mythic_plus_ranks", {}),
+    }
+
     snapshot = {
         "fetched_at_utc": datetime.now(timezone.utc).isoformat(timespec="seconds"),
         "source_last_crawled_at": source.get("last_crawled_at"),
@@ -70,6 +96,7 @@ def main():
             "profile_url": source.get("profile_url"),
         },
         "gear": gear,
+        "mythic_plus": mythic_plus,
     }
     temp = OUTPUT.with_suffix(".json.tmp")
     temp.write_text(json.dumps(snapshot, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
@@ -77,6 +104,7 @@ def main():
     print(
         f"Saved {len(gear['items'])} items, "
         f"equipped ilvl {gear.get('item_level_equipped')}, "
+        f"best M+ runs {len(mythic_plus['best_runs'])}, "
         f"source crawled {source.get('last_crawled_at')}"
     )
 
