@@ -1,7 +1,7 @@
 {
   "note": "История фиксируется с момента подключения трекера; изменения между двумя проверками могут быть пропущены.",
-  "last_checked_at": "2026-11-05T19:13:44+00:00",
-  "last_source_crawled_at": "2026-11-05T08:48:03.000Z",
+  "last_checked_at": "2026-11-05T21:16:20+00:00",
+  "last_source_crawled_at": "2026-11-05T19:47:41.000Z",
   "last_equipped": {
     "head": {
       "item_id": 271483,
@@ -117,14 +117,14 @@
     "hands": {
       "item_id": 271484,
       "name": "Hexing Grips of the Ophidian Oracle",
-      "item_level": 302,
+      "item_level": 308,
       "enchants": [],
       "gems": [],
       "bonuses": [
         6652,
         13691,
         13697,
-        12836
+        12838
       ]
     },
     "legs": {
@@ -214,7 +214,8 @@
       "name": "Soulsealer's Headstone",
       "item_level": 321,
       "enchants": [
-        8689
+        8689,
+        5401
       ],
       "gems": [],
       "bonuses": [
@@ -227,7 +228,8 @@
       "name": "Farstrider's Chopper",
       "item_level": 318,
       "enchants": [
-        8689
+        8689,
+        5400
       ],
       "gems": [],
       "bonuses": [
@@ -248,6 +250,115 @@
       "at": "2026-11-05T08:48:03.000Z",
       "type": "baseline",
       "message": "Первый снимок экипировки"
+    },
+    {
+      "at": "2026-11-05T19:47:41.000Z",
+      "type": "gear_change",
+      "changes": [
+        {
+          "slot": "hands",
+          "before": {
+            "item_id": 271484,
+            "name": "Hexing Grips of the Ophidian Oracle",
+            "item_level": 302,
+            "enchants": [],
+            "gems": [],
+            "bonuses": [
+              6652,
+              13691,
+              13697,
+              12836
+            ]
+          },
+          "after": {
+            "item_id": 271484,
+            "name": "Hexing Grips of the Ophidian Oracle",
+            "item_level": 308,
+            "enchants": [],
+            "gems": [],
+            "bonuses": [
+              6652,
+              13691,
+              13697,
+              12838
+            ]
+          }
+        },
+        {
+          "slot": "mainhand",
+          "before": {
+            "item_id": 272269,
+            "name": "Soulsealer's Headstone",
+            "item_level": 321,
+            "enchants": [
+              8689
+            ],
+            "gems": [],
+            "bonuses": [
+              6652,
+              12846
+            ]
+          },
+          "after": {
+            "item_id": 272269,
+            "name": "Soulsealer's Headstone",
+            "item_level": 321,
+            "enchants": [
+              8689,
+              5401
+            ],
+            "gems": [],
+            "bonuses": [
+              6652,
+              12846
+            ]
+          }
+        },
+        {
+          "slot": "offhand",
+          "before": {
+            "item_id": 237850,
+            "name": "Farstrider's Chopper",
+            "item_level": 318,
+            "enchants": [
+              8689
+            ],
+            "gems": [],
+            "bonuses": [
+              12214,
+              13667,
+              12497,
+              13751,
+              14001,
+              13771,
+              8960,
+              8793,
+              13835
+            ]
+          },
+          "after": {
+            "item_id": 237850,
+            "name": "Farstrider's Chopper",
+            "item_level": 318,
+            "enchants": [
+              8689,
+              5400
+            ],
+            "gems": [],
+            "bonuses": [
+              12214,
+              13667,
+              12497,
+              13751,
+              14001,
+              13771,
+              8960,
+              8793,
+              13835
+            ]
+          }
+        }
+      ]
     }
   ]
 }

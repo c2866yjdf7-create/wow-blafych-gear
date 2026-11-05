@@ -1,5 +1,5 @@
 {
-  "source_last_crawled_at": "2026-11-05T08:48:03.000Z",
+  "source_last_crawled_at": "2026-11-05T19:47:41.000Z",
   "limitations": "Отсутствие зачарования в Raider.IO НЕ доказывает, что слот можно или нужно зачаровать. API не перечисляет доступные пустые гнёзда. Подбор BiS-чар и камней требует актуальных гайдов/симуляции.",
   "observed": [
     {
@@ -78,7 +78,7 @@
     {
       "slot": "hands",
       "item_name": "Hexing Grips of the Ophidian Oracle",
-      "item_level": 302,
+      "item_level": 308,
       "enchants": [],
       "gems": []
     },
