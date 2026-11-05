@@ -1,0 +1,253 @@
+{
+  "note": "История фиксируется с момента подключения трекера; изменения между двумя проверками могут быть пропущены.",
+  "last_checked_at": "2026-11-05T09:37:54+00:00",
+  "last_source_crawled_at": "2026-11-05T08:48:03.000Z",
+  "last_equipped": {
+    "head": {
+      "item_id": 271483,
+      "name": "Serpent Crown of the Ophidian Oracle",
+      "item_level": 308,
+      "enchants": [
+        8017
+      ],
+      "gems": [],
+      "bonuses": [
+        13333,
+        13692,
+        6652,
+        13696,
+        13698,
+        12838
+      ]
+    },
+    "neck": {
+      "item_id": 251142,
+      "name": "Pendant of Malefic Fury",
+      "item_level": 302,
+      "enchants": [],
+      "gems": [
+        240983
+      ],
+      "bonuses": [
+        13439,
+        6652,
+        13668,
+        12699,
+        12836
+      ]
+    },
+    "shoulder": {
+      "item_id": 271481,
+      "name": "Hissing Mantle of the Ophidian Oracle",
+      "item_level": 302,
+      "enchants": [
+        8001
+      ],
+      "gems": [],
+      "bonuses": [
+        13333,
+        13694,
+        6652,
+        13697,
+        12836
+      ]
+    },
+    "back": {
+      "item_id": 272230,
+      "name": "Pledgebearer's Pall",
+      "item_level": 302,
+      "enchants": [],
+      "gems": [],
+      "bonuses": [
+        41,
+        13662,
+        12836
+      ]
+    },
+    "chest": {
+      "item_id": 271486,
+      "name": "Fanged Raiment of the Ophidian Oracle",
+      "item_level": 305,
+      "enchants": [
+        7987
+      ],
+      "gems": [],
+      "bonuses": [
+        6652,
+        13846,
+        13333,
+        12841,
+        13690,
+        13698,
+        1558
+      ]
+    },
+    "waist": {
+      "item_id": 268254,
+      "name": "Serpentine Mixing Belt",
+      "item_level": 302,
+      "enchants": [],
+      "gems": [],
+      "bonuses": [
+        6652,
+        13696,
+        13662,
+        13333,
+        12836
+      ]
+    },
+    "wrist": {
+      "item_id": 244584,
+      "name": "Farstrider's Plated Bracers",
+      "item_level": 305,
+      "enchants": [],
+      "gems": [],
+      "bonuses": [
+        12214,
+        13667,
+        12497,
+        13751,
+        14001,
+        8960,
+        12384,
+        8793,
+        13696
+      ]
+    },
+    "hands": {
+      "item_id": 271484,
+      "name": "Hexing Grips of the Ophidian Oracle",
+      "item_level": 302,
+      "enchants": [],
+      "gems": [],
+      "bonuses": [
+        6652,
+        13691,
+        13697,
+        12836
+      ]
+    },
+    "legs": {
+      "item_id": 268237,
+      "name": "Cuisses of the Uncoiled Union",
+      "item_level": 302,
+      "enchants": [
+        8159
+      ],
+      "gems": [],
+      "bonuses": [
+        6652,
+        13662,
+        13333,
+        12836
+      ]
+    },
+    "feet": {
+      "item_id": 272248,
+      "name": "Galerider's Footguards",
+      "item_level": 308,
+      "enchants": [
+        7963
+      ],
+      "gems": [],
+      "bonuses": [
+        12842,
+        13662
+      ]
+    },
+    "finger1": {
+      "item_id": 272147,
+      "name": "Colubrine Band",
+      "item_level": 308,
+      "enchants": [
+        7967
+      ],
+      "gems": [
+        240898
+      ],
+      "bonuses": [
+        12842,
+        13668
+      ]
+    },
+    "finger2": {
+      "item_id": 272149,
+      "name": "Hex Loop",
+      "item_level": 321,
+      "enchants": [
+        7967
+      ],
+      "gems": [
+        240898
+      ],
+      "bonuses": [
+        12850,
+        13668
+      ]
+    },
+    "trinket1": {
+      "item_id": 273796,
+      "name": "Vile Vial of Volatile Venom",
+      "item_level": 302,
+      "enchants": [],
+      "gems": [],
+      "bonuses": [
+        13440,
+        6652,
+        12699,
+        12836
+      ]
+    },
+    "trinket2": {
+      "item_id": 265657,
+      "name": "Fiber of Living Agony",
+      "item_level": 305,
+      "enchants": [],
+      "gems": [],
+      "bonuses": [
+        6652,
+        12837
+      ]
+    },
+    "mainhand": {
+      "item_id": 272269,
+      "name": "Soulsealer's Headstone",
+      "item_level": 321,
+      "enchants": [
+        8689
+      ],
+      "gems": [],
+      "bonuses": [
+        6652,
+        12846
+      ]
+    },
+    "offhand": {
+      "item_id": 237850,
+      "name": "Farstrider's Chopper",
+      "item_level": 318,
+      "enchants": [
+        8689
+      ],
+      "gems": [],
+      "bonuses": [
+        12214,
+        13667,
+        12497,
+        13751,
+        14001,
+        13771,
+        8960,
+        8793,
+        13835
+      ]
+    }
+  },
+  "entries": [
+    {
+      "at": "2026-11-05T08:48:03.000Z",
+      "type": "baseline",
+      "message": "Первый снимок экипировки"
+    }
+  ]
+}

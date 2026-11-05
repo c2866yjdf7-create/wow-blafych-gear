@@ -1,0 +1,47 @@
+{
+  "source_last_crawled_at": "2026-11-05T08:48:03.000Z",
+  "available": true,
+  "raid_progression": {
+    "the-unbinding-of-kithix": {
+      "summary": "",
+      "expansion_id": 11,
+      "total_bosses": 1,
+      "normal_bosses_killed": 0,
+      "heroic_bosses_killed": 0,
+      "mythic_bosses_killed": 0
+    },
+    "the-tidebound-grotto": {
+      "summary": "",
+      "expansion_id": 11,
+      "total_bosses": 1,
+      "normal_bosses_killed": 0,
+      "heroic_bosses_killed": 0,
+      "mythic_bosses_killed": 0
+    },
+    "the-venomous-abyss": {
+      "summary": "8/8 N",
+      "expansion_id": 11,
+      "total_bosses": 8,
+      "normal_bosses_killed": 8,
+      "heroic_bosses_killed": 0,
+      "mythic_bosses_killed": 0
+    },
+    "sporefall": {
+      "summary": "",
+      "expansion_id": 11,
+      "total_bosses": 1,
+      "normal_bosses_killed": 0,
+      "heroic_bosses_killed": 0,
+      "mythic_bosses_killed": 0
+    },
+    "tier-mn-1": {
+      "summary": "",
+      "expansion_id": 11,
+      "total_bosses": 9,
+      "normal_bosses_killed": 0,
+      "heroic_bosses_killed": 0,
+      "mythic_bosses_killed": 0
+    }
+  },
+  "note": "Возможна задержка индексации рейдовых результатов Raider.IO."
+}
