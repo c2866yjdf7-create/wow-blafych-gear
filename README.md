@@ -1,2 +1,19 @@
-# wow-blafych-gear
-WoW character gear tracker
+# WoW — Блафыч: актуальная экипировка
+
+Автоматическая выгрузка общедоступной экипировки персонажа **Блафыч (EU / Гордунни)** через официальный API Raider.IO.
+
+- **[Актуальный файл экипировки — gear.json](./gear.json)**
+- **[Посмотреть статус и вручную обновить — GitHub Actions](./actions/workflows/update-gear.yml)**
+- [Профиль Raider.IO](https://raider.io/ru/characters/eu/gordunni/%D0%91%D0%BB%D0%B0%D1%84%D1%8B%D1%87)
+
+## Как работает
+
+- GitHub Actions проверяет Raider.IO **каждые 6 часов**.
+- Для запуска вручную: вкладка **Actions** → **Update Blafych gear** → **Run workflow** → выбрать ветку `main` → **Run workflow**.
+- В `gear.json` записаны `fetched_at_utc` (время получения), `source_last_crawled_at` (когда Raider.IO последний раз обновлял данные), специализация, уровень экипировки, предметы по слотам, их уровни, идентификаторы камней и чар.
+- Данные Raider.IO могут отставать от игры. **Всегда проверяйте обе даты**, прежде чем считать файл актуальным.
+- Если API недоступен, скрипт завершается ошибкой, **не стирая предыдущий `gear.json`**.
+
+Использовать для сравнения экипировки в ChatGPT: [публичная ссылка на JSON](https://raw.githubusercontent.com/c2866yjdf7-create/wow-blafych-gear/main/gear.json).
+
+Это открытая игровая информация, никаких ключей Blizzard или паролей в репозитории нет.
