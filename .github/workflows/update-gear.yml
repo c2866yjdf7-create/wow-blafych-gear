@@ -8,6 +8,7 @@ on:
     paths:
       - "scripts/update_gear.py"
       - "scripts/build_reports.py"
+      - "talent-import.txt"
       - ".github/workflows/update-gear.yml"
 
 permissions:
