@@ -241,17 +241,39 @@ def generate_weekly(snapshot, mplus):
 def format_raid_summary(raids):
     if not raids:
         return "Raider.IO пока не вернул прогресс рейдов."
-    lines = []
-    for name, data in raids.items():
-        if isinstance(data, dict):
-            summary = ", ".join(f"{key}: {value}" for key, value in data.items()
-                                if key in ("summary", "normal_bosses_killed", "heroic_bosses_killed",
-                                           "mythic_bosses_killed", "lfr_bosses_killed", "total_bosses"))
-            lines.append(f"- **{name}:** {summary or 'данные есть, подробности в raids.json'}")
-        else:
-            lines.append(f"- **{name}:** {data}")
-    return "\n".join(lines)
 
+    current_raids = (
+        ("the-venomous-abyss", "Отравленная бездна"),
+        ("the-unbinding-of-kithix", "Освобождение Кит'икса"),
+        ("the-tidebound-grotto", "Приливный грот"),
+    )
+    lines = [
+        "| Рейд | Обычный | Героический | Эпохальный |",
+        "|---|---:|---:|---:|",
+    ]
+    for slug, title in current_raids:
+        record = as_dict(raids.get(slug))
+        if not record:
+            continue
+        total = record.get("total_bosses", "?")
+        normal = record.get("normal_bosses_killed", 0)
+        heroic = record.get("heroic_bosses_killed", 0)
+        mythic = record.get("mythic_bosses_killed", 0)
+        lines.append(f"| {title} | {normal}/{total} | {heroic}/{total} | {mythic}/{total} |")
+    if len(lines) == 2:
+        return "Нет данных о рейдах текущего сезона."
+
+    lines += [
+        "",
+        "Учитываются только убийства боссов, записанные Raider.IO. "
+        "Сюжетный режим и поиск рейда в этой таблице не отображаются.",
+    ]
+    old_raid = as_dict(raids.get("sporefall"))
+    if old_raid:
+        total = old_raid.get("total_bosses", "?")
+        normal = old_raid.get("normal_bosses_killed", 0)
+        lines.append(f"Предыдущий сезон: **Споропад** — {normal}/{total} (обычный).")
+    return "\n".join(lines)
 
 def generate_dashboard(snapshot, mplus, audit, history, raids, talents, weekly):
     gear = as_dict(snapshot.get("gear"))
