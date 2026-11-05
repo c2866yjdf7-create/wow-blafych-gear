@@ -6,7 +6,7 @@
 
 - **[Панель Блафыча — DASHBOARD.md](./DASHBOARD.md)** — экипировка, рейтинг, рейды и ближайшие цели.
 - **[Маршрут ключей — next-keys.md](./next-keys.md)** — все восемь подземелий второго сезона с актуальными закрытиями.
-- **[Ручное обновление и история запусков — GitHub Actions](./actions/workflows/update-gear.yml)**.
+- **[Ручное обновление и история запусков — GitHub Actions](https://github.com/c2866yjdf7-create/wow-blafych-gear/actions/workflows/update-gear.yml)**.
 - **[Веб-панель (index.html)](./index.html)** — адаптивная версия для GitHub Pages (см. инструкцию ниже).
 
 ## Какие данные есть
@@ -38,7 +38,7 @@ GitHub Actions запускает два скрипта **каждые шест�
 
 Для работы `index.html` как сайта нужно **один раз** включить публикацию GitHub Pages:
 
-1. Открой [Settings → Pages](../../settings/pages).
+1. Открой [Settings → Pages](https://github.com/c2866yjdf7-create/wow-blafych-gear/settings/pages).
 2. В блоке **Build and deployment** выбери **Deploy from a branch**.
 3. Укажи **main** и **/(root)**, затем нажми **Save**.
 4. После успешного опубликования адрес обычно будет `https://c2866yjdf7-create.github.io/wow-blafych-gear/`.
