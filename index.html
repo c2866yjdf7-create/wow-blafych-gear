@@ -85,11 +85,48 @@ function tryLoad(filename){return load(filename).catch(error=>{console.warn(erro
  if(m.routes)rows("routes",["Подземелье","Лучший","Цель"],m.routes.map(x=>[x.dungeon_ru,x.best_level?"+"+x.best_level:"нет","+"+x.suggested_next_level]));else text("routes","Данные ключей пока недоступны.");
  if(g.items){const order=Object.keys(SLOT_NAMES);rows("gear",["Слот","Название","ilvl"],order.filter(key=>g.items[key]).map(key=>[SLOT_NAMES[key],g.items[key].name,g.items[key].item_level]));}
  if(raids&&raids.available){
+   const data=raids.raid_progression||{};
+   const current=[
+     ["the-venomous-abyss","Отравленная бездна"],
+     ["the-unbinding-of-kithix","Освобождение Кит'икса"],
+     ["the-tidebound-grotto","Приливный грот"]
+   ];
+   const previous=[["sporefall","Споропад (предыдущий сезон)"]];
    const el=$("raids");el.replaceChildren();
-   Object.entries(raids.raid_progression||{}).forEach(([name,value])=>{
-     const p=document.createElement("div");p.className="listitem";
-     p.textContent=name+": "+(value&&typeof value==="object"?(value.summary||JSON.stringify(value)):String(value));el.append(p);
+   const table=document.createElement("table");
+   const thead=document.createElement("thead"),headrow=document.createElement("tr");
+   ["Рейд","Обыч.","Героич.","Эпох."].forEach(label=>{
+     const th=document.createElement("th");th.textContent=label;headrow.append(th);
    });
+   thead.append(headrow);table.append(thead);
+   const tbody=document.createElement("tbody");
+   for(const [slug,label] of current){
+     const raid=data[slug];if(!raid)continue;
+     const total=raid.total_bosses??"?";
+     const row=document.createElement("tr");
+     const cols=[label,String(raid.normal_bosses_killed??0)+"/"+total,
+       String(raid.heroic_bosses_killed??0)+"/"+total,
+       String(raid.mythic_bosses_killed??0)+"/"+total];
+     cols.forEach((value,index)=>{
+       const td=document.createElement("td");td.textContent=value;
+       if(index===1&&Number(raid.normal_bosses_killed)===Number(raid.total_bosses)&&Number(total)>0)td.className="ok";
+       row.append(td);
+     });
+     tbody.append(row);
+   }
+   if(!tbody.children.length){text("raids","Raider.IO не вернул актуальные рейды.");}
+   else {
+     table.append(tbody);el.append(table);
+     const p=document.createElement("p");p.className="small";
+     p.textContent="Показаны убийства боссов по данным Raider.IO. Сюжетный режим и поиск рейда здесь не учитываются.";
+     el.append(p);
+     for(const [slug,label] of previous){
+       const raid=data[slug];if(!raid)continue;
+       const p=document.createElement("p");p.className="small";
+       p.textContent=label+": "+(raid.normal_bosses_killed??0)+"/"+raid.total_bosses+" (обычный)";
+       el.append(p);
+     }
+   }
  }else text("raids","Raider.IO ещё не отдал подтверждённый рейдовый прогресс.");
  if(talents&&talents.available) {
    const data=talents.talents||{};
