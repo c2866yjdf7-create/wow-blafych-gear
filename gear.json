@@ -1,0 +1,644 @@
+{
+  "fetched_at_utc": "2026-11-05T09:04:24+00:00",
+  "source_last_crawled_at": "2026-11-05T08:48:03.000Z",
+  "source_api_url": "https://raider.io/api/v1/characters/profile?region=eu&realm=gordunni&name=%D0%91%D0%BB%D0%B0%D1%84%D1%8B%D1%87&fields=gear",
+  "character": {
+    "name": "Блафыч",
+    "realm": "Gordunni",
+    "region": "eu",
+    "class": "Shaman",
+    "active_spec_name": "Enhancement",
+    "profile_url": "https://raider.io/characters/eu/gordunni/Блафыч"
+  },
+  "gear": {
+    "created_at": "2026-11-05T08:48:03.229Z",
+    "updated_at": "2026-11-05T08:48:03.229Z",
+    "source": "s3",
+    "item_level_equipped": 307,
+    "item_level_total": 0,
+    "artifact_traits": 0,
+    "corruption": {
+      "added": 0,
+      "resisted": 0,
+      "total": 0,
+      "cloakRank": 0,
+      "spells": []
+    },
+    "items": {
+      "head": {
+        "item_id": 271483,
+        "item_level": 308,
+        "enchant": 8017,
+        "icon": "inv_helm_mail_raidshamanulatek_d_01",
+        "name": "Serpent Crown of the Ophidian Oracle",
+        "item_quality": 4,
+        "is_legendary": false,
+        "is_azerite_armor": true,
+        "azerite_powers": [
+          {
+            "id": 580,
+            "spell": {
+              "id": 0,
+              "school": 0,
+              "icon": "inv_misc_questionmark",
+              "name": "Unknown",
+              "rank": null
+            },
+            "tier": 999
+          },
+          {
+            "id": 580,
+            "spell": {
+              "id": 0,
+              "school": 0,
+              "icon": "inv_misc_questionmark",
+              "name": "Unknown",
+              "rank": null
+            },
+            "tier": 999
+          },
+          {
+            "id": 580,
+            "spell": {
+              "id": 0,
+              "school": 0,
+              "icon": "inv_misc_questionmark",
+              "name": "Unknown",
+              "rank": null
+            },
+            "tier": 999
+          },
+          {
+            "id": 580,
+            "spell": {
+              "id": 0,
+              "school": 0,
+              "icon": "inv_misc_questionmark",
+              "name": "Unknown",
+              "rank": null
+            },
+            "tier": 999
+          },
+          null
+        ],
+        "corruption": {
+          "added": 0,
+          "resisted": 0,
+          "total": 0
+        },
+        "domination_shards": [],
+        "tier": "36",
+        "gems": [],
+        "gems_detail": [],
+        "enchants": [
+          8017
+        ],
+        "enchants_detail": [
+          {
+            "id": 244007,
+            "name": "Enchant Helm - Empowered Rune of Avoidance",
+            "icon": "inv_12_profession_enchanting_enchantedvellum_blue"
+          }
+        ],
+        "bonuses": [
+          13333,
+          13692,
+          6652,
+          13696,
+          13698,
+          12838
+        ]
+      },
+      "neck": {
+        "item_id": 251142,
+        "item_level": 302,
+        "icon": "inv_12_jewelry_silvermoonelf_necklace_green",
+        "name": "Pendant of Malefic Fury",
+        "item_quality": 4,
+        "is_legendary": false,
+        "is_azerite_armor": false,
+        "azerite_powers": [],
+        "corruption": {
+          "added": 0,
+          "resisted": 0,
+          "total": 0
+        },
+        "domination_shards": [],
+        "gems": [
+          240983
+        ],
+        "gems_detail": [
+          {
+            "id": 240983,
+            "name": "32 Primary",
+            "icon": "inv_12_profession_jewelcrafting_epic_gem_cut_green"
+          }
+        ],
+        "enchants": [],
+        "enchants_detail": [],
+        "bonuses": [
+          13439,
+          6652,
+          13668,
+          12699,
+          12836
+        ]
+      },
+      "shoulder": {
+        "item_id": 271481,
+        "item_level": 302,
+        "enchant": 8001,
+        "icon": "inv_shoulder_mail_raidshamanulatek_d_01",
+        "name": "Hissing Mantle of the Ophidian Oracle",
+        "item_quality": 4,
+        "is_legendary": false,
+        "is_azerite_armor": false,
+        "azerite_powers": [],
+        "corruption": {
+          "added": 0,
+          "resisted": 0,
+          "total": 0
+        },
+        "domination_shards": [],
+        "tier": "36",
+        "gems": [],
+        "gems_detail": [],
+        "enchants": [
+          8001
+        ],
+        "enchants_detail": [
+          {
+            "id": 243991,
+            "name": "Enchant Shoulders - Amirdrassil's Grace",
+            "icon": "inv_12_profession_enchanting_enchantedvellum_blue"
+          }
+        ],
+        "bonuses": [
+          13333,
+          13694,
+          6652,
+          13697,
+          12836
+        ]
+      },
+      "back": {
+        "item_id": 272230,
+        "item_level": 302,
+        "icon": "inv_cape_plate_outdooramaniloa_c_01",
+        "name": "Pledgebearer's Pall",
+        "item_quality": 4,
+        "is_legendary": false,
+        "is_azerite_armor": false,
+        "azerite_powers": [],
+        "corruption": {
+          "added": 0,
+          "resisted": 0,
+          "total": 0
+        },
+        "domination_shards": [],
+        "gems": [],
+        "gems_detail": [],
+        "enchants": [],
+        "enchants_detail": [],
+        "bonuses": [
+          41,
+          13662,
+          12836
+        ]
+      },
+      "chest": {
+        "item_id": 271486,
+        "item_level": 305,
+        "enchant": 7987,
+        "icon": "inv_robe_mail_raidshamanulatek_d_01",
+        "name": "Fanged Raiment of the Ophidian Oracle",
+        "item_quality": 4,
+        "is_legendary": false,
+        "is_azerite_armor": true,
+        "azerite_powers": [
+          null,
+          {
+            "id": 580,
+            "spell": {
+              "id": 0,
+              "school": 0,
+              "icon": "inv_misc_questionmark",
+              "name": "Unknown",
+              "rank": null
+            },
+            "tier": 999
+          },
+          {
+            "id": 580,
+            "spell": {
+              "id": 0,
+              "school": 0,
+              "icon": "inv_misc_questionmark",
+              "name": "Unknown",
+              "rank": null
+            },
+            "tier": 999
+          },
+          {
+            "id": 580,
+            "spell": {
+              "id": 0,
+              "school": 0,
+              "icon": "inv_misc_questionmark",
+              "name": "Unknown",
+              "rank": null
+            },
+            "tier": 999
+          },
+          null
+        ],
+        "corruption": {
+          "added": 0,
+          "resisted": 0,
+          "total": 0
+        },
+        "domination_shards": [],
+        "tier": "36",
+        "gems": [],
+        "gems_detail": [],
+        "enchants": [
+          7987
+        ],
+        "enchants_detail": [
+          {
+            "id": 243977,
+            "name": "Enchant Chest - Mark of the Worldsoul",
+            "icon": "inv_12_profession_enchanting_enchantedvellum_blue"
+          }
+        ],
+        "bonuses": [
+          6652,
+          13846,
+          13333,
+          12841,
+          13690,
+          13698,
+          1558
+        ]
+      },
+      "waist": {
+        "item_id": 268254,
+        "item_level": 302,
+        "icon": "inv_belt_mail_raidshamanulatek_d_01",
+        "name": "Serpentine Mixing Belt",
+        "item_quality": 4,
+        "is_legendary": false,
+        "is_azerite_armor": false,
+        "azerite_powers": [],
+        "corruption": {
+          "added": 0,
+          "resisted": 0,
+          "total": 0
+        },
+        "domination_shards": [],
+        "gems": [],
+        "gems_detail": [],
+        "enchants": [],
+        "enchants_detail": [],
+        "bonuses": [
+          6652,
+          13696,
+          13662,
+          13333,
+          12836
+        ]
+      },
+      "wrist": {
+        "item_id": 244584,
+        "item_level": 305,
+        "icon": "inv_bracer_mail_questbloodelf_b_01",
+        "name": "Farstrider's Plated Bracers",
+        "item_quality": 4,
+        "is_legendary": false,
+        "is_azerite_armor": false,
+        "azerite_powers": [],
+        "corruption": {
+          "added": 0,
+          "resisted": 0,
+          "total": 0
+        },
+        "domination_shards": [],
+        "gems": [],
+        "gems_detail": [],
+        "enchants": [],
+        "enchants_detail": [],
+        "bonuses": [
+          12214,
+          13667,
+          12497,
+          13751,
+          14001,
+          8960,
+          12384,
+          8793,
+          13696
+        ]
+      },
+      "hands": {
+        "item_id": 271484,
+        "item_level": 302,
+        "icon": "inv_glove_mail_raidshamanulatek_d_01",
+        "name": "Hexing Grips of the Ophidian Oracle",
+        "item_quality": 4,
+        "is_legendary": false,
+        "is_azerite_armor": false,
+        "azerite_powers": [],
+        "corruption": {
+          "added": 0,
+          "resisted": 0,
+          "total": 0
+        },
+        "domination_shards": [],
+        "tier": "36",
+        "gems": [],
+        "gems_detail": [],
+        "enchants": [],
+        "enchants_detail": [],
+        "bonuses": [
+          6652,
+          13691,
+          13697,
+          12836
+        ]
+      },
+      "legs": {
+        "item_id": 268237,
+        "item_level": 302,
+        "enchant": 8159,
+        "icon": "inv_pant_mail_raidevokerulatek_d_01",
+        "name": "Cuisses of the Uncoiled Union",
+        "item_quality": 4,
+        "is_legendary": false,
+        "is_azerite_armor": false,
+        "azerite_powers": [],
+        "corruption": {
+          "added": 0,
+          "resisted": 0,
+          "total": 0
+        },
+        "domination_shards": [],
+        "gems": [],
+        "gems_detail": [],
+        "enchants": [
+          8159
+        ],
+        "enchants_detail": [
+          {
+            "id": 244641,
+            "name": "41 Agi/Str & 115 Sta",
+            "icon": "inv_12_profession_leatherworking_amani_armor_kit"
+          }
+        ],
+        "bonuses": [
+          6652,
+          13662,
+          13333,
+          12836
+        ]
+      },
+      "feet": {
+        "item_id": 272248,
+        "item_level": 308,
+        "enchant": 7963,
+        "icon": "inv_boot_mail_outdooramaniloa_c_01",
+        "name": "Galerider's Footguards",
+        "item_quality": 4,
+        "is_legendary": false,
+        "is_azerite_armor": false,
+        "azerite_powers": [],
+        "corruption": {
+          "added": 0,
+          "resisted": 0,
+          "total": 0
+        },
+        "domination_shards": [],
+        "gems": [],
+        "gems_detail": [],
+        "enchants": [
+          7963
+        ],
+        "enchants_detail": [
+          {
+            "id": 243953,
+            "name": "Enchant Boots - Lynx's Dexterity",
+            "icon": "inv_12_profession_enchanting_enchantedvellum_blue"
+          }
+        ],
+        "bonuses": [
+          12842,
+          13662
+        ]
+      },
+      "finger1": {
+        "item_id": 272147,
+        "item_level": 308,
+        "enchant": 7967,
+        "icon": "inv_121_jewelry_ring01_purple",
+        "name": "Colubrine Band",
+        "item_quality": 4,
+        "is_legendary": false,
+        "is_azerite_armor": false,
+        "azerite_powers": [],
+        "corruption": {
+          "added": 0,
+          "resisted": 0,
+          "total": 0
+        },
+        "domination_shards": [],
+        "gems": [
+          240898
+        ],
+        "gems_detail": [
+          {
+            "id": 240898,
+            "name": "16 Mast & 7 Crit",
+            "icon": "inv_12_profession_jewelcrafting_rare_gem_cut_fire_purple"
+          }
+        ],
+        "enchants": [
+          7967
+        ],
+        "enchants_detail": [
+          {
+            "id": 243957,
+            "name": "Enchant Ring - Eyes of the Eagle",
+            "icon": "inv_12_profession_enchanting_enchantedvellum_blue"
+          }
+        ],
+        "bonuses": [
+          12842,
+          13668
+        ]
+      },
+      "finger2": {
+        "item_id": 272149,
+        "item_level": 321,
+        "enchant": 7967,
+        "icon": "inv_121_jewelry_ring02_purple",
+        "name": "Hex Loop",
+        "item_quality": 4,
+        "is_legendary": false,
+        "is_azerite_armor": false,
+        "azerite_powers": [],
+        "corruption": {
+          "added": 0,
+          "resisted": 0,
+          "total": 0
+        },
+        "domination_shards": [],
+        "gems": [
+          240898
+        ],
+        "gems_detail": [
+          {
+            "id": 240898,
+            "name": "16 Mast & 7 Crit",
+            "icon": "inv_12_profession_jewelcrafting_rare_gem_cut_fire_purple"
+          }
+        ],
+        "enchants": [
+          7967
+        ],
+        "enchants_detail": [
+          {
+            "id": 243957,
+            "name": "Enchant Ring - Eyes of the Eagle",
+            "icon": "inv_12_profession_enchanting_enchantedvellum_blue"
+          }
+        ],
+        "bonuses": [
+          12850,
+          13668
+        ]
+      },
+      "trinket1": {
+        "item_id": 273796,
+        "item_level": 302,
+        "icon": "inv_121_trinket_dungeon_ulatek_vile",
+        "name": "Vile Vial of Volatile Venom",
+        "item_quality": 4,
+        "is_legendary": false,
+        "is_azerite_armor": false,
+        "azerite_powers": [],
+        "corruption": {
+          "added": 0,
+          "resisted": 0,
+          "total": 0
+        },
+        "domination_shards": [],
+        "gems": [],
+        "gems_detail": [],
+        "enchants": [],
+        "enchants_detail": [],
+        "bonuses": [
+          13440,
+          6652,
+          12699,
+          12836
+        ]
+      },
+      "trinket2": {
+        "item_id": 265657,
+        "item_level": 305,
+        "icon": "ability_rogue_sanguinaryvein",
+        "name": "Fiber of Living Agony",
+        "item_quality": 4,
+        "is_legendary": false,
+        "is_azerite_armor": false,
+        "azerite_powers": [],
+        "corruption": {
+          "added": 0,
+          "resisted": 0,
+          "total": 0
+        },
+        "domination_shards": [],
+        "gems": [],
+        "gems_detail": [],
+        "enchants": [],
+        "enchants_detail": [],
+        "bonuses": [
+          6652,
+          12837
+        ]
+      },
+      "mainhand": {
+        "item_id": 272269,
+        "item_level": 321,
+        "enchant": 8689,
+        "icon": "inv_mace_1h_outdooramaniloa_c_01",
+        "name": "Soulsealer's Headstone",
+        "item_quality": 4,
+        "is_legendary": false,
+        "is_azerite_armor": false,
+        "azerite_powers": [],
+        "corruption": {
+          "added": 0,
+          "resisted": 0,
+          "total": 0
+        },
+        "domination_shards": [],
+        "gems": [],
+        "gems_detail": [],
+        "enchants": [
+          8689
+        ],
+        "enchants_detail": [
+          {
+            "id": 273072,
+            "name": "Rite of the Hash'ey",
+            "icon": "inv_12_profession_enchanting_enchantedvellum_purple"
+          }
+        ],
+        "bonuses": [
+          6652,
+          12846
+        ]
+      },
+      "offhand": {
+        "item_id": 237850,
+        "item_level": 318,
+        "enchant": 8689,
+        "icon": "inv_axe_1h_questbloodelf_b_01",
+        "name": "Farstrider's Chopper",
+        "item_quality": 4,
+        "is_legendary": false,
+        "is_azerite_armor": false,
+        "azerite_powers": [],
+        "corruption": {
+          "added": 0,
+          "resisted": 0,
+          "total": 0
+        },
+        "domination_shards": [],
+        "gems": [],
+        "gems_detail": [],
+        "enchants": [
+          8689
+        ],
+        "enchants_detail": [
+          {
+            "id": 273072,
+            "name": "Rite of the Hash'ey",
+            "icon": "inv_12_profession_enchanting_enchantedvellum_purple"
+          }
+        ],
+        "bonuses": [
+          12214,
+          13667,
+          12497,
+          13751,
+          14001,
+          13771,
+          8960,
+          8793,
+          13835
+        ]
+      }
+    }
+  }
+}
