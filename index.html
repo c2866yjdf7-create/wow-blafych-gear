@@ -63,7 +63,8 @@ function rows(id, headings, content) {
   content.forEach(row=>{const tr=document.createElement("tr");row.forEach(cell=>{const td=document.createElement("td");td.textContent=String(cell==null?"—":cell);tr.append(td)});tbody.append(tr)});
   table.append(tbody);$(id).replaceChildren(table);
 }
-async function load(filename){const res=await fetch(filename+"?v="+Date.now(),{cache:"no-store"});if(!res.ok)throw new Error(filename+": HTTP "+res.status);return res.json()}
+const RAW_BASE="https://raw.githubusercontent.com/c2866yjdf7-create/wow-blafych-gear/main/";
+async function load(filename){const url=RAW_BASE+filename+"?v="+Date.now();const res=await fetch(url,{cache:"no-store"});if(!res.ok)throw new Error(filename+": HTTP "+res.status);return res.json()}
 function tryLoad(filename){return load(filename).catch(error=>{console.warn(error);return null})}
 (async function start(){
  const [gear,mp,raids,talents,weekly,audit,history] = await Promise.all([
