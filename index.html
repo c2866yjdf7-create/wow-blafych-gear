@@ -92,7 +92,7 @@ function tryLoad(filename){return load(filename).catch(error=>{console.warn(erro
  }else text("raids","Raider.IO ещё не отдал подтверждённый рейдовый прогресс.");
  if(talents&&talents.available) {
    const data=talents.talents||{};
-   const build=(typeof data==="object" ? (data.talent_string || data.loadout_code || data.build) : data);
+   const build=talents.manual_export_string || (typeof data==="object" ? (data.talent_string || data.loadout_code || data.build) : data);
    text("talents",build?String(build):"Данные талантов получены. Подробности в talents.json на GitHub.");
  }else text("talents","Данные билда пока отсутствуют в Raider.IO. Не будем гадать по старым талантам.");
  if(weekly){
@@ -100,7 +100,7 @@ function tryLoad(filename){return load(filename).catch(error=>{console.warn(erro
    line(el,"Лучшие недельные ключи, записей",String((weekly.weekly_highest_level_runs||[]).length));
    line(el,"Великое хранилище","неизвестно");
    const aff=weekly.affixes;
-   if(aff){let label=Array.isArray(aff)?aff.map(x=>x.name||"").filter(Boolean).join(", "):"API вернул данные";line(el,"Аффиксы",label||"см. weekly.json")}
+   if(aff){let label=Array.isArray(aff)?aff.map(x=>x.name||"").filter(Boolean).join(", "):(aff.title || "см. weekly.json");line(el,"Аффиксы",label||"см. weekly.json")}
    else line(el,"Аффиксы","пока нет данных");
  }else text("weekly","Нет недельных данных.");
  if(audit){
