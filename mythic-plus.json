@@ -1,19 +1,9 @@
 {
   "source_last_crawled_at": "2026-11-05T08:48:03.000Z",
-  "fetched_at_utc": "2026-11-05T13:29:45+00:00",
+  "fetched_at_utc": "2026-11-05T19:13:44+00:00",
   "season": "season-mn-2",
-  "score": 610.9,
+  "score": 795.9,
   "routes": [
-    {
-      "dungeon_en": "Kings' Rest",
-      "dungeon_ru": "Гробница королей",
-      "best_level": null,
-      "best_score": null,
-      "timed": null,
-      "url": null,
-      "suggested_next_level": 4,
-      "priority": 1
-    },
     {
       "dungeon_en": "Den of Nalorakk",
       "dungeon_ru": "Логово Налоракка",
@@ -53,6 +43,16 @@
       "url": null,
       "suggested_next_level": 4,
       "priority": 1
+    },
+    {
+      "dungeon_en": "Kings' Rest",
+      "dungeon_ru": "Гробница королей",
+      "best_level": 3,
+      "best_score": 185,
+      "timed": true,
+      "url": "https://raider.io/mythic-plus-runs/season-mn-2/24835146-3-kings-rest",
+      "suggested_next_level": 5,
+      "priority": 2
     },
     {
       "dungeon_en": "Murder Row",
@@ -154,6 +154,35 @@
       "role": "dps"
     },
     {
+      "dungeon": "Kings' Rest",
+      "short_name": "KR",
+      "mythic_level": 3,
+      "completed_at": "2026-11-05T18:16:38.000Z",
+      "clear_time_ms": 1120647,
+      "keystone_run_id": 24835146,
+      "par_time_ms": 1980999,
+      "num_keystone_upgrades": 3,
+      "map_challenge_mode_id": 249,
+      "zone_id": 9526,
+      "zone_expansion_id": 7,
+      "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/achievement_dungeon_kingsrest.jpg",
+      "background_image_url": "https://cdn.raiderio.net/images/dungeons/expansion7/base/kings-rest.jpg",
+      "score": 185,
+      "affixes": [],
+      "url": "https://raider.io/mythic-plus-runs/season-mn-2/24835146-3-kings-rest",
+      "spec": {
+        "id": 263,
+        "name": "Enhancement",
+        "slug": "enhancement",
+        "class_id": 7,
+        "role": "dps",
+        "is_melee": true,
+        "patch": "1.0.0",
+        "ordinal": 1
+      },
+      "role": "dps"
+    },
+    {
       "dungeon": "Murder Row",
       "short_name": "MR",
       "mythic_level": 3,
@@ -184,6 +213,35 @@
     }
   ],
   "recent_runs": [
+    {
+      "dungeon": "Kings' Rest",
+      "short_name": "KR",
+      "mythic_level": 3,
+      "completed_at": "2026-11-05T18:16:38.000Z",
+      "clear_time_ms": 1120647,
+      "keystone_run_id": 24835146,
+      "par_time_ms": 1980999,
+      "num_keystone_upgrades": 3,
+      "map_challenge_mode_id": 249,
+      "zone_id": 9526,
+      "zone_expansion_id": 7,
+      "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/achievement_dungeon_kingsrest.jpg",
+      "background_image_url": "https://cdn.raiderio.net/images/dungeons/expansion7/base/kings-rest.jpg",
+      "score": 185,
+      "affixes": [],
+      "url": "https://raider.io/mythic-plus-runs/season-mn-2/24835146-3-kings-rest",
+      "spec": {
+        "id": 263,
+        "name": "Enhancement",
+        "slug": "enhancement",
+        "class_id": 7,
+        "role": "dps",
+        "is_melee": true,
+        "patch": "1.0.0",
+        "ordinal": 1
+      },
+      "role": "dps"
+    },
     {
       "dungeon": "Altar of Fangs",
       "short_name": "AOF",
@@ -453,35 +511,6 @@
         "ordinal": 1
       },
       "role": "dps"
-    },
-    {
-      "dungeon": "Voidscar Arena",
-      "short_name": "VSA",
-      "mythic_level": 2,
-      "completed_at": "2026-11-01T18:12:45.000Z",
-      "clear_time_ms": 2197966,
-      "keystone_run_id": 24271304,
-      "par_time_ms": 1800999,
-      "num_keystone_upgrades": 0,
-      "map_challenge_mode_id": 585,
-      "zone_id": 16425,
-      "zone_expansion_id": 11,
-      "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/inv_achievement_dungeon_voidscararena.jpg",
-      "background_image_url": "https://cdn.raiderio.net/images/dungeons/expansion11/base/voidscar-arena.jpg",
-      "score": 131.7,
-      "affixes": [],
-      "url": "https://raider.io/mythic-plus-runs/season-mn-2/24271304-2-voidscar-arena",
-      "spec": {
-        "id": 263,
-        "name": "Enhancement",
-        "slug": "enhancement",
-        "class_id": 7,
-        "role": "dps",
-        "is_melee": true,
-        "patch": "1.0.0",
-        "ordinal": 1
-      },
-      "role": "dps"
     }
   ],
   "weekly_highest_level_runs": [
@@ -531,6 +560,35 @@
       "score": 198.4,
       "affixes": [],
       "url": "https://raider.io/mythic-plus-runs/season-mn-2/24752923-4-altar-of-fangs",
+      "spec": {
+        "id": 263,
+        "name": "Enhancement",
+        "slug": "enhancement",
+        "class_id": 7,
+        "role": "dps",
+        "is_melee": true,
+        "patch": "1.0.0",
+        "ordinal": 1
+      },
+      "role": "dps"
+    },
+    {
+      "dungeon": "Kings' Rest",
+      "short_name": "KR",
+      "mythic_level": 3,
+      "completed_at": "2026-11-05T18:16:38.000Z",
+      "clear_time_ms": 1120647,
+      "keystone_run_id": 24835146,
+      "par_time_ms": 1980999,
+      "num_keystone_upgrades": 3,
+      "map_challenge_mode_id": 249,
+      "zone_id": 9526,
+      "zone_expansion_id": 7,
+      "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/achievement_dungeon_kingsrest.jpg",
+      "background_image_url": "https://cdn.raiderio.net/images/dungeons/expansion7/base/kings-rest.jpg",
+      "score": 185,
+      "affixes": [],
+      "url": "https://raider.io/mythic-plus-runs/season-mn-2/24835146-3-kings-rest",
       "spec": {
         "id": 263,
         "name": "Enhancement",
@@ -789,14 +847,14 @@
   ],
   "ranks": {
     "overall": {
-      "world": 2643084,
-      "region": 849122,
-      "realm": 30235
+      "world": 2515427,
+      "region": 808848,
+      "realm": 28871
     },
     "class": {
-      "world": 283159,
-      "region": 92830,
-      "realm": 2969
+      "world": 271486,
+      "region": 88938,
+      "realm": 2856
     },
     "healer": {
       "world": 0,
@@ -809,14 +867,14 @@
       "realm": 0
     },
     "dps": {
-      "world": 1858383,
-      "region": 585041,
-      "realm": 20987
+      "world": 1728286,
+      "region": 546034,
+      "realm": 19598
     },
     "class_dps": {
-      "world": 191682,
-      "region": 62957,
-      "realm": 1959
+      "world": 178707,
+      "region": 58895,
+      "realm": 1829
     },
     "spec_262": {
       "world": 0,
@@ -824,9 +882,9 @@
       "realm": 0
     },
     "spec_263": {
-      "world": 35730,
-      "region": 15275,
-      "realm": 468
+      "world": 32308,
+      "region": 13914,
+      "realm": 421
     },
     "spec_264": {
       "world": 0,
