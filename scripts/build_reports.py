@@ -207,6 +207,17 @@ def generate_audit(snapshot):
     return result
 
 
+def read_manual_talents():
+    path = ROOT / "talent-import.txt"
+    if not path.exists():
+        return None
+    for line in path.read_text(encoding="utf-8").splitlines():
+        if line.startswith("BLIZZARD_TALENT_STRING="):
+            value = line.partition("=")[2].strip()
+            return value if value else None
+    return None
+
+
 def generate_weekly(snapshot, mplus):
     runs = mplus["weekly_highest_level_runs"]
     output = {
@@ -341,6 +352,8 @@ def main():
     mplus = generate_mplus(snapshot)
     raids = as_dict(snapshot.get("raid_progression"))
     talents = snapshot.get("talents")
+    manual_talents = read_manual_talents()
+    talent_source = "raider_io" if talents else ("manual_import" if manual_talents else "unavailable")
     write_json(ROOT / "raids.json", {
         "source_last_crawled_at": snapshot.get("source_last_crawled_at"),
         "available": bool(raids), "raid_progression": raids,
@@ -349,15 +362,19 @@ def main():
     write_json(ROOT / "talents.json", {
         "source_last_crawled_at": snapshot.get("source_last_crawled_at"),
         "active_spec": as_dict(snapshot.get("character")).get("active_spec_name"),
-        "available": bool(talents), "talents": talents,
-        "note": "Таланты показаны как отдал Raider.IO; это не гарантирует актуальность билда в игре.",
+        "available": bool(talents or manual_talents),
+        "source": talent_source,
+        "talents": talents,
+        "manual_export_string": manual_talents if not talents else None,
+        "note": ("Данные из Raider.IO могут отставать от игры. "
+                 "Если источник manual_import, экспорт введён вручную и может устареть."),
     })
     history = gear_history(snapshot)
     audit = generate_audit(snapshot)
     weekly = generate_weekly(snapshot, mplus)
-    generate_dashboard(snapshot, mplus, audit, history, raids, talents, weekly)
+    generate_dashboard(snapshot, mplus, audit, history, raids, talents or manual_talents, weekly)
     print(f"Reports: {len(mplus['routes'])} dungeons, raid data {bool(raids)}, talent data {bool(talents)}, "
-          f"{len(history['entries'])} history entries", flush=True)
+          f"{len(history['entries'])} history entries, talents source {talent_source}", flush=True)
 
 
 if __name__ == "__main__":
