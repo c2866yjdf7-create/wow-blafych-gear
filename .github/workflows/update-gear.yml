@@ -1,4 +1,5 @@
 name: Update Blafych data
+# Manual refresh requested 2026-11-06
 
 on:
   workflow_dispatch:
