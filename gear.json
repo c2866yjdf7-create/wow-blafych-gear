@@ -1,7 +1,7 @@
 {
-  "fetched_at_utc": "2026-11-05T09:26:19+00:00",
+  "fetched_at_utc": "2026-11-05T09:35:30+00:00",
   "source_last_crawled_at": "2026-11-05T08:48:03.000Z",
-  "source_api_url": "https://raider.io/api/v1/characters/profile?region=eu&realm=gordunni&name=%D0%91%D0%BB%D0%B0%D1%84%D1%8B%D1%87&fields=gear%2Cmythic_plus_scores_by_season%3Acurrent%2Cmythic_plus_best_runs%3Aall%2Cmythic_plus_recent_runs%2Cmythic_plus_weekly_highest_level_runs%2Cmythic_plus_ranks",
+  "source_api_url": "https://raider.io/api/v1/characters/profile?region=eu&realm=gordunni&name=%D0%91%D0%BB%D0%B0%D1%84%D1%8B%D1%87&fields=gear%2Ctalents%2Craid_progression%2Cmythic_plus_scores_by_season%3Acurrent%2Cmythic_plus_best_runs%3Aall%2Cmythic_plus_recent_runs%2Cmythic_plus_weekly_highest_level_runs%2Cmythic_plus_previous_weekly_highest_level_runs%2Cmythic_plus_ranks",
   "character": {
     "name": "Блафыч",
     "realm": "Gordunni",
@@ -1179,15 +1179,229 @@
         "role": "dps"
       }
     ],
+    "previous_weekly_highest_level_runs": [
+      {
+        "dungeon": "Voidscar Arena",
+        "short_name": "VSA",
+        "mythic_level": 5,
+        "completed_at": "2026-11-03T16:57:37.000Z",
+        "clear_time_ms": 956318,
+        "keystone_run_id": 24583317,
+        "par_time_ms": 1800999,
+        "num_keystone_upgrades": 3,
+        "map_challenge_mode_id": 585,
+        "zone_id": 16425,
+        "zone_expansion_id": 11,
+        "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/inv_achievement_dungeon_voidscararena.jpg",
+        "background_image_url": "https://cdn.raiderio.net/images/dungeons/expansion11/base/voidscar-arena.jpg",
+        "score": 230,
+        "affixes": [
+          {
+            "id": 160,
+            "name": "Xal'atath's Bargain: Devour",
+            "description": "While in combat, Xal'atath tears open rifts that devour the essence of players.",
+            "icon": "inv_ability_voidweaverpriest_entropicrift",
+            "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/inv_ability_voidweaverpriest_entropicrift.jpg",
+            "wowhead_url": "https://wowhead.com/affix=160"
+          }
+        ],
+        "url": "https://raider.io/mythic-plus-runs/season-mn-2/24583317-5-voidscar-arena",
+        "spec": {
+          "id": 263,
+          "name": "Enhancement",
+          "slug": "enhancement",
+          "class_id": 7,
+          "role": "dps",
+          "is_melee": true,
+          "patch": "1.0.0",
+          "ordinal": 1
+        },
+        "role": "dps"
+      },
+      {
+        "dungeon": "Murder Row",
+        "short_name": "MR",
+        "mythic_level": 3,
+        "completed_at": "2026-11-02T22:55:22.000Z",
+        "clear_time_ms": 1356871,
+        "keystone_run_id": 24449020,
+        "par_time_ms": 2040999,
+        "num_keystone_upgrades": 2,
+        "map_challenge_mode_id": 587,
+        "zone_id": 16091,
+        "zone_expansion_id": 11,
+        "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/inv_achievement_dungeon_murderrow.jpg",
+        "background_image_url": "https://cdn.raiderio.net/images/dungeons/expansion11/base/murder-row.jpg",
+        "score": 182.6,
+        "affixes": [],
+        "url": "https://raider.io/mythic-plus-runs/season-mn-2/24449020-3-murder-row",
+        "spec": {
+          "id": 263,
+          "name": "Enhancement",
+          "slug": "enhancement",
+          "class_id": 7,
+          "role": "dps",
+          "is_melee": true,
+          "patch": "1.0.0",
+          "ordinal": 1
+        },
+        "role": "dps"
+      },
+      {
+        "dungeon": "Murder Row",
+        "short_name": "MR",
+        "mythic_level": 2,
+        "completed_at": "2026-11-01T23:07:39.000Z",
+        "clear_time_ms": 1102383,
+        "keystone_run_id": 24291659,
+        "par_time_ms": 2040999,
+        "num_keystone_upgrades": 3,
+        "map_challenge_mode_id": 587,
+        "zone_id": 16091,
+        "zone_expansion_id": 11,
+        "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/inv_achievement_dungeon_murderrow.jpg",
+        "background_image_url": "https://cdn.raiderio.net/images/dungeons/expansion11/base/murder-row.jpg",
+        "score": 170,
+        "affixes": [],
+        "url": "https://raider.io/mythic-plus-runs/season-mn-2/24291659-2-murder-row",
+        "spec": {
+          "id": 263,
+          "name": "Enhancement",
+          "slug": "enhancement",
+          "class_id": 7,
+          "role": "dps",
+          "is_melee": true,
+          "patch": "1.0.0",
+          "ordinal": 1
+        },
+        "role": "dps"
+      },
+      {
+        "dungeon": "Murder Row",
+        "short_name": "MR",
+        "mythic_level": 2,
+        "completed_at": "2026-11-03T18:32:48.000Z",
+        "clear_time_ms": 1201894,
+        "keystone_run_id": 24589911,
+        "par_time_ms": 2040999,
+        "num_keystone_upgrades": 3,
+        "map_challenge_mode_id": 587,
+        "zone_id": 16091,
+        "zone_expansion_id": 11,
+        "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/inv_achievement_dungeon_murderrow.jpg",
+        "background_image_url": "https://cdn.raiderio.net/images/dungeons/expansion11/base/murder-row.jpg",
+        "score": 170,
+        "affixes": [],
+        "url": "https://raider.io/mythic-plus-runs/season-mn-2/24589911-2-murder-row",
+        "spec": {
+          "id": 263,
+          "name": "Enhancement",
+          "slug": "enhancement",
+          "class_id": 7,
+          "role": "dps",
+          "is_melee": true,
+          "patch": "1.0.0",
+          "ordinal": 1
+        },
+        "role": "dps"
+      },
+      {
+        "dungeon": "Altar of Fangs",
+        "short_name": "AOF",
+        "mythic_level": 2,
+        "completed_at": "2026-11-02T19:29:58.000Z",
+        "clear_time_ms": 1356886,
+        "keystone_run_id": 24430876,
+        "par_time_ms": 1800999,
+        "num_keystone_upgrades": 2,
+        "map_challenge_mode_id": 588,
+        "zone_id": 16865,
+        "zone_expansion_id": 11,
+        "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/inv_achievement_dungeon_altaroffangs.jpg",
+        "background_image_url": "https://cdn.raiderio.net/images/dungeons/expansion11/base/altar-of-fangs.jpg",
+        "score": 164.2,
+        "affixes": [],
+        "url": "https://raider.io/mythic-plus-runs/season-mn-2/24430876-2-altar-of-fangs",
+        "spec": {
+          "id": 263,
+          "name": "Enhancement",
+          "slug": "enhancement",
+          "class_id": 7,
+          "role": "dps",
+          "is_melee": true,
+          "patch": "1.0.0",
+          "ordinal": 1
+        },
+        "role": "dps"
+      },
+      {
+        "dungeon": "Voidscar Arena",
+        "short_name": "VSA",
+        "mythic_level": 2,
+        "completed_at": "2026-11-01T23:56:57.000Z",
+        "clear_time_ms": 1373073,
+        "keystone_run_id": 24296966,
+        "par_time_ms": 1800999,
+        "num_keystone_upgrades": 2,
+        "map_challenge_mode_id": 585,
+        "zone_id": 16425,
+        "zone_expansion_id": 11,
+        "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/inv_achievement_dungeon_voidscararena.jpg",
+        "background_image_url": "https://cdn.raiderio.net/images/dungeons/expansion11/base/voidscar-arena.jpg",
+        "score": 163.9,
+        "affixes": [],
+        "url": "https://raider.io/mythic-plus-runs/season-mn-2/24296966-2-voidscar-arena",
+        "spec": {
+          "id": 263,
+          "name": "Enhancement",
+          "slug": "enhancement",
+          "class_id": 7,
+          "role": "dps",
+          "is_melee": true,
+          "patch": "1.0.0",
+          "ordinal": 1
+        },
+        "role": "dps"
+      },
+      {
+        "dungeon": "Voidscar Arena",
+        "short_name": "VSA",
+        "mythic_level": 2,
+        "completed_at": "2026-11-01T18:12:45.000Z",
+        "clear_time_ms": 2197966,
+        "keystone_run_id": 24271304,
+        "par_time_ms": 1800999,
+        "num_keystone_upgrades": 0,
+        "map_challenge_mode_id": 585,
+        "zone_id": 16425,
+        "zone_expansion_id": 11,
+        "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/inv_achievement_dungeon_voidscararena.jpg",
+        "background_image_url": "https://cdn.raiderio.net/images/dungeons/expansion11/base/voidscar-arena.jpg",
+        "score": 131.7,
+        "affixes": [],
+        "url": "https://raider.io/mythic-plus-runs/season-mn-2/24271304-2-voidscar-arena",
+        "spec": {
+          "id": 263,
+          "name": "Enhancement",
+          "slug": "enhancement",
+          "class_id": 7,
+          "role": "dps",
+          "is_melee": true,
+          "patch": "1.0.0",
+          "ordinal": 1
+        },
+        "role": "dps"
+      }
+    ],
     "ranks": {
       "overall": {
-        "world": 2642306,
-        "region": 848924,
+        "world": 2642318,
+        "region": 848931,
         "realm": 30218
       },
       "class": {
-        "world": 283089,
-        "region": 92805,
+        "world": 283090,
+        "region": 92806,
         "realm": 2968
       },
       "healer": {
@@ -1201,13 +1415,13 @@
         "realm": 0
       },
       "dps": {
-        "world": 1857750,
-        "region": 584883,
+        "world": 1857760,
+        "region": 584886,
         "realm": 20976
       },
       "class_dps": {
-        "world": 191626,
-        "region": 62937,
+        "world": 191627,
+        "region": 62938,
         "realm": 1956
       },
       "spec_262": {
@@ -1226,5 +1440,88 @@
         "realm": 0
       }
     }
-  }
+  },
+  "talents": null,
+  "raid_progression": {
+    "the-unbinding-of-kithix": {
+      "summary": "",
+      "expansion_id": 11,
+      "total_bosses": 1,
+      "normal_bosses_killed": 0,
+      "heroic_bosses_killed": 0,
+      "mythic_bosses_killed": 0
+    },
+    "the-tidebound-grotto": {
+      "summary": "",
+      "expansion_id": 11,
+      "total_bosses": 1,
+      "normal_bosses_killed": 0,
+      "heroic_bosses_killed": 0,
+      "mythic_bosses_killed": 0
+    },
+    "the-venomous-abyss": {
+      "summary": "8/8 N",
+      "expansion_id": 11,
+      "total_bosses": 8,
+      "normal_bosses_killed": 8,
+      "heroic_bosses_killed": 0,
+      "mythic_bosses_killed": 0
+    },
+    "sporefall": {
+      "summary": "",
+      "expansion_id": 11,
+      "total_bosses": 1,
+      "normal_bosses_killed": 0,
+      "heroic_bosses_killed": 0,
+      "mythic_bosses_killed": 0
+    },
+    "tier-mn-1": {
+      "summary": "",
+      "expansion_id": 11,
+      "total_bosses": 9,
+      "normal_bosses_killed": 0,
+      "heroic_bosses_killed": 0,
+      "mythic_bosses_killed": 0
+    }
+  },
+  "weekly_affixes": {
+    "region": "eu",
+    "title": "Xal'atath's Bargain: Pulsar, Tyrannical, Fortified, Xal'atath's Guile",
+    "leaderboard_url": "https://raider.io/mythic-plus-affix-rankings/season-mn-2/all/eu/leaderboards-strict/xalataths-bargain-pulsar-tyrannical-fortified-xalataths-guile",
+    "affix_details": [
+      {
+        "id": 162,
+        "name": "Xal'atath's Bargain: Pulsar",
+        "description": "While in combat, Xal'atath summons pulsars that orbit players.",
+        "icon": "inv_cosmicvoid_nova",
+        "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/inv_cosmicvoid_nova.jpg",
+        "wowhead_url": "https://wowhead.com/affix=162"
+      },
+      {
+        "id": 9,
+        "name": "Tyrannical",
+        "description": "Bosses have 25% more health. Bosses and their minions inflict up to 15% increased damage.",
+        "icon": "achievement_boss_archaedas",
+        "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/achievement_boss_archaedas.jpg",
+        "wowhead_url": "https://wowhead.com/affix=9"
+      },
+      {
+        "id": 10,
+        "name": "Fortified",
+        "description": "Non-boss enemies have 20% more health and inflict up to 20% increased damage.",
+        "icon": "ability_toughness",
+        "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/ability_toughness.jpg",
+        "wowhead_url": "https://wowhead.com/affix=10"
+      },
+      {
+        "id": 147,
+        "name": "Xal'atath's Guile",
+        "description": "Xal'atath betrays players, revoking her bargains while making deaths subtract 15 seconds from time remaining.",
+        "icon": "ability_racial_chillofnight",
+        "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/ability_racial_chillofnight.jpg",
+        "wowhead_url": "https://wowhead.com/affix=147"
+      }
+    ]
+  },
+  "weekly_affixes_error": null
 }
