@@ -3,7 +3,7 @@
 **Специализация:** Enhancement · **Надето:** 307 ilvl · **M+ рейтинг:** 610.9
 
 **Последнее обновление Raider.IO:** 2026-11-05T08:48:03.000Z
-**GitHub забрал данные:** 2026-11-05T09:44:12+00:00
+**GitHub забрал данные:** 2026-11-05T09:50:51+00:00
 
 ⚠️ Данные не в реальном времени: Raider.IO может отставать от игры.
 
@@ -39,11 +39,14 @@
 
 ## Рейды
 
-- **the-unbinding-of-kithix:** summary: , total_bosses: 1, normal_bosses_killed: 0, heroic_bosses_killed: 0, mythic_bosses_killed: 0
-- **the-tidebound-grotto:** summary: , total_bosses: 1, normal_bosses_killed: 0, heroic_bosses_killed: 0, mythic_bosses_killed: 0
-- **the-venomous-abyss:** summary: 8/8 N, total_bosses: 8, normal_bosses_killed: 8, heroic_bosses_killed: 0, mythic_bosses_killed: 0
-- **sporefall:** summary: , total_bosses: 1, normal_bosses_killed: 0, heroic_bosses_killed: 0, mythic_bosses_killed: 0
-- **tier-mn-1:** summary: , total_bosses: 9, normal_bosses_killed: 0, heroic_bosses_killed: 0, mythic_bosses_killed: 0
+| Рейд | Обычный | Героический | Эпохальный |
+|---|---:|---:|---:|
+| Отравленная бездна | 8/8 | 0/8 | 0/8 |
+| Освобождение Кит'икса | 0/1 | 0/1 | 0/1 |
+| Приливный грот | 0/1 | 0/1 | 0/1 |
+
+Учитываются только убийства боссов, записанные Raider.IO. Сюжетный режим и поиск рейда в этой таблице не отображаются.
+Предыдущий сезон: **Споропад** — 0/1 (обычный).
 
 ## Таланты
 
