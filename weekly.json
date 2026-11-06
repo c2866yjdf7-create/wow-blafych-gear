@@ -1,5 +1,5 @@
 {
-  "fetched_at_utc": "2026-11-05T21:16:20+00:00",
+  "fetched_at_utc": "2026-11-06T01:28:32+00:00",
   "source_last_crawled_at": "2026-11-05T19:47:41.000Z",
   "weekly_highest_level_runs": [
     {
@@ -104,6 +104,44 @@
         }
       ],
       "url": "https://raider.io/mythic-plus-runs/season-mn-2/24843076-5-temple-of-sethraliss",
+      "spec": {
+        "id": 263,
+        "name": "Enhancement",
+        "slug": "enhancement",
+        "class_id": 7,
+        "role": "dps",
+        "is_melee": true,
+        "patch": "1.0.0",
+        "ordinal": 1
+      },
+      "role": "dps"
+    },
+    {
+      "dungeon": "The Blinding Vale",
+      "short_name": "BV",
+      "mythic_level": 5,
+      "completed_at": "2026-11-05T20:48:58.000Z",
+      "clear_time_ms": 1155296,
+      "keystone_run_id": 24847373,
+      "par_time_ms": 1800999,
+      "num_keystone_upgrades": 2,
+      "map_challenge_mode_id": 584,
+      "zone_id": 16359,
+      "zone_expansion_id": 11,
+      "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/inv_achievement_dungeon_lightbloom.jpg",
+      "background_image_url": "https://cdn.raiderio.net/images/dungeons/expansion11/base/the-blinding-vale.jpg",
+      "score": 228.4,
+      "affixes": [
+        {
+          "id": 162,
+          "name": "Xal'atath's Bargain: Pulsar",
+          "description": "While in combat, Xal'atath summons pulsars that orbit players.",
+          "icon": "inv_cosmicvoid_nova",
+          "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/inv_cosmicvoid_nova.jpg",
+          "wowhead_url": "https://wowhead.com/affix=162"
+        }
+      ],
+      "url": "https://raider.io/mythic-plus-runs/season-mn-2/24847373-5-the-blinding-vale",
       "spec": {
         "id": 263,
         "name": "Enhancement",
