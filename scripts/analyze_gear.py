@@ -99,7 +99,7 @@ TARGETS = {
 PRESERVE = {
     "mainhand": {
         "status": "Улучшать, не спешить менять",
-        "reason": "Оружие 321 в основной руке. Урон основной руки очень важен для энха; повышение уровня этого предмета часто выгодно.",
+        "reason": "Текущее оружие в основной руке. Урон основной руки очень важен для энха; повышение уровня этого предмета часто выгодно.",
         "next": "Проверить текущую дорожку улучшения у NPC. Специальное оружие «Аман'мусо, месть вождя» — долгосрочная рейдовая цель.",
     },
     "offhand": {
@@ -114,27 +114,27 @@ PRESERVE = {
     },
     "finger2": {
         "status": "Оставить кольцо 321",
-        "reason": "Слот уже заметно выше среднего уровня; вложения в более слабые слоты обычно логичнее.",
+        "reason": "Кольцо уже достаточно сильное по уровню; вложения в более слабые слоты обычно логичнее.",
         "next": "Пересматривать при особых эффектах или персональном симе.",
     },
     "head": {
         "status": "Оставить сетовую голову",
-        "reason": "Часть набора 4/4, уже 308 ilvl.",
+        "reason": "Часть действующего набора 4/4;",
         "next": "Улучшать или заменять на более высокую сетовую версию, сохраняя 4 части.",
     },
     "chest": {
         "status": "Сохранить сетовую грудь",
-        "reason": "Часть набора, 305 ilvl; проверь специальное свойство до замены.",
+        "reason": "Часть набора; проверь специальное свойство до замены.",
         "next": "Выбирать улучшение с учётом Катализатора и особого эффекта.",
     },
     "hands": {
         "status": "Сохранить сетовые перчатки",
-        "reason": "Часть набора, уже 308 ilvl.",
+        "reason": "Часть набора 4/4;",
         "next": "Позже искать более высокую дорожку, не теряя сет.",
     },
     "feet": {
         "status": "Без срочной замены",
-        "reason": "Ботинки 308 — не главный отстающий слот.",
+        "reason": "Ботинки не являются главной целью до тех пор, пока остальные слоты отстают сильнее.",
         "next": "Менять при большом выигрыше уровня или личном симе.",
     },
 }
@@ -184,6 +184,17 @@ def main():
             continue
         item = items[slot]
         ilvl = item.get("item_level")
+        if not isinstance(ilvl, (int, float)):
+            continue
+        # A newly looted high-ilvl piece must not remain on the 'replace ASAP' list.
+        if slot in ("neck", "back", "legs", "waist", "shoulder", "finger1") and ilvl >= 318:
+            continue
+        # Trinket advice depends on the effect, not the item slot number alone.
+        # Once an unknown replacement is equipped, do not pretend to know its ranking.
+        if slot == "trinket2" and item.get("item_id") != 265657:
+            continue
+        if slot == "trinket1" and (item.get("item_id") != 273796 or ilvl >= 318):
+            continue
         reason = rule["why"]
         if slot == "shoulder" and has_four_piece:
             reason = "У тебя 4/4 сет; обычная замена плеч ломает бонус. " + reason
@@ -203,6 +214,8 @@ def main():
         })
     # Do not insist on replacing a slot that's already high: downrank but keep in view.
     recs.sort(key=lambda r: (r["rank"], r["slot_name"]))
+    for index, recommendation in enumerate(recs, start=1):
+        recommendation["rank"] = index
 
     keep = []
     for slot, rule in PRESERVE.items():
