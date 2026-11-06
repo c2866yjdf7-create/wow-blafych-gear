@@ -1,5 +1,5 @@
 {
-  "source_last_crawled_at": "2026-11-06T20:24:28.000Z",
+  "source_last_crawled_at": "2026-11-06T23:17:27.000Z",
   "limitations": "Отсутствие зачарования в Raider.IO НЕ доказывает, что слот можно или нужно зачаровать. API не перечисляет доступные пустые гнёзда. Подбор BiS-чар и камней требует актуальных гайдов/симуляции.",
   "observed": [
     {
@@ -51,7 +51,7 @@
     {
       "slot": "chest",
       "item_name": "Fanged Raiment of the Ophidian Oracle",
-      "item_level": 311,
+      "item_level": 318,
       "enchants": [
         {
           "id": 243977,
@@ -110,8 +110,8 @@
     },
     {
       "slot": "finger1",
-      "item_name": "Colubrine Band",
-      "item_level": 308,
+      "item_name": "Band of the Swarmcaller",
+      "item_level": 311,
       "enchants": [
         {
           "id": 243957,
@@ -163,7 +163,7 @@
     {
       "slot": "mainhand",
       "item_name": "Soulsealer's Headstone",
-      "item_level": 321,
+      "item_level": 328,
       "enchants": [
         {
           "id": 273072,

@@ -1,7 +1,7 @@
 {
   "note": "История фиксируется с момента подключения трекера; изменения между двумя проверками могут быть пропущены.",
-  "last_checked_at": "2026-11-06T23:17:14+00:00",
-  "last_source_crawled_at": "2026-11-06T20:24:28.000Z",
+  "last_checked_at": "2026-11-06T23:22:40+00:00",
+  "last_source_crawled_at": "2026-11-06T23:17:27.000Z",
   "last_equipped": {
     "head": {
       "item_id": 271483,
@@ -68,18 +68,19 @@
     "chest": {
       "item_id": 271486,
       "name": "Fanged Raiment of the Ophidian Oracle",
-      "item_level": 311,
+      "item_level": 318,
       "enchants": [
         7987
       ],
       "gems": [],
       "bonuses": [
+        13334,
         6652,
         13846,
-        13333,
+        12849,
         13690,
         13698,
-        12843
+        1571
       ]
     },
     "waist": {
@@ -157,9 +158,9 @@
       ]
     },
     "finger1": {
-      "item_id": 272147,
-      "name": "Colubrine Band",
-      "item_level": 308,
+      "item_id": 281029,
+      "name": "Band of the Swarmcaller",
+      "item_level": 311,
       "enchants": [
         7967
       ],
@@ -167,8 +168,10 @@
         240898
       ],
       "bonuses": [
-        12842,
-        13668
+        6652,
+        13668,
+        13334,
+        12843
       ]
     },
     "finger2": {
@@ -215,15 +218,14 @@
     "mainhand": {
       "item_id": 272269,
       "name": "Soulsealer's Headstone",
-      "item_level": 321,
+      "item_level": 328,
       "enchants": [
-        8689,
-        5401
+        8689
       ],
       "gems": [],
       "bonuses": [
         6652,
-        12846
+        12848
       ]
     },
     "offhand": {
@@ -231,8 +233,7 @@
       "name": "Farstrider's Chopper",
       "item_level": 318,
       "enchants": [
-        8689,
-        5400
+        8689
       ],
       "gems": [],
       "bonuses": [
@@ -676,6 +677,159 @@
               13696,
               13662,
               12699
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "at": "2026-11-06T23:17:27.000Z",
+      "type": "gear_change",
+      "changes": [
+        {
+          "slot": "chest",
+          "before": {
+            "item_id": 271486,
+            "name": "Fanged Raiment of the Ophidian Oracle",
+            "item_level": 311,
+            "enchants": [
+              7987
+            ],
+            "gems": [],
+            "bonuses": [
+              6652,
+              13846,
+              13333,
+              13690,
+              13698,
+              12843
+            ]
+          },
+          "after": {
+            "item_id": 271486,
+            "name": "Fanged Raiment of the Ophidian Oracle",
+            "item_level": 318,
+            "enchants": [
+              7987
+            ],
+            "gems": [],
+            "bonuses": [
+              13334,
+              6652,
+              13846,
+              12849,
+              13690,
+              13698,
+              1571
+            ]
+          }
+        },
+        {
+          "slot": "finger1",
+          "before": {
+            "item_id": 272147,
+            "name": "Colubrine Band",
+            "item_level": 308,
+            "enchants": [
+              7967
+            ],
+            "gems": [
+              240898
+            ],
+            "bonuses": [
+              12842,
+              13668
+            ]
+          },
+          "after": {
+            "item_id": 281029,
+            "name": "Band of the Swarmcaller",
+            "item_level": 311,
+            "enchants": [
+              7967
+            ],
+            "gems": [
+              240898
+            ],
+            "bonuses": [
+              6652,
+              13668,
+              13334,
+              12843
+            ]
+          }
+        },
+        {
+          "slot": "mainhand",
+          "before": {
+            "item_id": 272269,
+            "name": "Soulsealer's Headstone",
+            "item_level": 321,
+            "enchants": [
+              8689,
+              5401
+            ],
+            "gems": [],
+            "bonuses": [
+              6652,
+              12846
+            ]
+          },
+          "after": {
+            "item_id": 272269,
+            "name": "Soulsealer's Headstone",
+            "item_level": 328,
+            "enchants": [
+              8689
+            ],
+            "gems": [],
+            "bonuses": [
+              6652,
+              12848
+            ]
+          }
+        },
+        {
+          "slot": "offhand",
+          "before": {
+            "item_id": 237850,
+            "name": "Farstrider's Chopper",
+            "item_level": 318,
+            "enchants": [
+              8689,
+              5400
+            ],
+            "gems": [],
+            "bonuses": [
+              12214,
+              13667,
+              12497,
+              13751,
+              14001,
+              13771,
+              8960,
+              8793,
+              13835
+            ]
+          },
+          "after": {
+            "item_id": 237850,
+            "name": "Farstrider's Chopper",
+            "item_level": 318,
+            "enchants": [
+              8689
+            ],
+            "gems": [],
+            "bonuses": [
+              12214,
+              13667,
+              12497,
+              13751,
+              14001,
+              13771,
+              8960,
+              8793,
+              13835
             ]
           }
         }
