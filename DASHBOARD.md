@@ -1,9 +1,9 @@
 # Блафыч — панель персонажа
 
-**Специализация:** Enhancement · **Надето:** 307.438 ilvl · **M+ рейтинг:** 1728.5
+**Специализация:** Enhancement · **Надето:** 308 ilvl · **M+ рейтинг:** 1728.5
 
-**Последнее обновление Raider.IO:** 2026-11-05T19:47:41.000Z
-**GitHub забрал данные:** 2026-11-06T16:11:52+00:00
+**Последнее обновление Raider.IO:** 2026-11-06T18:29:25.000Z
+**GitHub забрал данные:** 2026-11-06T19:21:46+00:00
 
 ⚠️ Данные не в реальном времени: Raider.IO может отставать от игры.
 
@@ -28,11 +28,11 @@
 | Шея | Pendant of Malefic Fury | 302 |
 | Плечи | Hissing Mantle of the Ophidian Oracle | 302 |
 | Плащ | Pledgebearer's Pall | 302 |
-| Грудь | Fanged Raiment of the Ophidian Oracle | 305 |
+| Грудь | Fanged Raiment of the Ophidian Oracle | 311 |
 | Пояс | Serpentine Mixing Belt | 302 |
 | Наручи | Farstrider's Plated Bracers | 305 |
 | Перчатки | Hexing Grips of the Ophidian Oracle | 308 |
-| Ноги | Cuisses of the Uncoiled Union | 302 |
+| Ноги | Cuisses of the Uncoiled Union | 305 |
 | Ботинки | Galerider's Footguards | 308 |
 | Кольцо 1 | Colubrine Band | 308 |
 | Кольцо 2 | Hex Loop | 321 |
@@ -62,7 +62,7 @@ Raider.IO не вернул таланты; актуальный билд **не
 
 ## Недельный прогресс
 
-Raider.IO вернул 9 записей о лучших недельных ключах. **Это не счётчик Великого хранилища.**
+Raider.IO вернул 10 записей о лучших недельных ключах. **Это не счётчик Великого хранилища.**
 
 **Аффиксы EU:** Xal'atath's Bargain: Pulsar, Tyrannical, Fortified, Xal'atath's Guile
 
@@ -70,6 +70,7 @@ Raider.IO вернул 9 записей о лучших недельных кл�
 
 ## Последние изменения шмота
 
+- **2026-11-06T18:29:25.000Z:** chest: Fanged Raiment of the Ophidian Oracle → Fanged Raiment of the Ophidian Oracle; legs: Cuisses of the Uncoiled Union → Cuisses of the Uncoiled Union; mainhand: Soulsealer's Headstone → Soulsealer's Headstone; offhand: Farstrider's Chopper → Farstrider's Chopper
 - **2026-11-05T19:47:41.000Z:** hands: Hexing Grips of the Ophidian Oracle → Hexing Grips of the Ophidian Oracle; mainhand: Soulsealer's Headstone → Soulsealer's Headstone; offhand: Farstrider's Chopper → Farstrider's Chopper
 
 ---

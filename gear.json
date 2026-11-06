@@ -1,6 +1,6 @@
 {
-  "fetched_at_utc": "2026-11-06T16:11:52+00:00",
-  "source_last_crawled_at": "2026-11-05T19:47:41.000Z",
+  "fetched_at_utc": "2026-11-06T19:21:46+00:00",
+  "source_last_crawled_at": "2026-11-06T18:29:25.000Z",
   "source_api_url": "https://raider.io/api/v1/characters/profile?region=eu&realm=gordunni&name=%D0%91%D0%BB%D0%B0%D1%84%D1%8B%D1%87&fields=gear%2Ctalents%2Craid_progression%2Cmythic_plus_scores_by_season%3Acurrent%2Cmythic_plus_best_runs%3Aall%2Cmythic_plus_recent_runs%2Cmythic_plus_weekly_highest_level_runs%2Cmythic_plus_previous_weekly_highest_level_runs%2Cmythic_plus_ranks",
   "character": {
     "name": "Блафыч",
@@ -11,10 +11,10 @@
     "profile_url": "https://raider.io/characters/eu/gordunni/Блафыч"
   },
   "gear": {
-    "created_at": "2026-11-05T20:13:44.000Z",
-    "updated_at": "2026-11-05T20:13:44.000Z",
-    "source": "db",
-    "item_level_equipped": 307.438,
+    "created_at": "2026-11-06T18:29:25.922Z",
+    "updated_at": "2026-11-06T18:29:25.922Z",
+    "source": "s3",
+    "item_level_equipped": 308,
     "item_level_total": 0,
     "artifact_traits": 0,
     "corruption": {
@@ -208,7 +208,7 @@
       },
       "chest": {
         "item_id": 271486,
-        "item_level": 305,
+        "item_level": 311,
         "enchant": 7987,
         "icon": "inv_robe_mail_raidshamanulatek_d_01",
         "name": "Fanged Raiment of the Ophidian Oracle",
@@ -216,7 +216,17 @@
         "is_legendary": false,
         "is_azerite_armor": true,
         "azerite_powers": [
-          null,
+          {
+            "id": 580,
+            "spell": {
+              "id": 0,
+              "school": 0,
+              "icon": "inv_misc_questionmark",
+              "name": "Unknown",
+              "rank": null
+            },
+            "tier": 999
+          },
           {
             "id": 580,
             "spell": {
@@ -275,10 +285,9 @@
           6652,
           13846,
           13333,
-          12841,
           13690,
           13698,
-          1558
+          12843
         ]
       },
       "waist": {
@@ -368,7 +377,7 @@
       },
       "legs": {
         "item_id": 268237,
-        "item_level": 302,
+        "item_level": 305,
         "enchant": 8159,
         "icon": "inv_pant_mail_raidevokerulatek_d_01",
         "name": "Cuisses of the Uncoiled Union",
@@ -398,7 +407,7 @@
           6652,
           13662,
           13333,
-          12836
+          12837
         ]
       },
       "feet": {
@@ -585,8 +594,7 @@
         "gems": [],
         "gems_detail": [],
         "enchants": [
-          8689,
-          5401
+          8689
         ],
         "enchants_detail": [
           {
@@ -619,8 +627,7 @@
         "gems": [],
         "gems_detail": [],
         "enchants": [
-          8689,
-          5400
+          8689
         ],
         "enchants_detail": [
           {
@@ -771,6 +778,44 @@
         "role": "dps"
       },
       {
+        "dungeon": "Temple of Sethraliss",
+        "short_name": "TOS",
+        "mythic_level": 5,
+        "completed_at": "2026-11-06T17:10:16.000Z",
+        "clear_time_ms": 1044322,
+        "keystone_run_id": 24936507,
+        "par_time_ms": 1920999,
+        "num_keystone_upgrades": 3,
+        "map_challenge_mode_id": 250,
+        "zone_id": 9527,
+        "zone_expansion_id": 7,
+        "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/achievement_dungeon_templeofsethraliss.jpg",
+        "background_image_url": "https://cdn.raiderio.net/images/dungeons/expansion7/base/temple-of-sethraliss.jpg",
+        "score": 230,
+        "affixes": [
+          {
+            "id": 162,
+            "name": "Xal'atath's Bargain: Pulsar",
+            "description": "While in combat, Xal'atath summons pulsars that orbit players.",
+            "icon": "inv_cosmicvoid_nova",
+            "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/inv_cosmicvoid_nova.jpg",
+            "wowhead_url": "https://wowhead.com/affix=162"
+          }
+        ],
+        "url": "https://raider.io/mythic-plus-runs/season-mn-2/24936507-5-temple-of-sethraliss",
+        "spec": {
+          "id": 263,
+          "name": "Enhancement",
+          "slug": "enhancement",
+          "class_id": 7,
+          "role": "dps",
+          "is_melee": true,
+          "patch": "1.0.0",
+          "ordinal": 1
+        },
+        "role": "dps"
+      },
+      {
         "dungeon": "Altar of Fangs",
         "short_name": "AOF",
         "mythic_level": 5,
@@ -796,44 +841,6 @@
           }
         ],
         "url": "https://raider.io/mythic-plus-runs/season-mn-2/24841977-5-altar-of-fangs",
-        "spec": {
-          "id": 263,
-          "name": "Enhancement",
-          "slug": "enhancement",
-          "class_id": 7,
-          "role": "dps",
-          "is_melee": true,
-          "patch": "1.0.0",
-          "ordinal": 1
-        },
-        "role": "dps"
-      },
-      {
-        "dungeon": "Temple of Sethraliss",
-        "short_name": "TOS",
-        "mythic_level": 5,
-        "completed_at": "2026-11-05T19:25:33.000Z",
-        "clear_time_ms": 1149680,
-        "keystone_run_id": 24843076,
-        "par_time_ms": 1920999,
-        "num_keystone_upgrades": 3,
-        "map_challenge_mode_id": 250,
-        "zone_id": 9527,
-        "zone_expansion_id": 7,
-        "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/achievement_dungeon_templeofsethraliss.jpg",
-        "background_image_url": "https://cdn.raiderio.net/images/dungeons/expansion7/base/temple-of-sethraliss.jpg",
-        "score": 230,
-        "affixes": [
-          {
-            "id": 162,
-            "name": "Xal'atath's Bargain: Pulsar",
-            "description": "While in combat, Xal'atath summons pulsars that orbit players.",
-            "icon": "inv_cosmicvoid_nova",
-            "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/inv_cosmicvoid_nova.jpg",
-            "wowhead_url": "https://wowhead.com/affix=162"
-          }
-        ],
-        "url": "https://raider.io/mythic-plus-runs/season-mn-2/24843076-5-temple-of-sethraliss",
         "spec": {
           "id": 263,
           "name": "Enhancement",
@@ -973,6 +980,44 @@
       }
     ],
     "recent_runs": [
+      {
+        "dungeon": "Temple of Sethraliss",
+        "short_name": "TOS",
+        "mythic_level": 5,
+        "completed_at": "2026-11-06T17:10:16.000Z",
+        "clear_time_ms": 1044322,
+        "keystone_run_id": 24936507,
+        "par_time_ms": 1920999,
+        "num_keystone_upgrades": 3,
+        "map_challenge_mode_id": 250,
+        "zone_id": 9527,
+        "zone_expansion_id": 7,
+        "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/achievement_dungeon_templeofsethraliss.jpg",
+        "background_image_url": "https://cdn.raiderio.net/images/dungeons/expansion7/base/temple-of-sethraliss.jpg",
+        "score": 230,
+        "affixes": [
+          {
+            "id": 162,
+            "name": "Xal'atath's Bargain: Pulsar",
+            "description": "While in combat, Xal'atath summons pulsars that orbit players.",
+            "icon": "inv_cosmicvoid_nova",
+            "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/inv_cosmicvoid_nova.jpg",
+            "wowhead_url": "https://wowhead.com/affix=162"
+          }
+        ],
+        "url": "https://raider.io/mythic-plus-runs/season-mn-2/24936507-5-temple-of-sethraliss",
+        "spec": {
+          "id": 263,
+          "name": "Enhancement",
+          "slug": "enhancement",
+          "class_id": 7,
+          "role": "dps",
+          "is_melee": true,
+          "patch": "1.0.0",
+          "ordinal": 1
+        },
+        "role": "dps"
+      },
       {
         "dungeon": "The Blinding Vale",
         "short_name": "BV",
@@ -1269,35 +1314,6 @@
           "ordinal": 1
         },
         "role": "dps"
-      },
-      {
-        "dungeon": "Murder Row",
-        "short_name": "MR",
-        "mythic_level": 2,
-        "completed_at": "2026-11-03T18:32:48.000Z",
-        "clear_time_ms": 1201894,
-        "keystone_run_id": 24589911,
-        "par_time_ms": 2040999,
-        "num_keystone_upgrades": 3,
-        "map_challenge_mode_id": 587,
-        "zone_id": 16091,
-        "zone_expansion_id": 11,
-        "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/inv_achievement_dungeon_murderrow.jpg",
-        "background_image_url": "https://cdn.raiderio.net/images/dungeons/expansion11/base/murder-row.jpg",
-        "score": 170,
-        "affixes": [],
-        "url": "https://raider.io/mythic-plus-runs/season-mn-2/24589911-2-murder-row",
-        "spec": {
-          "id": 263,
-          "name": "Enhancement",
-          "slug": "enhancement",
-          "class_id": 7,
-          "role": "dps",
-          "is_melee": true,
-          "patch": "1.0.0",
-          "ordinal": 1
-        },
-        "role": "dps"
       }
     ],
     "weekly_highest_level_runs": [
@@ -1327,6 +1343,44 @@
           }
         ],
         "url": "https://raider.io/mythic-plus-runs/season-mn-2/24843901-6-ruby-life-pools",
+        "spec": {
+          "id": 263,
+          "name": "Enhancement",
+          "slug": "enhancement",
+          "class_id": 7,
+          "role": "dps",
+          "is_melee": true,
+          "patch": "1.0.0",
+          "ordinal": 1
+        },
+        "role": "dps"
+      },
+      {
+        "dungeon": "Temple of Sethraliss",
+        "short_name": "TOS",
+        "mythic_level": 5,
+        "completed_at": "2026-11-06T17:10:16.000Z",
+        "clear_time_ms": 1044322,
+        "keystone_run_id": 24936507,
+        "par_time_ms": 1920999,
+        "num_keystone_upgrades": 3,
+        "map_challenge_mode_id": 250,
+        "zone_id": 9527,
+        "zone_expansion_id": 7,
+        "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/achievement_dungeon_templeofsethraliss.jpg",
+        "background_image_url": "https://cdn.raiderio.net/images/dungeons/expansion7/base/temple-of-sethraliss.jpg",
+        "score": 230,
+        "affixes": [
+          {
+            "id": 162,
+            "name": "Xal'atath's Bargain: Pulsar",
+            "description": "While in combat, Xal'atath summons pulsars that orbit players.",
+            "icon": "inv_cosmicvoid_nova",
+            "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/inv_cosmicvoid_nova.jpg",
+            "wowhead_url": "https://wowhead.com/affix=162"
+          }
+        ],
+        "url": "https://raider.io/mythic-plus-runs/season-mn-2/24936507-5-temple-of-sethraliss",
         "spec": {
           "id": 263,
           "name": "Enhancement",
@@ -1815,14 +1869,14 @@
     ],
     "ranks": {
       "overall": {
-        "world": 2097103,
-        "region": 668025,
-        "realm": 23952
+        "world": 2098123,
+        "region": 668237,
+        "realm": 23968
       },
       "class": {
-        "world": 231728,
-        "region": 75082,
-        "realm": 2373
+        "world": 231816,
+        "region": 75103,
+        "realm": 2374
       },
       "healer": {
         "world": 0,
@@ -1835,13 +1889,13 @@
         "realm": 0
       },
       "dps": {
-        "world": 1361597,
-        "region": 428254,
-        "realm": 15367
+        "world": 1362385,
+        "region": 428420,
+        "realm": 15377
       },
       "class_dps": {
-        "world": 141412,
-        "region": 46583,
+        "world": 141497,
+        "region": 46600,
         "realm": 1404
       },
       "spec_262": {
@@ -1850,8 +1904,8 @@
         "realm": 0
       },
       "spec_263": {
-        "world": 23461,
-        "region": 10394,
+        "world": 23474,
+        "region": 10398,
         "realm": 297
       },
       "spec_264": {

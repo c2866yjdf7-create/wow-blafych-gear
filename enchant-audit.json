@@ -1,5 +1,5 @@
 {
-  "source_last_crawled_at": "2026-11-05T19:47:41.000Z",
+  "source_last_crawled_at": "2026-11-06T18:29:25.000Z",
   "limitations": "Отсутствие зачарования в Raider.IO НЕ доказывает, что слот можно или нужно зачаровать. API не перечисляет доступные пустые гнёзда. Подбор BiS-чар и камней требует актуальных гайдов/симуляции.",
   "observed": [
     {
@@ -51,7 +51,7 @@
     {
       "slot": "chest",
       "item_name": "Fanged Raiment of the Ophidian Oracle",
-      "item_level": 305,
+      "item_level": 311,
       "enchants": [
         {
           "id": 243977,
@@ -85,7 +85,7 @@
     {
       "slot": "legs",
       "item_name": "Cuisses of the Uncoiled Union",
-      "item_level": 302,
+      "item_level": 305,
       "enchants": [
         {
           "id": 244641,
