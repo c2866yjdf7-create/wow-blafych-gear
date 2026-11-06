@@ -1,5 +1,5 @@
 {
-  "source_last_crawled_at": "2026-11-06T18:29:25.000Z",
+  "source_last_crawled_at": "2026-11-06T20:24:28.000Z",
   "limitations": "Отсутствие зачарования в Raider.IO НЕ доказывает, что слот можно или нужно зачаровать. API не перечисляет доступные пустые гнёзда. Подбор BiS-чар и камней требует актуальных гайдов/симуляции.",
   "observed": [
     {
@@ -43,8 +43,8 @@
     },
     {
       "slot": "back",
-      "item_name": "Pledgebearer's Pall",
-      "item_level": 302,
+      "item_name": "Silken Voodoo Drape",
+      "item_level": 318,
       "enchants": [],
       "gems": []
     },
@@ -63,8 +63,8 @@
     },
     {
       "slot": "waist",
-      "item_name": "Serpentine Mixing Belt",
-      "item_level": 302,
+      "item_name": "Tribal Defender's Cord",
+      "item_level": 305,
       "enchants": [],
       "gems": []
     },
@@ -155,7 +155,7 @@
     },
     {
       "slot": "trinket2",
-      "item_name": "Fiber of Living Agony",
+      "item_name": "Resonant Bellowstone",
       "item_level": 305,
       "enchants": [],
       "gems": []

@@ -1,29 +1,29 @@
 {
-  "source_last_crawled_at": "2026-11-06T18:29:25.000Z",
+  "source_last_crawled_at": "2026-11-06T20:24:28.000Z",
   "available": true,
   "raid_progression": {
     "the-unbinding-of-kithix": {
-      "summary": "",
+      "summary": "1/1 H",
       "expansion_id": 11,
       "total_bosses": 1,
       "normal_bosses_killed": 0,
-      "heroic_bosses_killed": 0,
+      "heroic_bosses_killed": 1,
       "mythic_bosses_killed": 0
     },
     "the-tidebound-grotto": {
-      "summary": "",
+      "summary": "1/1 H",
       "expansion_id": 11,
       "total_bosses": 1,
       "normal_bosses_killed": 0,
-      "heroic_bosses_killed": 0,
+      "heroic_bosses_killed": 1,
       "mythic_bosses_killed": 0
     },
     "the-venomous-abyss": {
-      "summary": "8/8 N",
+      "summary": "8/8 H",
       "expansion_id": 11,
       "total_bosses": 8,
       "normal_bosses_killed": 8,
-      "heroic_bosses_killed": 0,
+      "heroic_bosses_killed": 8,
       "mythic_bosses_killed": 0
     },
     "sporefall": {

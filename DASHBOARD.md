@@ -1,18 +1,18 @@
 # Блафыч — панель персонажа
 
-**Специализация:** Enhancement · **Надето:** 308 ilvl · **M+ рейтинг:** 1728.5
+**Специализация:** Enhancement · **Надето:** 309.188 ilvl · **M+ рейтинг:** 1788.3
 
-**Последнее обновление Raider.IO:** 2026-11-06T18:29:25.000Z
-**GitHub забрал данные:** 2026-11-06T19:21:46+00:00
+**Последнее обновление Raider.IO:** 2026-11-06T20:24:28.000Z
+**GitHub забрал данные:** 2026-11-06T22:42:21+00:00
 
 ⚠️ Данные не в реальном времени: Raider.IO может отставать от игры.
 
 ## Что делать дальше
 
 - Гробница королей: лучший +3; цель **+5**.
-- Закоулок душегубов: лучший +3; цель **+5**.
 - Логово Налоракка: лучший +4; цель **+5**.
 - Алтарь Клыков: лучший +5; цель **+7**.
+- Арена Шрама Бездны: лучший +5; цель **+7**.
 
 Полный маршрут: [next-keys.md](next-keys.md).
 
@@ -27,9 +27,9 @@
 | Голова | Serpent Crown of the Ophidian Oracle | 308 |
 | Шея | Pendant of Malefic Fury | 302 |
 | Плечи | Hissing Mantle of the Ophidian Oracle | 302 |
-| Плащ | Pledgebearer's Pall | 302 |
+| Плащ | Silken Voodoo Drape | 318 |
 | Грудь | Fanged Raiment of the Ophidian Oracle | 311 |
-| Пояс | Serpentine Mixing Belt | 302 |
+| Пояс | Tribal Defender's Cord | 305 |
 | Наручи | Farstrider's Plated Bracers | 305 |
 | Перчатки | Hexing Grips of the Ophidian Oracle | 308 |
 | Ноги | Cuisses of the Uncoiled Union | 305 |
@@ -37,7 +37,7 @@
 | Кольцо 1 | Colubrine Band | 308 |
 | Кольцо 2 | Hex Loop | 321 |
 | Аксессуар 1 | Vile Vial of Volatile Venom | 302 |
-| Аксессуар 2 | Fiber of Living Agony | 305 |
+| Аксессуар 2 | Resonant Bellowstone | 305 |
 | Основная рука | Soulsealer's Headstone | 321 |
 | Вторая рука | Farstrider's Chopper | 318 |
 
@@ -45,9 +45,9 @@
 
 | Рейд | Обычный | Героический | Эпохальный |
 |---|---:|---:|---:|
-| Отравленная бездна | 8/8 | 0/8 | 0/8 |
-| Освобождение Кит'икса | 0/1 | 0/1 | 0/1 |
-| Приливный грот | 0/1 | 0/1 | 0/1 |
+| Отравленная бездна | 8/8 | 8/8 | 0/8 |
+| Освобождение Кит'икса | 0/1 | 1/1 | 0/1 |
+| Приливный грот | 0/1 | 1/1 | 0/1 |
 
 Учитываются только убийства боссов, записанные Raider.IO. Сюжетный режим и поиск рейда в этой таблице не отображаются.
 Предыдущий сезон: **Споропад** — 0/1 (обычный).
@@ -70,6 +70,7 @@ Raider.IO вернул 10 записей о лучших недельных кл
 
 ## Последние изменения шмота
 
+- **2026-11-06T20:24:28.000Z:** back: Pledgebearer's Pall → Silken Voodoo Drape; mainhand: Soulsealer's Headstone → Soulsealer's Headstone; offhand: Farstrider's Chopper → Farstrider's Chopper; trinket2: Fiber of Living Agony → Resonant Bellowstone; waist: Serpentine Mixing Belt → Tribal Defender's Cord
 - **2026-11-06T18:29:25.000Z:** chest: Fanged Raiment of the Ophidian Oracle → Fanged Raiment of the Ophidian Oracle; legs: Cuisses of the Uncoiled Union → Cuisses of the Uncoiled Union; mainhand: Soulsealer's Headstone → Soulsealer's Headstone; offhand: Farstrider's Chopper → Farstrider's Chopper
 - **2026-11-05T19:47:41.000Z:** hands: Hexing Grips of the Ophidian Oracle → Hexing Grips of the Ophidian Oracle; mainhand: Soulsealer's Headstone → Soulsealer's Headstone; offhand: Farstrider's Chopper → Farstrider's Chopper
 

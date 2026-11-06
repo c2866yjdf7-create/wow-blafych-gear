@@ -62,7 +62,7 @@ TARGETS = {
     "legs": {
         "rank": 4, "action": "Искать штаны выше уровнем",
         "target": "«Набедренники пробуждённого выводка» (Temple of Sethraliss) или сильные рейдовые штаны",
-        "why": "302 ilvl. Не снимай текущую вещь автоматически ради меньшей прибавки с плохими характеристиками.",
+        "why": "Слот отстаёт по уровню. Не снимай текущую вещь автоматически ради небольшой прибавки с плохими характеристиками.",
         "method": "Храм Сетралисс в M+, рейд, Великое хранилище.",
         "confidence": "средняя",
     },
@@ -104,7 +104,7 @@ PRESERVE = {
     },
     "offhand": {
         "status": "Сохранить крафтовый топор",
-        "reason": "Крафтовое оружие 318 и возможное украшение: оценивать с учётом эффекта и сохранения комплекта украшений.",
+        "reason": "Крафтовое оружие и возможное украшение: оценивать с учётом эффекта и сохранения комплекта украшений.",
         "next": "Проверить возможность перекрафтовки; не менять ради пары ilvl вслепую.",
     },
     "wrist": {
@@ -113,7 +113,7 @@ PRESERVE = {
         "next": "Проверять эффект украшения и дорожку перекрафтовки перед заменой.",
     },
     "finger2": {
-        "status": "Оставить кольцо 321",
+        "status": "Оставить сильное кольцо",
         "reason": "Кольцо уже достаточно сильное по уровню; вложения в более слабые слоты обычно логичнее.",
         "next": "Пересматривать при особых эффектах или персональном симе.",
     },
@@ -232,7 +232,19 @@ def main():
             "next": rule["next"],
             "category": "keep",
         })
-    keep.sort(key=lambda r: list(PRESERVE).index(r["slot"]))
+    # This known passive is useful for Enhancement; do not classify a new item
+    # purely by its slot or carry an old replacement warning onto it.
+    passive = items.get("trinket2") or {}
+    if passive.get("name") == "Resonant Bellowstone":
+        keep.append({
+            "slot": "trinket2", "slot_name": SLOT_NAMES["trinket2"],
+            "item_name": passive.get("name"), "item_level": passive.get("item_level"),
+            "action": "Сохранить полезную пассивную триньку",
+            "why": "Даёт ловкость и накапливающийся крит; входит в набор рекомендуемых тринек из подземелий для энха в 12.1.5.",
+            "next": "Кандидат на гербы героя после проверки дорожки. Для замены на рейдовые триньки сравнить эффекты и уровень.",
+            "category": "keep",
+        })
+    keep.sort(key=lambda r: list(PRESERVE).index(r["slot"]) if r["slot"] in PRESERVE else len(PRESERVE))
 
     result = {
         "status": "ok",

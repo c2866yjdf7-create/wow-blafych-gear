@@ -1,7 +1,7 @@
 {
   "note": "История фиксируется с момента подключения трекера; изменения между двумя проверками могут быть пропущены.",
-  "last_checked_at": "2026-11-06T19:21:46+00:00",
-  "last_source_crawled_at": "2026-11-06T18:29:25.000Z",
+  "last_checked_at": "2026-11-06T22:42:21+00:00",
+  "last_source_crawled_at": "2026-11-06T20:24:28.000Z",
   "last_equipped": {
     "head": {
       "item_id": 271483,
@@ -53,15 +53,16 @@
       ]
     },
     "back": {
-      "item_id": 272230,
-      "name": "Pledgebearer's Pall",
-      "item_level": 302,
+      "item_id": 268253,
+      "name": "Silken Voodoo Drape",
+      "item_level": 318,
       "enchants": [],
       "gems": [],
       "bonuses": [
-        41,
+        6652,
         13662,
-        12836
+        13334,
+        12849
       ]
     },
     "chest": {
@@ -82,17 +83,18 @@
       ]
     },
     "waist": {
-      "item_id": 268254,
-      "name": "Serpentine Mixing Belt",
-      "item_level": 302,
+      "item_id": 251155,
+      "name": "Tribal Defender's Cord",
+      "item_level": 305,
       "enchants": [],
       "gems": [],
       "bonuses": [
+        12841,
+        13440,
         6652,
         13696,
         13662,
-        13333,
-        12836
+        12699
       ]
     },
     "wrist": {
@@ -198,14 +200,16 @@
       ]
     },
     "trinket2": {
-      "item_id": 265657,
-      "name": "Fiber of Living Agony",
+      "item_id": 250228,
+      "name": "Resonant Bellowstone",
       "item_level": 305,
       "enchants": [],
       "gems": [],
       "bonuses": [
+        12841,
+        13440,
         6652,
-        12837
+        12699
       ]
     },
     "mainhand": {
@@ -213,7 +217,8 @@
       "name": "Soulsealer's Headstone",
       "item_level": 321,
       "enchants": [
-        8689
+        8689,
+        5401
       ],
       "gems": [],
       "bonuses": [
@@ -226,7 +231,8 @@
       "name": "Farstrider's Chopper",
       "item_level": 318,
       "enchants": [
-        8689
+        8689,
+        5400
       ],
       "gems": [],
       "bonuses": [
@@ -503,6 +509,173 @@
               8960,
               8793,
               13835
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "at": "2026-11-06T20:24:28.000Z",
+      "type": "gear_change",
+      "changes": [
+        {
+          "slot": "back",
+          "before": {
+            "item_id": 272230,
+            "name": "Pledgebearer's Pall",
+            "item_level": 302,
+            "enchants": [],
+            "gems": [],
+            "bonuses": [
+              41,
+              13662,
+              12836
+            ]
+          },
+          "after": {
+            "item_id": 268253,
+            "name": "Silken Voodoo Drape",
+            "item_level": 318,
+            "enchants": [],
+            "gems": [],
+            "bonuses": [
+              6652,
+              13662,
+              13334,
+              12849
+            ]
+          }
+        },
+        {
+          "slot": "mainhand",
+          "before": {
+            "item_id": 272269,
+            "name": "Soulsealer's Headstone",
+            "item_level": 321,
+            "enchants": [
+              8689
+            ],
+            "gems": [],
+            "bonuses": [
+              6652,
+              12846
+            ]
+          },
+          "after": {
+            "item_id": 272269,
+            "name": "Soulsealer's Headstone",
+            "item_level": 321,
+            "enchants": [
+              8689,
+              5401
+            ],
+            "gems": [],
+            "bonuses": [
+              6652,
+              12846
+            ]
+          }
+        },
+        {
+          "slot": "offhand",
+          "before": {
+            "item_id": 237850,
+            "name": "Farstrider's Chopper",
+            "item_level": 318,
+            "enchants": [
+              8689
+            ],
+            "gems": [],
+            "bonuses": [
+              12214,
+              13667,
+              12497,
+              13751,
+              14001,
+              13771,
+              8960,
+              8793,
+              13835
+            ]
+          },
+          "after": {
+            "item_id": 237850,
+            "name": "Farstrider's Chopper",
+            "item_level": 318,
+            "enchants": [
+              8689,
+              5400
+            ],
+            "gems": [],
+            "bonuses": [
+              12214,
+              13667,
+              12497,
+              13751,
+              14001,
+              13771,
+              8960,
+              8793,
+              13835
+            ]
+          }
+        },
+        {
+          "slot": "trinket2",
+          "before": {
+            "item_id": 265657,
+            "name": "Fiber of Living Agony",
+            "item_level": 305,
+            "enchants": [],
+            "gems": [],
+            "bonuses": [
+              6652,
+              12837
+            ]
+          },
+          "after": {
+            "item_id": 250228,
+            "name": "Resonant Bellowstone",
+            "item_level": 305,
+            "enchants": [],
+            "gems": [],
+            "bonuses": [
+              12841,
+              13440,
+              6652,
+              12699
+            ]
+          }
+        },
+        {
+          "slot": "waist",
+          "before": {
+            "item_id": 268254,
+            "name": "Serpentine Mixing Belt",
+            "item_level": 302,
+            "enchants": [],
+            "gems": [],
+            "bonuses": [
+              6652,
+              13696,
+              13662,
+              13333,
+              12836
+            ]
+          },
+          "after": {
+            "item_id": 251155,
+            "name": "Tribal Defender's Cord",
+            "item_level": 305,
+            "enchants": [],
+            "gems": [],
+            "bonuses": [
+              12841,
+              13440,
+              6652,
+              13696,
+              13662,
+              12699
             ]
           }
         }

@@ -1,8 +1,8 @@
 {
-  "source_last_crawled_at": "2026-11-06T18:29:25.000Z",
-  "fetched_at_utc": "2026-11-06T19:21:46+00:00",
+  "source_last_crawled_at": "2026-11-06T20:24:28.000Z",
+  "fetched_at_utc": "2026-11-06T22:42:21+00:00",
   "season": "season-mn-2",
-  "score": 1728.5,
+  "score": 1788.3,
   "routes": [
     {
       "dungeon_en": "Kings' Rest",
@@ -11,16 +11,6 @@
       "best_score": 185,
       "timed": true,
       "url": "https://raider.io/mythic-plus-runs/season-mn-2/24835146-3-kings-rest",
-      "suggested_next_level": 5,
-      "priority": 2
-    },
-    {
-      "dungeon_en": "Murder Row",
-      "dungeon_ru": "Закоулок душегубов",
-      "best_level": 3,
-      "best_score": 182.6,
-      "timed": true,
-      "url": "https://raider.io/mythic-plus-runs/season-mn-2/24449020-3-murder-row",
       "suggested_next_level": 5,
       "priority": 2
     },
@@ -75,6 +65,16 @@
       "priority": 2
     },
     {
+      "dungeon_en": "Murder Row",
+      "dungeon_ru": "Закоулок душегубов",
+      "best_level": 6,
+      "best_score": 242.3,
+      "timed": true,
+      "url": "https://raider.io/mythic-plus-runs/season-mn-2/24952108-6-murder-row",
+      "suggested_next_level": 7,
+      "priority": 3
+    },
+    {
       "dungeon_en": "Ruby Life Pools",
       "dungeon_ru": "Рубиновые Омуты Жизни",
       "best_level": 6,
@@ -112,6 +112,44 @@
         }
       ],
       "url": "https://raider.io/mythic-plus-runs/season-mn-2/24843901-6-ruby-life-pools",
+      "spec": {
+        "id": 263,
+        "name": "Enhancement",
+        "slug": "enhancement",
+        "class_id": 7,
+        "role": "dps",
+        "is_melee": true,
+        "patch": "1.0.0",
+        "ordinal": 1
+      },
+      "role": "dps"
+    },
+    {
+      "dungeon": "Murder Row",
+      "short_name": "MR",
+      "mythic_level": 6,
+      "completed_at": "2026-11-06T17:47:48.000Z",
+      "clear_time_ms": 1369020,
+      "keystone_run_id": 24952108,
+      "par_time_ms": 2040999,
+      "num_keystone_upgrades": 2,
+      "map_challenge_mode_id": 587,
+      "zone_id": 16091,
+      "zone_expansion_id": 11,
+      "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/inv_achievement_dungeon_murderrow.jpg",
+      "background_image_url": "https://cdn.raiderio.net/images/dungeons/expansion11/base/murder-row.jpg",
+      "score": 242.3,
+      "affixes": [
+        {
+          "id": 162,
+          "name": "Xal'atath's Bargain: Pulsar",
+          "description": "While in combat, Xal'atath summons pulsars that orbit players.",
+          "icon": "inv_cosmicvoid_nova",
+          "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/inv_cosmicvoid_nova.jpg",
+          "wowhead_url": "https://wowhead.com/affix=162"
+        }
+      ],
+      "url": "https://raider.io/mythic-plus-runs/season-mn-2/24952108-6-murder-row",
       "spec": {
         "id": 263,
         "name": "Enhancement",
@@ -333,14 +371,16 @@
         "ordinal": 1
       },
       "role": "dps"
-    },
+    }
+  ],
+  "recent_runs": [
     {
       "dungeon": "Murder Row",
       "short_name": "MR",
-      "mythic_level": 3,
-      "completed_at": "2026-11-02T22:55:22.000Z",
-      "clear_time_ms": 1356871,
-      "keystone_run_id": 24449020,
+      "mythic_level": 6,
+      "completed_at": "2026-11-06T18:45:01.000Z",
+      "clear_time_ms": 1445346,
+      "keystone_run_id": 24946748,
       "par_time_ms": 2040999,
       "num_keystone_upgrades": 2,
       "map_challenge_mode_id": 587,
@@ -348,9 +388,18 @@
       "zone_expansion_id": 11,
       "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/inv_achievement_dungeon_murderrow.jpg",
       "background_image_url": "https://cdn.raiderio.net/images/dungeons/expansion11/base/murder-row.jpg",
-      "score": 182.6,
-      "affixes": [],
-      "url": "https://raider.io/mythic-plus-runs/season-mn-2/24449020-3-murder-row",
+      "score": 240.9,
+      "affixes": [
+        {
+          "id": 162,
+          "name": "Xal'atath's Bargain: Pulsar",
+          "description": "While in combat, Xal'atath summons pulsars that orbit players.",
+          "icon": "inv_cosmicvoid_nova",
+          "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/inv_cosmicvoid_nova.jpg",
+          "wowhead_url": "https://wowhead.com/affix=162"
+        }
+      ],
+      "url": "https://raider.io/mythic-plus-runs/season-mn-2/24946748-6-murder-row",
       "spec": {
         "id": 263,
         "name": "Enhancement",
@@ -362,9 +411,45 @@
         "ordinal": 1
       },
       "role": "dps"
-    }
-  ],
-  "recent_runs": [
+    },
+    {
+      "dungeon": "Murder Row",
+      "short_name": "MR",
+      "mythic_level": 6,
+      "completed_at": "2026-11-06T17:47:48.000Z",
+      "clear_time_ms": 1369020,
+      "keystone_run_id": 24952108,
+      "par_time_ms": 2040999,
+      "num_keystone_upgrades": 2,
+      "map_challenge_mode_id": 587,
+      "zone_id": 16091,
+      "zone_expansion_id": 11,
+      "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/inv_achievement_dungeon_murderrow.jpg",
+      "background_image_url": "https://cdn.raiderio.net/images/dungeons/expansion11/base/murder-row.jpg",
+      "score": 242.3,
+      "affixes": [
+        {
+          "id": 162,
+          "name": "Xal'atath's Bargain: Pulsar",
+          "description": "While in combat, Xal'atath summons pulsars that orbit players.",
+          "icon": "inv_cosmicvoid_nova",
+          "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/inv_cosmicvoid_nova.jpg",
+          "wowhead_url": "https://wowhead.com/affix=162"
+        }
+      ],
+      "url": "https://raider.io/mythic-plus-runs/season-mn-2/24952108-6-murder-row",
+      "spec": {
+        "id": 263,
+        "name": "Enhancement",
+        "slug": "enhancement",
+        "class_id": 7,
+        "role": "dps",
+        "is_melee": true,
+        "patch": "1.0.0",
+        "ordinal": 1
+      },
+      "role": "dps"
+    },
     {
       "dungeon": "Temple of Sethraliss",
       "short_name": "TOS",
@@ -630,64 +715,6 @@
       "score": 198.4,
       "affixes": [],
       "url": "https://raider.io/mythic-plus-runs/season-mn-2/24752923-4-altar-of-fangs",
-      "spec": {
-        "id": 263,
-        "name": "Enhancement",
-        "slug": "enhancement",
-        "class_id": 7,
-        "role": "dps",
-        "is_melee": true,
-        "patch": "1.0.0",
-        "ordinal": 1
-      },
-      "role": "dps"
-    },
-    {
-      "dungeon": "Murder Row",
-      "short_name": "MR",
-      "mythic_level": 2,
-      "completed_at": "2026-11-04T21:31:49.000Z",
-      "clear_time_ms": 1239671,
-      "keystone_run_id": 24746906,
-      "par_time_ms": 2040999,
-      "num_keystone_upgrades": 2,
-      "map_challenge_mode_id": 587,
-      "zone_id": 16091,
-      "zone_expansion_id": 11,
-      "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/inv_achievement_dungeon_murderrow.jpg",
-      "background_image_url": "https://cdn.raiderio.net/images/dungeons/expansion11/base/murder-row.jpg",
-      "score": 169.7,
-      "affixes": [],
-      "url": "https://raider.io/mythic-plus-runs/season-mn-2/24746906-2-murder-row",
-      "spec": {
-        "id": 263,
-        "name": "Enhancement",
-        "slug": "enhancement",
-        "class_id": 7,
-        "role": "dps",
-        "is_melee": true,
-        "patch": "1.0.0",
-        "ordinal": 1
-      },
-      "role": "dps"
-    },
-    {
-      "dungeon": "Voidscar Arena",
-      "short_name": "VSA",
-      "mythic_level": 4,
-      "completed_at": "2026-11-04T19:49:14.000Z",
-      "clear_time_ms": 1006636,
-      "keystone_run_id": 24736015,
-      "par_time_ms": 1800999,
-      "num_keystone_upgrades": 3,
-      "map_challenge_mode_id": 585,
-      "zone_id": 16425,
-      "zone_expansion_id": 11,
-      "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/inv_achievement_dungeon_voidscararena.jpg",
-      "background_image_url": "https://cdn.raiderio.net/images/dungeons/expansion11/base/voidscar-arena.jpg",
-      "score": 200,
-      "affixes": [],
-      "url": "https://raider.io/mythic-plus-runs/season-mn-2/24736015-4-voidscar-arena",
       "spec": {
         "id": 263,
         "name": "Enhancement",
@@ -741,6 +768,82 @@
       "role": "dps"
     },
     {
+      "dungeon": "Murder Row",
+      "short_name": "MR",
+      "mythic_level": 6,
+      "completed_at": "2026-11-06T17:47:48.000Z",
+      "clear_time_ms": 1369020,
+      "keystone_run_id": 24952108,
+      "par_time_ms": 2040999,
+      "num_keystone_upgrades": 2,
+      "map_challenge_mode_id": 587,
+      "zone_id": 16091,
+      "zone_expansion_id": 11,
+      "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/inv_achievement_dungeon_murderrow.jpg",
+      "background_image_url": "https://cdn.raiderio.net/images/dungeons/expansion11/base/murder-row.jpg",
+      "score": 242.3,
+      "affixes": [
+        {
+          "id": 162,
+          "name": "Xal'atath's Bargain: Pulsar",
+          "description": "While in combat, Xal'atath summons pulsars that orbit players.",
+          "icon": "inv_cosmicvoid_nova",
+          "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/inv_cosmicvoid_nova.jpg",
+          "wowhead_url": "https://wowhead.com/affix=162"
+        }
+      ],
+      "url": "https://raider.io/mythic-plus-runs/season-mn-2/24952108-6-murder-row",
+      "spec": {
+        "id": 263,
+        "name": "Enhancement",
+        "slug": "enhancement",
+        "class_id": 7,
+        "role": "dps",
+        "is_melee": true,
+        "patch": "1.0.0",
+        "ordinal": 1
+      },
+      "role": "dps"
+    },
+    {
+      "dungeon": "Murder Row",
+      "short_name": "MR",
+      "mythic_level": 6,
+      "completed_at": "2026-11-06T18:45:01.000Z",
+      "clear_time_ms": 1445346,
+      "keystone_run_id": 24946748,
+      "par_time_ms": 2040999,
+      "num_keystone_upgrades": 2,
+      "map_challenge_mode_id": 587,
+      "zone_id": 16091,
+      "zone_expansion_id": 11,
+      "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/inv_achievement_dungeon_murderrow.jpg",
+      "background_image_url": "https://cdn.raiderio.net/images/dungeons/expansion11/base/murder-row.jpg",
+      "score": 240.9,
+      "affixes": [
+        {
+          "id": 162,
+          "name": "Xal'atath's Bargain: Pulsar",
+          "description": "While in combat, Xal'atath summons pulsars that orbit players.",
+          "icon": "inv_cosmicvoid_nova",
+          "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/inv_cosmicvoid_nova.jpg",
+          "wowhead_url": "https://wowhead.com/affix=162"
+        }
+      ],
+      "url": "https://raider.io/mythic-plus-runs/season-mn-2/24946748-6-murder-row",
+      "spec": {
+        "id": 263,
+        "name": "Enhancement",
+        "slug": "enhancement",
+        "class_id": 7,
+        "role": "dps",
+        "is_melee": true,
+        "patch": "1.0.0",
+        "ordinal": 1
+      },
+      "role": "dps"
+    },
+    {
       "dungeon": "Temple of Sethraliss",
       "short_name": "TOS",
       "mythic_level": 5,
@@ -967,64 +1070,6 @@
       "score": 198.4,
       "affixes": [],
       "url": "https://raider.io/mythic-plus-runs/season-mn-2/24752923-4-altar-of-fangs",
-      "spec": {
-        "id": 263,
-        "name": "Enhancement",
-        "slug": "enhancement",
-        "class_id": 7,
-        "role": "dps",
-        "is_melee": true,
-        "patch": "1.0.0",
-        "ordinal": 1
-      },
-      "role": "dps"
-    },
-    {
-      "dungeon": "Kings' Rest",
-      "short_name": "KR",
-      "mythic_level": 3,
-      "completed_at": "2026-11-05T18:16:38.000Z",
-      "clear_time_ms": 1120647,
-      "keystone_run_id": 24835146,
-      "par_time_ms": 1980999,
-      "num_keystone_upgrades": 3,
-      "map_challenge_mode_id": 249,
-      "zone_id": 9526,
-      "zone_expansion_id": 7,
-      "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/achievement_dungeon_kingsrest.jpg",
-      "background_image_url": "https://cdn.raiderio.net/images/dungeons/expansion7/base/kings-rest.jpg",
-      "score": 185,
-      "affixes": [],
-      "url": "https://raider.io/mythic-plus-runs/season-mn-2/24835146-3-kings-rest",
-      "spec": {
-        "id": 263,
-        "name": "Enhancement",
-        "slug": "enhancement",
-        "class_id": 7,
-        "role": "dps",
-        "is_melee": true,
-        "patch": "1.0.0",
-        "ordinal": 1
-      },
-      "role": "dps"
-    },
-    {
-      "dungeon": "Murder Row",
-      "short_name": "MR",
-      "mythic_level": 2,
-      "completed_at": "2026-11-04T21:31:49.000Z",
-      "clear_time_ms": 1239671,
-      "keystone_run_id": 24746906,
-      "par_time_ms": 2040999,
-      "num_keystone_upgrades": 2,
-      "map_challenge_mode_id": 587,
-      "zone_id": 16091,
-      "zone_expansion_id": 11,
-      "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/inv_achievement_dungeon_murderrow.jpg",
-      "background_image_url": "https://cdn.raiderio.net/images/dungeons/expansion11/base/murder-row.jpg",
-      "score": 169.7,
-      "affixes": [],
-      "url": "https://raider.io/mythic-plus-runs/season-mn-2/24746906-2-murder-row",
       "spec": {
         "id": 263,
         "name": "Enhancement",
@@ -1254,14 +1299,14 @@
   ],
   "ranks": {
     "overall": {
-      "world": 2098123,
-      "region": 668237,
-      "realm": 23968
+      "world": 2076181,
+      "region": 661184,
+      "realm": 23749
     },
     "class": {
-      "world": 231816,
-      "region": 75103,
-      "realm": 2374
+      "world": 229695,
+      "region": 74363,
+      "realm": 2357
     },
     "healer": {
       "world": 0,
@@ -1274,14 +1319,14 @@
       "realm": 0
     },
     "dps": {
-      "world": 1362385,
-      "region": 428420,
-      "realm": 15377
+      "world": 1343414,
+      "region": 422638,
+      "realm": 15187
     },
     "class_dps": {
-      "world": 141497,
-      "region": 46600,
-      "realm": 1404
+      "world": 139412,
+      "region": 45941,
+      "realm": 1392
     },
     "spec_262": {
       "world": 0,
@@ -1289,9 +1334,9 @@
       "realm": 0
     },
     "spec_263": {
-      "world": 23474,
-      "region": 10398,
-      "realm": 297
+      "world": 23065,
+      "region": 10229,
+      "realm": 293
     },
     "spec_264": {
       "world": 0,
