@@ -9,6 +9,7 @@ on:
     paths:
       - "scripts/update_gear.py"
       - "scripts/build_reports.py"
+      - "scripts/analyze_gear.py"
       - "talent-import.txt"
       - ".github/workflows/update-gear.yml"
 
@@ -40,11 +41,14 @@ jobs:
       - name: Build character reports
         run: python scripts/build_reports.py
 
+      - name: Analyze equipment for Enhancement
+        run: python scripts/analyze_gear.py
+
       - name: Commit data and reports
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add gear.json mythic-plus.json raids.json talents.json weekly.json gear-history.json enchant-audit.json next-keys.md DASHBOARD.md
+          git add gear.json mythic-plus.json raids.json talents.json weekly.json gear-history.json enchant-audit.json next-keys.md DASHBOARD.md gear-analysis.json gear-advice.md
           if git diff --cached --quiet; then
             echo "No changes to save"
           else
