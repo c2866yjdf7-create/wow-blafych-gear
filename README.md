@@ -26,7 +26,7 @@
 
 ## Обновление
 
-GitHub Actions запускает два скрипта **каждые шесть часов**: `scripts/update_gear.py` и `scripts/build_reports.py`.
+GitHub Actions запускает два скрипта **каждые три часа**: `scripts/update_gear.py` и `scripts/build_reports.py`.
 
 Для обновления прямо сейчас: **Actions → Update Blafych data → Run workflow → main → Run workflow**.
 
