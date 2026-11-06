@@ -1,10 +1,10 @@
 name: Update Blafych data
-# Manual refresh requested 2026-11-06
+# Schedule: every 3 hours; manual triggers available
 
 on:
   workflow_dispatch:
   schedule:
-    - cron: "23 */6 * * *"
+    - cron: "23 */3 * * *"
   push:
     paths:
       - "scripts/update_gear.py"
