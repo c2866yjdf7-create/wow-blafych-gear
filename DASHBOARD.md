@@ -1,18 +1,18 @@
 # Блафыч — панель персонажа
 
-**Специализация:** Enhancement · **Надето:** 312 ilvl · **M+ рейтинг:** 1987.3
+**Специализация:** Enhancement · **Надето:** 312.875 ilvl · **M+ рейтинг:** 2314.9
 
-**Последнее обновление Raider.IO:** 2026-11-07T11:52:30.000Z
-**GitHub забрал данные:** 2026-11-07T17:48:20+00:00
+**Последнее обновление Raider.IO:** 2026-11-07T19:42:29.000Z
+**GitHub забрал данные:** 2026-11-07T22:05:46+00:00
 
 ⚠️ Данные не в реальном времени: Raider.IO может отставать от игры.
 
 ## Что делать дальше
 
-- Алтарь Клыков: лучший +5; цель **+7**.
-- Арена Шрама Бездны: лучший +5; цель **+7**.
-- Слепящая долина: лучший +5; цель **+7**.
-- Храм Сетралисс: лучший +5; цель **+7**.
+- Логово Налоракка: лучший +7; цель **+9**.
+- Алтарь Клыков: лучший +8; цель **+9**.
+- Гробница королей: лучший +8; цель **+9**.
+- Закоулок душегубов: лучший +8; цель **+9**.
 
 Полный маршрут: [next-keys.md](next-keys.md).
 
@@ -70,11 +70,11 @@ Raider.IO вернул 10 записей о лучших недельных кл
 
 ## Последние изменения шмота
 
+- **2026-11-07T19:42:29.000Z:** mainhand: Soulsealer's Headstone → Soulsealer's Headstone; offhand: Farstrider's Chopper → Farstrider's Chopper
 - **2026-11-07T11:52:30.000Z:** finger1: Band of the Swarmcaller → Band of the Swarmcaller; trinket2: Resonant Bellowstone → Resonant Bellowstone; waist: Tribal Defender's Cord → Tribal Defender's Cord
 - **2026-11-06T23:17:27.000Z:** chest: Fanged Raiment of the Ophidian Oracle → Fanged Raiment of the Ophidian Oracle; finger1: Colubrine Band → Band of the Swarmcaller; mainhand: Soulsealer's Headstone → Soulsealer's Headstone; offhand: Farstrider's Chopper → Farstrider's Chopper
 - **2026-11-06T20:24:28.000Z:** back: Pledgebearer's Pall → Silken Voodoo Drape; mainhand: Soulsealer's Headstone → Soulsealer's Headstone; offhand: Farstrider's Chopper → Farstrider's Chopper; trinket2: Fiber of Living Agony → Resonant Bellowstone; waist: Serpentine Mixing Belt → Tribal Defender's Cord
 - **2026-11-06T18:29:25.000Z:** chest: Fanged Raiment of the Ophidian Oracle → Fanged Raiment of the Ophidian Oracle; legs: Cuisses of the Uncoiled Union → Cuisses of the Uncoiled Union; mainhand: Soulsealer's Headstone → Soulsealer's Headstone; offhand: Farstrider's Chopper → Farstrider's Chopper
-- **2026-11-05T19:47:41.000Z:** hands: Hexing Grips of the Ophidian Oracle → Hexing Grips of the Ophidian Oracle; mainhand: Soulsealer's Headstone → Soulsealer's Headstone; offhand: Farstrider's Chopper → Farstrider's Chopper
 
 ---
 
