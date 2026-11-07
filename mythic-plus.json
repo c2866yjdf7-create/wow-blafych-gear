@@ -1,8 +1,8 @@
 {
   "source_last_crawled_at": "2026-11-06T23:17:27.000Z",
-  "fetched_at_utc": "2026-11-06T23:22:40+00:00",
+  "fetched_at_utc": "2026-11-07T00:59:51+00:00",
   "season": "season-mn-2",
-  "score": 1849.6,
+  "score": 1885,
   "routes": [
     {
       "dungeon_en": "Kings' Rest",
@@ -55,16 +55,6 @@
       "priority": 2
     },
     {
-      "dungeon_en": "Murder Row",
-      "dungeon_ru": "Закоулок душегубов",
-      "best_level": 6,
-      "best_score": 242.3,
-      "timed": true,
-      "url": "https://raider.io/mythic-plus-runs/season-mn-2/24952108-6-murder-row",
-      "suggested_next_level": 7,
-      "priority": 3
-    },
-    {
       "dungeon_en": "Ruby Life Pools",
       "dungeon_ru": "Рубиновые Омуты Жизни",
       "best_level": 6,
@@ -83,9 +73,65 @@
       "url": "https://raider.io/mythic-plus-runs/season-mn-2/24958292-7-den-of-nalorakk",
       "suggested_next_level": 9,
       "priority": 3
+    },
+    {
+      "dungeon_en": "Murder Row",
+      "dungeon_ru": "Закоулок душегубов",
+      "best_level": 8,
+      "best_score": 277.8,
+      "timed": true,
+      "url": "https://raider.io/mythic-plus-runs/season-mn-2/24961980-8-murder-row",
+      "suggested_next_level": 9,
+      "priority": 3
     }
   ],
   "best_runs": [
+    {
+      "dungeon": "Murder Row",
+      "short_name": "MR",
+      "mythic_level": 8,
+      "completed_at": "2026-11-07T00:46:52.000Z",
+      "clear_time_ms": 1890000,
+      "keystone_run_id": 24961980,
+      "par_time_ms": 2040999,
+      "num_keystone_upgrades": 1,
+      "map_challenge_mode_id": 587,
+      "zone_id": 16091,
+      "zone_expansion_id": 11,
+      "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/inv_achievement_dungeon_murderrow.jpg",
+      "background_image_url": "https://cdn.raiderio.net/images/dungeons/expansion11/base/murder-row.jpg",
+      "score": 277.8,
+      "affixes": [
+        {
+          "id": 162,
+          "name": "Xal'atath's Bargain: Pulsar",
+          "description": "While in combat, Xal'atath summons pulsars that orbit players.",
+          "icon": "inv_cosmicvoid_nova",
+          "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/inv_cosmicvoid_nova.jpg",
+          "wowhead_url": "https://wowhead.com/affix=162"
+        },
+        {
+          "id": 9,
+          "name": "Tyrannical",
+          "description": "Bosses have 25% more health. Bosses and their minions inflict up to 15% increased damage.",
+          "icon": "achievement_boss_archaedas",
+          "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/achievement_boss_archaedas.jpg",
+          "wowhead_url": "https://wowhead.com/affix=9"
+        }
+      ],
+      "url": "https://raider.io/mythic-plus-runs/season-mn-2/24961980-8-murder-row",
+      "spec": {
+        "id": 263,
+        "name": "Enhancement",
+        "slug": "enhancement",
+        "class_id": 7,
+        "role": "dps",
+        "is_melee": true,
+        "patch": "1.0.0",
+        "ordinal": 1
+      },
+      "role": "dps"
+    },
     {
       "dungeon": "Den of Nalorakk",
       "short_name": "DON",
@@ -158,44 +204,6 @@
         }
       ],
       "url": "https://raider.io/mythic-plus-runs/season-mn-2/24843901-6-ruby-life-pools",
-      "spec": {
-        "id": 263,
-        "name": "Enhancement",
-        "slug": "enhancement",
-        "class_id": 7,
-        "role": "dps",
-        "is_melee": true,
-        "patch": "1.0.0",
-        "ordinal": 1
-      },
-      "role": "dps"
-    },
-    {
-      "dungeon": "Murder Row",
-      "short_name": "MR",
-      "mythic_level": 6,
-      "completed_at": "2026-11-06T17:47:48.000Z",
-      "clear_time_ms": 1369020,
-      "keystone_run_id": 24952108,
-      "par_time_ms": 2040999,
-      "num_keystone_upgrades": 2,
-      "map_challenge_mode_id": 587,
-      "zone_id": 16091,
-      "zone_expansion_id": 11,
-      "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/inv_achievement_dungeon_murderrow.jpg",
-      "background_image_url": "https://cdn.raiderio.net/images/dungeons/expansion11/base/murder-row.jpg",
-      "score": 242.3,
-      "affixes": [
-        {
-          "id": 162,
-          "name": "Xal'atath's Bargain: Pulsar",
-          "description": "While in combat, Xal'atath summons pulsars that orbit players.",
-          "icon": "inv_cosmicvoid_nova",
-          "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/inv_cosmicvoid_nova.jpg",
-          "wowhead_url": "https://wowhead.com/affix=162"
-        }
-      ],
-      "url": "https://raider.io/mythic-plus-runs/season-mn-2/24952108-6-murder-row",
       "spec": {
         "id": 263,
         "name": "Enhancement",
@@ -391,6 +399,52 @@
     }
   ],
   "recent_runs": [
+    {
+      "dungeon": "Murder Row",
+      "short_name": "MR",
+      "mythic_level": 8,
+      "completed_at": "2026-11-07T00:46:52.000Z",
+      "clear_time_ms": 1890000,
+      "keystone_run_id": 24961980,
+      "par_time_ms": 2040999,
+      "num_keystone_upgrades": 1,
+      "map_challenge_mode_id": 587,
+      "zone_id": 16091,
+      "zone_expansion_id": 11,
+      "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/inv_achievement_dungeon_murderrow.jpg",
+      "background_image_url": "https://cdn.raiderio.net/images/dungeons/expansion11/base/murder-row.jpg",
+      "score": 277.8,
+      "affixes": [
+        {
+          "id": 162,
+          "name": "Xal'atath's Bargain: Pulsar",
+          "description": "While in combat, Xal'atath summons pulsars that orbit players.",
+          "icon": "inv_cosmicvoid_nova",
+          "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/inv_cosmicvoid_nova.jpg",
+          "wowhead_url": "https://wowhead.com/affix=162"
+        },
+        {
+          "id": 9,
+          "name": "Tyrannical",
+          "description": "Bosses have 25% more health. Bosses and their minions inflict up to 15% increased damage.",
+          "icon": "achievement_boss_archaedas",
+          "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/achievement_boss_archaedas.jpg",
+          "wowhead_url": "https://wowhead.com/affix=9"
+        }
+      ],
+      "url": "https://raider.io/mythic-plus-runs/season-mn-2/24961980-8-murder-row",
+      "spec": {
+        "id": 263,
+        "name": "Enhancement",
+        "slug": "enhancement",
+        "class_id": 7,
+        "role": "dps",
+        "is_melee": true,
+        "patch": "1.0.0",
+        "ordinal": 1
+      },
+      "role": "dps"
+    },
     {
       "dungeon": "Den of Nalorakk",
       "short_name": "DON",
@@ -722,22 +776,24 @@
         "ordinal": 1
       },
       "role": "dps"
-    },
+    }
+  ],
+  "weekly_highest_level_runs": [
     {
-      "dungeon": "Altar of Fangs",
-      "short_name": "AOF",
-      "mythic_level": 5,
-      "completed_at": "2026-11-05T17:30:27.000Z",
-      "clear_time_ms": 1070735,
-      "keystone_run_id": 24841977,
-      "par_time_ms": 1800999,
-      "num_keystone_upgrades": 3,
-      "map_challenge_mode_id": 588,
-      "zone_id": 16865,
+      "dungeon": "Murder Row",
+      "short_name": "MR",
+      "mythic_level": 8,
+      "completed_at": "2026-11-07T00:46:52.000Z",
+      "clear_time_ms": 1890000,
+      "keystone_run_id": 24961980,
+      "par_time_ms": 2040999,
+      "num_keystone_upgrades": 1,
+      "map_challenge_mode_id": 587,
+      "zone_id": 16091,
       "zone_expansion_id": 11,
-      "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/inv_achievement_dungeon_altaroffangs.jpg",
-      "background_image_url": "https://cdn.raiderio.net/images/dungeons/expansion11/base/altar-of-fangs.jpg",
-      "score": 230,
+      "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/inv_achievement_dungeon_murderrow.jpg",
+      "background_image_url": "https://cdn.raiderio.net/images/dungeons/expansion11/base/murder-row.jpg",
+      "score": 277.8,
       "affixes": [
         {
           "id": 162,
@@ -746,9 +802,17 @@
           "icon": "inv_cosmicvoid_nova",
           "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/inv_cosmicvoid_nova.jpg",
           "wowhead_url": "https://wowhead.com/affix=162"
+        },
+        {
+          "id": 9,
+          "name": "Tyrannical",
+          "description": "Bosses have 25% more health. Bosses and their minions inflict up to 15% increased damage.",
+          "icon": "achievement_boss_archaedas",
+          "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/achievement_boss_archaedas.jpg",
+          "wowhead_url": "https://wowhead.com/affix=9"
         }
       ],
-      "url": "https://raider.io/mythic-plus-runs/season-mn-2/24841977-5-altar-of-fangs",
+      "url": "https://raider.io/mythic-plus-runs/season-mn-2/24961980-8-murder-row",
       "spec": {
         "id": 263,
         "name": "Enhancement",
@@ -760,9 +824,7 @@
         "ordinal": 1
       },
       "role": "dps"
-    }
-  ],
-  "weekly_highest_level_runs": [
+    },
     {
       "dungeon": "Den of Nalorakk",
       "short_name": "DON",
@@ -1103,35 +1165,6 @@
         "ordinal": 1
       },
       "role": "dps"
-    },
-    {
-      "dungeon": "Den of Nalorakk",
-      "short_name": "DON",
-      "mythic_level": 4,
-      "completed_at": "2026-11-05T19:01:13.000Z",
-      "clear_time_ms": 1087702,
-      "keystone_run_id": 24840514,
-      "par_time_ms": 1920999,
-      "num_keystone_upgrades": 3,
-      "map_challenge_mode_id": 586,
-      "zone_id": 16368,
-      "zone_expansion_id": 11,
-      "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/inv_achievement_dungeon_proveyourworth.jpg",
-      "background_image_url": "https://cdn.raiderio.net/images/dungeons/expansion11/base/den-of-nalorakk.jpg",
-      "score": 200,
-      "affixes": [],
-      "url": "https://raider.io/mythic-plus-runs/season-mn-2/24840514-4-den-of-nalorakk",
-      "spec": {
-        "id": 263,
-        "name": "Enhancement",
-        "slug": "enhancement",
-        "class_id": 7,
-        "role": "dps",
-        "is_melee": true,
-        "patch": "1.0.0",
-        "ordinal": 1
-      },
-      "role": "dps"
     }
   ],
   "previous_weekly_highest_level_runs": [
@@ -1350,14 +1383,14 @@
   ],
   "ranks": {
     "overall": {
-      "world": 2052951,
-      "region": 653461,
-      "realm": 23490
+      "world": 2039954,
+      "region": 649078,
+      "realm": 23354
     },
     "class": {
-      "world": 227428,
-      "region": 73608,
-      "realm": 2340
+      "world": 226229,
+      "region": 73189,
+      "realm": 2327
     },
     "healer": {
       "world": 0,
@@ -1370,14 +1403,14 @@
       "realm": 0
     },
     "dps": {
-      "world": 1323504,
-      "region": 416398,
-      "realm": 14960
+      "world": 1312281,
+      "region": 412853,
+      "realm": 14846
     },
     "class_dps": {
-      "world": 137250,
-      "region": 45263,
-      "realm": 1371
+      "world": 136096,
+      "region": 44919,
+      "realm": 1363
     },
     "spec_262": {
       "world": 0,
@@ -1385,9 +1418,9 @@
       "realm": 0
     },
     "spec_263": {
-      "world": 22586,
-      "region": 10034,
-      "realm": 289
+      "world": 22353,
+      "region": 9957,
+      "realm": 286
     },
     "spec_264": {
       "world": 0,
