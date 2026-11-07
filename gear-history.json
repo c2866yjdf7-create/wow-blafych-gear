@@ -1,7 +1,7 @@
 {
   "note": "История фиксируется с момента подключения трекера; изменения между двумя проверками могут быть пропущены.",
-  "last_checked_at": "2026-11-07T10:29:47+00:00",
-  "last_source_crawled_at": "2026-11-06T23:17:27.000Z",
+  "last_checked_at": "2026-11-07T14:31:23+00:00",
+  "last_source_crawled_at": "2026-11-07T11:52:30.000Z",
   "last_equipped": {
     "head": {
       "item_id": 271483,
@@ -86,16 +86,16 @@
     "waist": {
       "item_id": 251155,
       "name": "Tribal Defender's Cord",
-      "item_level": 305,
+      "item_level": 321,
       "enchants": [],
       "gems": [],
       "bonuses": [
-        12841,
         13440,
         6652,
         13696,
         13662,
-        12699
+        12699,
+        12846
       ]
     },
     "wrist": {
@@ -160,7 +160,7 @@
     "finger1": {
       "item_id": 281029,
       "name": "Band of the Swarmcaller",
-      "item_level": 311,
+      "item_level": 321,
       "enchants": [
         7967
       ],
@@ -171,7 +171,7 @@
         6652,
         13668,
         13334,
-        12843
+        12846
       ]
     },
     "finger2": {
@@ -205,14 +205,14 @@
     "trinket2": {
       "item_id": 250228,
       "name": "Resonant Bellowstone",
-      "item_level": 305,
+      "item_level": 321,
       "enchants": [],
       "gems": [],
       "bonuses": [
-        12841,
         13440,
         6652,
-        12699
+        12699,
+        12846
       ]
     },
     "mainhand": {
@@ -830,6 +830,111 @@
               8960,
               8793,
               13835
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "at": "2026-11-07T11:52:30.000Z",
+      "type": "gear_change",
+      "changes": [
+        {
+          "slot": "finger1",
+          "before": {
+            "item_id": 281029,
+            "name": "Band of the Swarmcaller",
+            "item_level": 311,
+            "enchants": [
+              7967
+            ],
+            "gems": [
+              240898
+            ],
+            "bonuses": [
+              6652,
+              13668,
+              13334,
+              12843
+            ]
+          },
+          "after": {
+            "item_id": 281029,
+            "name": "Band of the Swarmcaller",
+            "item_level": 321,
+            "enchants": [
+              7967
+            ],
+            "gems": [
+              240898
+            ],
+            "bonuses": [
+              6652,
+              13668,
+              13334,
+              12846
+            ]
+          }
+        },
+        {
+          "slot": "trinket2",
+          "before": {
+            "item_id": 250228,
+            "name": "Resonant Bellowstone",
+            "item_level": 305,
+            "enchants": [],
+            "gems": [],
+            "bonuses": [
+              12841,
+              13440,
+              6652,
+              12699
+            ]
+          },
+          "after": {
+            "item_id": 250228,
+            "name": "Resonant Bellowstone",
+            "item_level": 321,
+            "enchants": [],
+            "gems": [],
+            "bonuses": [
+              13440,
+              6652,
+              12699,
+              12846
+            ]
+          }
+        },
+        {
+          "slot": "waist",
+          "before": {
+            "item_id": 251155,
+            "name": "Tribal Defender's Cord",
+            "item_level": 305,
+            "enchants": [],
+            "gems": [],
+            "bonuses": [
+              12841,
+              13440,
+              6652,
+              13696,
+              13662,
+              12699
+            ]
+          },
+          "after": {
+            "item_id": 251155,
+            "name": "Tribal Defender's Cord",
+            "item_level": 321,
+            "enchants": [],
+            "gems": [],
+            "bonuses": [
+              13440,
+              6652,
+              13696,
+              13662,
+              12699,
+              12846
             ]
           }
         }

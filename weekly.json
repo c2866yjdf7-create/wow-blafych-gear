@@ -1,7 +1,53 @@
 {
-  "fetched_at_utc": "2026-11-07T10:29:47+00:00",
-  "source_last_crawled_at": "2026-11-06T23:17:27.000Z",
+  "fetched_at_utc": "2026-11-07T14:31:23+00:00",
+  "source_last_crawled_at": "2026-11-07T11:52:30.000Z",
   "weekly_highest_level_runs": [
+    {
+      "dungeon": "Kings' Rest",
+      "short_name": "KR",
+      "mythic_level": 8,
+      "completed_at": "2026-11-06T23:50:11.000Z",
+      "clear_time_ms": 1330952,
+      "keystone_run_id": 25005295,
+      "par_time_ms": 1980999,
+      "num_keystone_upgrades": 2,
+      "map_challenge_mode_id": 249,
+      "zone_id": 9526,
+      "zone_expansion_id": 7,
+      "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/achievement_dungeon_kingsrest.jpg",
+      "background_image_url": "https://cdn.raiderio.net/images/dungeons/expansion7/base/kings-rest.jpg",
+      "score": 287.3,
+      "affixes": [
+        {
+          "id": 162,
+          "name": "Xal'atath's Bargain: Pulsar",
+          "description": "While in combat, Xal'atath summons pulsars that orbit players.",
+          "icon": "inv_cosmicvoid_nova",
+          "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/inv_cosmicvoid_nova.jpg",
+          "wowhead_url": "https://wowhead.com/affix=162"
+        },
+        {
+          "id": 9,
+          "name": "Tyrannical",
+          "description": "Bosses have 25% more health. Bosses and their minions inflict up to 15% increased damage.",
+          "icon": "achievement_boss_archaedas",
+          "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/achievement_boss_archaedas.jpg",
+          "wowhead_url": "https://wowhead.com/affix=9"
+        }
+      ],
+      "url": "https://raider.io/mythic-plus-runs/season-mn-2/25005295-8-kings-rest",
+      "spec": {
+        "id": 263,
+        "name": "Enhancement",
+        "slug": "enhancement",
+        "class_id": 7,
+        "role": "dps",
+        "is_melee": true,
+        "patch": "1.0.0",
+        "ordinal": 1
+      },
+      "role": "dps"
+    },
     {
       "dungeon": "Murder Row",
       "short_name": "MR",
@@ -348,35 +394,6 @@
         }
       ],
       "url": "https://raider.io/mythic-plus-runs/season-mn-2/24847373-5-the-blinding-vale",
-      "spec": {
-        "id": 263,
-        "name": "Enhancement",
-        "slug": "enhancement",
-        "class_id": 7,
-        "role": "dps",
-        "is_melee": true,
-        "patch": "1.0.0",
-        "ordinal": 1
-      },
-      "role": "dps"
-    },
-    {
-      "dungeon": "Voidscar Arena",
-      "short_name": "VSA",
-      "mythic_level": 4,
-      "completed_at": "2026-11-04T19:49:14.000Z",
-      "clear_time_ms": 1006636,
-      "keystone_run_id": 24736015,
-      "par_time_ms": 1800999,
-      "num_keystone_upgrades": 3,
-      "map_challenge_mode_id": 585,
-      "zone_id": 16425,
-      "zone_expansion_id": 11,
-      "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/inv_achievement_dungeon_voidscararena.jpg",
-      "background_image_url": "https://cdn.raiderio.net/images/dungeons/expansion11/base/voidscar-arena.jpg",
-      "score": 200,
-      "affixes": [],
-      "url": "https://raider.io/mythic-plus-runs/season-mn-2/24736015-4-voidscar-arena",
       "spec": {
         "id": 263,
         "name": "Enhancement",
