@@ -1,6 +1,6 @@
 {
   "note": "История фиксируется с момента подключения трекера; изменения между двумя проверками могут быть пропущены.",
-  "last_checked_at": "2026-11-08T08:07:46+00:00",
+  "last_checked_at": "2026-11-08T16:07:46+00:00",
   "last_source_crawled_at": "2026-11-08T02:47:29.000Z",
   "last_equipped": {
     "head": {
@@ -21,19 +21,19 @@
       ]
     },
     "neck": {
-      "item_id": 251142,
-      "name": "Pendant of Malefic Fury",
-      "item_level": 302,
+      "item_id": 273781,
+      "name": "Strand of Warding Fangs",
+      "item_level": 308,
       "enchants": [],
       "gems": [
         240983
       ],
       "bonuses": [
-        13439,
+        12842,
+        13440,
         6652,
         13668,
-        12699,
-        12836
+        12699
       ]
     },
     "shoulder": {
@@ -147,14 +147,14 @@
     "feet": {
       "item_id": 272248,
       "name": "Galerider's Footguards",
-      "item_level": 308,
+      "item_level": 315,
       "enchants": [
         7963
       ],
       "gems": [],
       "bonuses": [
-        12842,
-        13662
+        13662,
+        12844
       ]
     },
     "finger1": {
@@ -192,14 +192,14 @@
     "trinket1": {
       "item_id": 273796,
       "name": "Vile Vial of Volatile Venom",
-      "item_level": 302,
+      "item_level": 305,
       "enchants": [],
       "gems": [],
       "bonuses": [
         13440,
         6652,
         12699,
-        12836
+        12837
       ]
     },
     "trinket2": {
@@ -220,7 +220,8 @@
       "name": "Farstrider's Chopper",
       "item_level": 331,
       "enchants": [
-        8689
+        8689,
+        5401
       ],
       "gems": [],
       "bonuses": [
@@ -240,7 +241,8 @@
       "name": "Soulsealer's Headstone",
       "item_level": 328,
       "enchants": [
-        8689
+        8689,
+        5400
       ],
       "gems": [],
       "bonuses": [
@@ -1095,6 +1097,179 @@
             "bonuses": [
               6652,
               12848
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "at": "2026-11-08T02:47:29.000Z",
+      "type": "gear_change",
+      "changes": [
+        {
+          "slot": "feet",
+          "before": {
+            "item_id": 272248,
+            "name": "Galerider's Footguards",
+            "item_level": 308,
+            "enchants": [
+              7963
+            ],
+            "gems": [],
+            "bonuses": [
+              12842,
+              13662
+            ]
+          },
+          "after": {
+            "item_id": 272248,
+            "name": "Galerider's Footguards",
+            "item_level": 315,
+            "enchants": [
+              7963
+            ],
+            "gems": [],
+            "bonuses": [
+              13662,
+              12844
+            ]
+          }
+        },
+        {
+          "slot": "mainhand",
+          "before": {
+            "item_id": 237850,
+            "name": "Farstrider's Chopper",
+            "item_level": 331,
+            "enchants": [
+              8689
+            ],
+            "gems": [],
+            "bonuses": [
+              12214,
+              13667,
+              12497,
+              13751,
+              14001,
+              13771,
+              8960,
+              8793,
+              13836
+            ]
+          },
+          "after": {
+            "item_id": 237850,
+            "name": "Farstrider's Chopper",
+            "item_level": 331,
+            "enchants": [
+              8689,
+              5401
+            ],
+            "gems": [],
+            "bonuses": [
+              12214,
+              13667,
+              12497,
+              13751,
+              14001,
+              13771,
+              8960,
+              8793,
+              13836
+            ]
+          }
+        },
+        {
+          "slot": "neck",
+          "before": {
+            "item_id": 251142,
+            "name": "Pendant of Malefic Fury",
+            "item_level": 302,
+            "enchants": [],
+            "gems": [
+              240983
+            ],
+            "bonuses": [
+              13439,
+              6652,
+              13668,
+              12699,
+              12836
+            ]
+          },
+          "after": {
+            "item_id": 273781,
+            "name": "Strand of Warding Fangs",
+            "item_level": 308,
+            "enchants": [],
+            "gems": [
+              240983
+            ],
+            "bonuses": [
+              12842,
+              13440,
+              6652,
+              13668,
+              12699
+            ]
+          }
+        },
+        {
+          "slot": "offhand",
+          "before": {
+            "item_id": 272269,
+            "name": "Soulsealer's Headstone",
+            "item_level": 328,
+            "enchants": [
+              8689
+            ],
+            "gems": [],
+            "bonuses": [
+              6652,
+              12848
+            ]
+          },
+          "after": {
+            "item_id": 272269,
+            "name": "Soulsealer's Headstone",
+            "item_level": 328,
+            "enchants": [
+              8689,
+              5400
+            ],
+            "gems": [],
+            "bonuses": [
+              6652,
+              12848
+            ]
+          }
+        },
+        {
+          "slot": "trinket1",
+          "before": {
+            "item_id": 273796,
+            "name": "Vile Vial of Volatile Venom",
+            "item_level": 302,
+            "enchants": [],
+            "gems": [],
+            "bonuses": [
+              13440,
+              6652,
+              12699,
+              12836
+            ]
+          },
+          "after": {
+            "item_id": 273796,
+            "name": "Vile Vial of Volatile Venom",
+            "item_level": 305,
+            "enchants": [],
+            "gems": [],
+            "bonuses": [
+              13440,
+              6652,
+              12699,
+              12837
             ]
           }
         }

@@ -17,8 +17,8 @@
     },
     {
       "slot": "neck",
-      "item_name": "Pendant of Malefic Fury",
-      "item_level": 302,
+      "item_name": "Strand of Warding Fangs",
+      "item_level": 308,
       "enchants": [],
       "gems": [
         {
@@ -98,7 +98,7 @@
     {
       "slot": "feet",
       "item_name": "Galerider's Footguards",
-      "item_level": 308,
+      "item_level": 315,
       "enchants": [
         {
           "id": 243953,
@@ -149,7 +149,7 @@
     {
       "slot": "trinket1",
       "item_name": "Vile Vial of Volatile Venom",
-      "item_level": 302,
+      "item_level": 305,
       "enchants": [],
       "gems": []
     },

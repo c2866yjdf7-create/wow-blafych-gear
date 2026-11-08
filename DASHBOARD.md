@@ -1,9 +1,9 @@
 # Блафыч — панель персонажа
 
-**Специализация:** Enhancement · **Надето:** 313 ilvl · **M+ рейтинг:** 2361.2
+**Специализация:** Enhancement · **Надето:** 314.688 ilvl · **M+ рейтинг:** 2391.8
 
 **Последнее обновление Raider.IO:** 2026-11-08T02:47:29.000Z
-**GitHub забрал данные:** 2026-11-08T08:07:46+00:00
+**GitHub забрал данные:** 2026-11-08T16:07:46+00:00
 
 ⚠️ Данные не в реальном времени: Raider.IO может отставать от игры.
 
@@ -11,8 +11,8 @@
 
 - Логово Налоракка: лучший +7; цель **+9**.
 - Закоулок душегубов: лучший +8; цель **+9**.
-- Арена Шрама Бездны: лучший +9; цель **+10**.
 - Гробница королей: лучший +9; цель **+10**.
+- Рубиновые Омуты Жизни: лучший +9; цель **+10**.
 
 Полный маршрут: [next-keys.md](next-keys.md).
 
@@ -25,7 +25,7 @@
 | Слот | Вещь | ilvl |
 |---|---|---:|
 | Голова | Serpent Crown of the Ophidian Oracle | 308 |
-| Шея | Pendant of Malefic Fury | 302 |
+| Шея | Strand of Warding Fangs | 308 |
 | Плечи | Hissing Mantle of the Ophidian Oracle | 302 |
 | Плащ | Silken Voodoo Drape | 318 |
 | Грудь | Fanged Raiment of the Ophidian Oracle | 318 |
@@ -33,10 +33,10 @@
 | Наручи | Farstrider's Plated Bracers | 305 |
 | Перчатки | Hexing Grips of the Ophidian Oracle | 308 |
 | Ноги | Cuisses of the Uncoiled Union | 305 |
-| Ботинки | Galerider's Footguards | 308 |
+| Ботинки | Galerider's Footguards | 315 |
 | Кольцо 1 | Band of the Swarmcaller | 321 |
 | Кольцо 2 | Hex Loop | 321 |
-| Аксессуар 1 | Vile Vial of Volatile Venom | 302 |
+| Аксессуар 1 | Vile Vial of Volatile Venom | 305 |
 | Аксессуар 2 | Resonant Bellowstone | 321 |
 | Основная рука | Farstrider's Chopper | 331 |
 | Вторая рука | Soulsealer's Headstone | 328 |
@@ -70,11 +70,11 @@ Raider.IO вернул 10 записей о лучших недельных кл
 
 ## Последние изменения шмота
 
+- **2026-11-08T02:47:29.000Z:** feet: Galerider's Footguards → Galerider's Footguards; mainhand: Farstrider's Chopper → Farstrider's Chopper; neck: Pendant of Malefic Fury → Strand of Warding Fangs; offhand: Soulsealer's Headstone → Soulsealer's Headstone; trinket1: Vile Vial of Volatile Venom → Vile Vial of Volatile Venom
 - **2026-11-08T02:47:29.000Z:** mainhand: Soulsealer's Headstone → Farstrider's Chopper; offhand: Farstrider's Chopper → Soulsealer's Headstone
 - **2026-11-07T19:42:29.000Z:** mainhand: Soulsealer's Headstone → Soulsealer's Headstone; offhand: Farstrider's Chopper → Farstrider's Chopper
 - **2026-11-07T11:52:30.000Z:** finger1: Band of the Swarmcaller → Band of the Swarmcaller; trinket2: Resonant Bellowstone → Resonant Bellowstone; waist: Tribal Defender's Cord → Tribal Defender's Cord
 - **2026-11-06T23:17:27.000Z:** chest: Fanged Raiment of the Ophidian Oracle → Fanged Raiment of the Ophidian Oracle; finger1: Colubrine Band → Band of the Swarmcaller; mainhand: Soulsealer's Headstone → Soulsealer's Headstone; offhand: Farstrider's Chopper → Farstrider's Chopper
-- **2026-11-06T20:24:28.000Z:** back: Pledgebearer's Pall → Silken Voodoo Drape; mainhand: Soulsealer's Headstone → Soulsealer's Headstone; offhand: Farstrider's Chopper → Farstrider's Chopper; trinket2: Fiber of Living Agony → Resonant Bellowstone; waist: Serpentine Mixing Belt → Tribal Defender's Cord
 
 ---
 
