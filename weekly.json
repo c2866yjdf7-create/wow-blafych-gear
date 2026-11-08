@@ -1,7 +1,61 @@
 {
-  "fetched_at_utc": "2026-11-08T16:07:46+00:00",
-  "source_last_crawled_at": "2026-11-08T02:47:29.000Z",
+  "fetched_at_utc": "2026-11-08T22:18:30+00:00",
+  "source_last_crawled_at": "2026-11-08T18:39:30.000Z",
   "weekly_highest_level_runs": [
+    {
+      "dungeon": "Altar of Fangs",
+      "short_name": "AOF",
+      "mythic_level": 11,
+      "completed_at": "2026-11-08T13:47:32.000Z",
+      "clear_time_ms": 1393907,
+      "keystone_run_id": 25184707,
+      "par_time_ms": 1800999,
+      "num_keystone_upgrades": 2,
+      "map_challenge_mode_id": 588,
+      "zone_id": 16865,
+      "zone_expansion_id": 11,
+      "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/inv_achievement_dungeon_altaroffangs.jpg",
+      "background_image_url": "https://cdn.raiderio.net/images/dungeons/expansion11/base/altar-of-fangs.jpg",
+      "score": 343.5,
+      "affixes": [
+        {
+          "id": 162,
+          "name": "Xal'atath's Bargain: Pulsar",
+          "description": "While in combat, Xal'atath summons pulsars that orbit players.",
+          "icon": "inv_cosmicvoid_nova",
+          "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/inv_cosmicvoid_nova.jpg",
+          "wowhead_url": "https://wowhead.com/affix=162"
+        },
+        {
+          "id": 9,
+          "name": "Tyrannical",
+          "description": "Bosses have 25% more health. Bosses and their minions inflict up to 15% increased damage.",
+          "icon": "achievement_boss_archaedas",
+          "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/achievement_boss_archaedas.jpg",
+          "wowhead_url": "https://wowhead.com/affix=9"
+        },
+        {
+          "id": 10,
+          "name": "Fortified",
+          "description": "Non-boss enemies have 20% more health and inflict up to 20% increased damage.",
+          "icon": "ability_toughness",
+          "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/ability_toughness.jpg",
+          "wowhead_url": "https://wowhead.com/affix=10"
+        }
+      ],
+      "url": "https://raider.io/mythic-plus-runs/season-mn-2/25184707-11-altar-of-fangs",
+      "spec": {
+        "id": 263,
+        "name": "Enhancement",
+        "slug": "enhancement",
+        "class_id": 7,
+        "role": "dps",
+        "is_melee": true,
+        "patch": "1.0.0",
+        "ordinal": 1
+      },
+      "role": "dps"
+    },
     {
       "dungeon": "Altar of Fangs",
       "short_name": "AOF",
@@ -152,6 +206,60 @@
         }
       ],
       "url": "https://raider.io/mythic-plus-runs/season-mn-2/25163928-10-voidscar-arena",
+      "spec": {
+        "id": 263,
+        "name": "Enhancement",
+        "slug": "enhancement",
+        "class_id": 7,
+        "role": "dps",
+        "is_melee": true,
+        "patch": "1.0.0",
+        "ordinal": 1
+      },
+      "role": "dps"
+    },
+    {
+      "dungeon": "Den of Nalorakk",
+      "short_name": "DON",
+      "mythic_level": 10,
+      "completed_at": "2026-11-08T15:23:31.000Z",
+      "clear_time_ms": 1499548,
+      "keystone_run_id": 25183500,
+      "par_time_ms": 1920999,
+      "num_keystone_upgrades": 2,
+      "map_challenge_mode_id": 586,
+      "zone_id": 16368,
+      "zone_expansion_id": 11,
+      "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/inv_achievement_dungeon_proveyourworth.jpg",
+      "background_image_url": "https://cdn.raiderio.net/images/dungeons/expansion11/base/den-of-nalorakk.jpg",
+      "score": 328.2,
+      "affixes": [
+        {
+          "id": 162,
+          "name": "Xal'atath's Bargain: Pulsar",
+          "description": "While in combat, Xal'atath summons pulsars that orbit players.",
+          "icon": "inv_cosmicvoid_nova",
+          "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/inv_cosmicvoid_nova.jpg",
+          "wowhead_url": "https://wowhead.com/affix=162"
+        },
+        {
+          "id": 9,
+          "name": "Tyrannical",
+          "description": "Bosses have 25% more health. Bosses and their minions inflict up to 15% increased damage.",
+          "icon": "achievement_boss_archaedas",
+          "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/achievement_boss_archaedas.jpg",
+          "wowhead_url": "https://wowhead.com/affix=9"
+        },
+        {
+          "id": 10,
+          "name": "Fortified",
+          "description": "Non-boss enemies have 20% more health and inflict up to 20% increased damage.",
+          "icon": "ability_toughness",
+          "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/ability_toughness.jpg",
+          "wowhead_url": "https://wowhead.com/affix=10"
+        }
+      ],
+      "url": "https://raider.io/mythic-plus-runs/season-mn-2/25183500-10-den-of-nalorakk",
       "spec": {
         "id": 263,
         "name": "Enhancement",
@@ -349,112 +457,20 @@
       "role": "dps"
     },
     {
-      "dungeon": "Kings' Rest",
-      "short_name": "KR",
-      "mythic_level": 9,
-      "completed_at": "2026-11-08T00:42:45.000Z",
-      "clear_time_ms": 1763975,
-      "keystone_run_id": 25087975,
-      "par_time_ms": 1980999,
-      "num_keystone_upgrades": 1,
-      "map_challenge_mode_id": 249,
-      "zone_id": 9526,
-      "zone_expansion_id": 7,
-      "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/achievement_dungeon_kingsrest.jpg",
-      "background_image_url": "https://cdn.raiderio.net/images/dungeons/expansion7/base/kings-rest.jpg",
-      "score": 294.1,
-      "affixes": [
-        {
-          "id": 162,
-          "name": "Xal'atath's Bargain: Pulsar",
-          "description": "While in combat, Xal'atath summons pulsars that orbit players.",
-          "icon": "inv_cosmicvoid_nova",
-          "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/inv_cosmicvoid_nova.jpg",
-          "wowhead_url": "https://wowhead.com/affix=162"
-        },
-        {
-          "id": 9,
-          "name": "Tyrannical",
-          "description": "Bosses have 25% more health. Bosses and their minions inflict up to 15% increased damage.",
-          "icon": "achievement_boss_archaedas",
-          "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/achievement_boss_archaedas.jpg",
-          "wowhead_url": "https://wowhead.com/affix=9"
-        }
-      ],
-      "url": "https://raider.io/mythic-plus-runs/season-mn-2/25087975-9-kings-rest",
-      "spec": {
-        "id": 263,
-        "name": "Enhancement",
-        "slug": "enhancement",
-        "class_id": 7,
-        "role": "dps",
-        "is_melee": true,
-        "patch": "1.0.0",
-        "ordinal": 1
-      },
-      "role": "dps"
-    },
-    {
-      "dungeon": "Temple of Sethraliss",
-      "short_name": "TOS",
-      "mythic_level": 9,
-      "completed_at": "2026-11-07T21:22:01.000Z",
-      "clear_time_ms": 1792534,
-      "keystone_run_id": 25071864,
-      "par_time_ms": 1920999,
-      "num_keystone_upgrades": 1,
-      "map_challenge_mode_id": 250,
-      "zone_id": 9527,
-      "zone_expansion_id": 7,
-      "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/achievement_dungeon_templeofsethraliss.jpg",
-      "background_image_url": "https://cdn.raiderio.net/images/dungeons/expansion7/base/temple-of-sethraliss.jpg",
-      "score": 292.5,
-      "affixes": [
-        {
-          "id": 162,
-          "name": "Xal'atath's Bargain: Pulsar",
-          "description": "While in combat, Xal'atath summons pulsars that orbit players.",
-          "icon": "inv_cosmicvoid_nova",
-          "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/inv_cosmicvoid_nova.jpg",
-          "wowhead_url": "https://wowhead.com/affix=162"
-        },
-        {
-          "id": 9,
-          "name": "Tyrannical",
-          "description": "Bosses have 25% more health. Bosses and their minions inflict up to 15% increased damage.",
-          "icon": "achievement_boss_archaedas",
-          "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/achievement_boss_archaedas.jpg",
-          "wowhead_url": "https://wowhead.com/affix=9"
-        }
-      ],
-      "url": "https://raider.io/mythic-plus-runs/season-mn-2/25071864-9-temple-of-sethraliss",
-      "spec": {
-        "id": 263,
-        "name": "Enhancement",
-        "slug": "enhancement",
-        "class_id": 7,
-        "role": "dps",
-        "is_melee": true,
-        "patch": "1.0.0",
-        "ordinal": 1
-      },
-      "role": "dps"
-    },
-    {
       "dungeon": "Altar of Fangs",
       "short_name": "AOF",
-      "mythic_level": 8,
-      "completed_at": "2026-11-07T18:06:19.000Z",
-      "clear_time_ms": 965912,
-      "keystone_run_id": 25064567,
+      "mythic_level": 9,
+      "completed_at": "2026-11-08T13:07:03.000Z",
+      "clear_time_ms": 1490480,
+      "keystone_run_id": 25168907,
       "par_time_ms": 1800999,
-      "num_keystone_upgrades": 3,
+      "num_keystone_upgrades": 1,
       "map_challenge_mode_id": 588,
       "zone_id": 16865,
       "zone_expansion_id": 11,
       "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/inv_achievement_dungeon_altaroffangs.jpg",
       "background_image_url": "https://cdn.raiderio.net/images/dungeons/expansion11/base/altar-of-fangs.jpg",
-      "score": 290,
+      "score": 296.4,
       "affixes": [
         {
           "id": 162,
@@ -473,7 +489,7 @@
           "wowhead_url": "https://wowhead.com/affix=9"
         }
       ],
-      "url": "https://raider.io/mythic-plus-runs/season-mn-2/25064567-8-altar-of-fangs",
+      "url": "https://raider.io/mythic-plus-runs/season-mn-2/25168907-9-altar-of-fangs",
       "spec": {
         "id": 263,
         "name": "Enhancement",

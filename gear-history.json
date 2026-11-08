@@ -1,7 +1,7 @@
 {
   "note": "История фиксируется с момента подключения трекера; изменения между двумя проверками могут быть пропущены.",
-  "last_checked_at": "2026-11-08T16:07:46+00:00",
-  "last_source_crawled_at": "2026-11-08T02:47:29.000Z",
+  "last_checked_at": "2026-11-08T22:18:30+00:00",
+  "last_source_crawled_at": "2026-11-08T18:39:30.000Z",
   "last_equipped": {
     "head": {
       "item_id": 271483,
@@ -220,8 +220,7 @@
       "name": "Farstrider's Chopper",
       "item_level": 331,
       "enchants": [
-        8689,
-        5401
+        8689
       ],
       "gems": [],
       "bonuses": [
@@ -241,8 +240,7 @@
       "name": "Soulsealer's Headstone",
       "item_level": 328,
       "enchants": [
-        8689,
-        5400
+        8689
       ],
       "gems": [],
       "bonuses": [
@@ -1270,6 +1268,86 @@
               6652,
               12699,
               12837
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "at": "2026-11-08T18:39:30.000Z",
+      "type": "gear_change",
+      "changes": [
+        {
+          "slot": "mainhand",
+          "before": {
+            "item_id": 237850,
+            "name": "Farstrider's Chopper",
+            "item_level": 331,
+            "enchants": [
+              8689,
+              5401
+            ],
+            "gems": [],
+            "bonuses": [
+              12214,
+              13667,
+              12497,
+              13751,
+              14001,
+              13771,
+              8960,
+              8793,
+              13836
+            ]
+          },
+          "after": {
+            "item_id": 237850,
+            "name": "Farstrider's Chopper",
+            "item_level": 331,
+            "enchants": [
+              8689
+            ],
+            "gems": [],
+            "bonuses": [
+              12214,
+              13667,
+              12497,
+              13751,
+              14001,
+              13771,
+              8960,
+              8793,
+              13836
+            ]
+          }
+        },
+        {
+          "slot": "offhand",
+          "before": {
+            "item_id": 272269,
+            "name": "Soulsealer's Headstone",
+            "item_level": 328,
+            "enchants": [
+              8689,
+              5400
+            ],
+            "gems": [],
+            "bonuses": [
+              6652,
+              12848
+            ]
+          },
+          "after": {
+            "item_id": 272269,
+            "name": "Soulsealer's Headstone",
+            "item_level": 328,
+            "enchants": [
+              8689
+            ],
+            "gems": [],
+            "bonuses": [
+              6652,
+              12848
             ]
           }
         }
