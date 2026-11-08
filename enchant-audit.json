@@ -1,5 +1,5 @@
 {
-  "source_last_crawled_at": "2026-11-07T19:42:29.000Z",
+  "source_last_crawled_at": "2026-11-08T02:47:29.000Z",
   "limitations": "Отсутствие зачарования в Raider.IO НЕ доказывает, что слот можно или нужно зачаровать. API не перечисляет доступные пустые гнёзда. Подбор BiS-чар и камней требует актуальных гайдов/симуляции.",
   "observed": [
     {
@@ -162,8 +162,8 @@
     },
     {
       "slot": "mainhand",
-      "item_name": "Soulsealer's Headstone",
-      "item_level": 328,
+      "item_name": "Farstrider's Chopper",
+      "item_level": 331,
       "enchants": [
         {
           "id": 273072,
@@ -175,8 +175,8 @@
     },
     {
       "slot": "offhand",
-      "item_name": "Farstrider's Chopper",
-      "item_level": 318,
+      "item_name": "Soulsealer's Headstone",
+      "item_level": 328,
       "enchants": [
         {
           "id": 273072,
