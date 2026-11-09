@@ -1,7 +1,7 @@
 {
   "note": "История фиксируется с момента подключения трекера; изменения между двумя проверками могут быть пропущены.",
-  "last_checked_at": "2026-11-08T23:05:29+00:00",
-  "last_source_crawled_at": "2026-11-08T18:39:30.000Z",
+  "last_checked_at": "2026-11-09T06:56:16+00:00",
+  "last_source_crawled_at": "2026-11-08T23:44:30.000Z",
   "last_equipped": {
     "head": {
       "item_id": 271483,
@@ -218,7 +218,7 @@
     "mainhand": {
       "item_id": 237850,
       "name": "Farstrider's Chopper",
-      "item_level": 331,
+      "item_level": 337,
       "enchants": [
         8689
       ],
@@ -226,6 +226,7 @@
       "bonuses": [
         12214,
         13667,
+        13852,
         12497,
         13751,
         14001,
@@ -1348,6 +1349,56 @@
             "bonuses": [
               6652,
               12848
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "at": "2026-11-08T23:44:30.000Z",
+      "type": "gear_change",
+      "changes": [
+        {
+          "slot": "mainhand",
+          "before": {
+            "item_id": 237850,
+            "name": "Farstrider's Chopper",
+            "item_level": 331,
+            "enchants": [
+              8689
+            ],
+            "gems": [],
+            "bonuses": [
+              12214,
+              13667,
+              12497,
+              13751,
+              14001,
+              13771,
+              8960,
+              8793,
+              13836
+            ]
+          },
+          "after": {
+            "item_id": 237850,
+            "name": "Farstrider's Chopper",
+            "item_level": 337,
+            "enchants": [
+              8689
+            ],
+            "gems": [],
+            "bonuses": [
+              12214,
+              13667,
+              13852,
+              12497,
+              13751,
+              14001,
+              13771,
+              8960,
+              8793,
+              13836
             ]
           }
         }

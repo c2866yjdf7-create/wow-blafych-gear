@@ -1,9 +1,9 @@
 # Блафыч — панель персонажа
 
-**Специализация:** Enhancement · **Надето:** 314 ilvl · **M+ рейтинг:** 2467.2
+**Специализация:** Enhancement · **Надето:** 315 ilvl · **M+ рейтинг:** 2467.2
 
-**Последнее обновление Raider.IO:** 2026-11-08T18:39:30.000Z
-**GitHub забрал данные:** 2026-11-08T23:05:29+00:00
+**Последнее обновление Raider.IO:** 2026-11-08T23:44:30.000Z
+**GitHub забрал данные:** 2026-11-09T06:56:16+00:00
 
 ⚠️ Данные не в реальном времени: Raider.IO может отставать от игры.
 
@@ -38,7 +38,7 @@
 | Кольцо 2 | Hex Loop | 321 |
 | Аксессуар 1 | Vile Vial of Volatile Venom | 305 |
 | Аксессуар 2 | Resonant Bellowstone | 321 |
-| Основная рука | Farstrider's Chopper | 331 |
+| Основная рука | Farstrider's Chopper | 337 |
 | Вторая рука | Soulsealer's Headstone | 328 |
 
 ## Рейды
@@ -70,11 +70,11 @@ Raider.IO вернул 10 записей о лучших недельных кл
 
 ## Последние изменения шмота
 
+- **2026-11-08T23:44:30.000Z:** mainhand: Farstrider's Chopper → Farstrider's Chopper
 - **2026-11-08T18:39:30.000Z:** mainhand: Farstrider's Chopper → Farstrider's Chopper; offhand: Soulsealer's Headstone → Soulsealer's Headstone
 - **2026-11-08T02:47:29.000Z:** feet: Galerider's Footguards → Galerider's Footguards; mainhand: Farstrider's Chopper → Farstrider's Chopper; neck: Pendant of Malefic Fury → Strand of Warding Fangs; offhand: Soulsealer's Headstone → Soulsealer's Headstone; trinket1: Vile Vial of Volatile Venom → Vile Vial of Volatile Venom
 - **2026-11-08T02:47:29.000Z:** mainhand: Soulsealer's Headstone → Farstrider's Chopper; offhand: Farstrider's Chopper → Soulsealer's Headstone
 - **2026-11-07T19:42:29.000Z:** mainhand: Soulsealer's Headstone → Soulsealer's Headstone; offhand: Farstrider's Chopper → Farstrider's Chopper
-- **2026-11-07T11:52:30.000Z:** finger1: Band of the Swarmcaller → Band of the Swarmcaller; trinket2: Resonant Bellowstone → Resonant Bellowstone; waist: Tribal Defender's Cord → Tribal Defender's Cord
 
 ---
 
