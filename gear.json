@@ -1,5 +1,5 @@
 {
-  "fetched_at_utc": "2026-11-09T06:56:16+00:00",
+  "fetched_at_utc": "2026-11-09T19:55:57+00:00",
   "source_last_crawled_at": "2026-11-08T23:44:30.000Z",
   "source_api_url": "https://raider.io/api/v1/characters/profile?region=eu&realm=gordunni&name=%D0%91%D0%BB%D0%B0%D1%84%D1%8B%D1%87&fields=gear%2Ctalents%2Craid_progression%2Cmythic_plus_scores_by_season%3Acurrent%2Cmythic_plus_best_runs%3Aall%2Cmythic_plus_recent_runs%2Cmythic_plus_weekly_highest_level_runs%2Cmythic_plus_previous_weekly_highest_level_runs%2Cmythic_plus_ranks",
   "character": {
@@ -2328,13 +2328,13 @@
     ],
     "ranks": {
       "overall": {
-        "world": 1734916,
-        "region": 541663,
-        "realm": 19757
+        "world": 1738104,
+        "region": 542105,
+        "realm": 19781
       },
       "class": {
-        "world": 195817,
-        "region": 62389,
+        "world": 196135,
+        "region": 62443,
         "realm": 2002
       },
       "healer": {
@@ -2348,14 +2348,14 @@
         "realm": 0
       },
       "dps": {
-        "world": 1078137,
-        "region": 334167,
-        "realm": 12170
+        "world": 1080319,
+        "region": 334465,
+        "realm": 12189
       },
       "class_dps": {
-        "world": 111859,
-        "region": 36647,
-        "realm": 1108
+        "world": 112072,
+        "region": 36686,
+        "realm": 1110
       },
       "spec_262": {
         "world": 0,
@@ -2363,9 +2363,9 @@
         "realm": 0
       },
       "spec_263": {
-        "world": 17440,
-        "region": 7899,
-        "realm": 223
+        "world": 17481,
+        "region": 7910,
+        "realm": 224
       },
       "spec_264": {
         "world": 0,
