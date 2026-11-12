@@ -1,6 +1,6 @@
 {
   "source_last_crawled_at": "2026-11-12T00:54:59.000Z",
-  "fetched_at_utc": "2026-11-12T02:20:21+00:00",
+  "fetched_at_utc": "2026-11-12T11:33:43+00:00",
   "season": "season-mn-2",
   "score": 2508.1,
   "routes": [
@@ -1743,14 +1743,14 @@
   ],
   "ranks": {
     "overall": {
-      "world": 1721000,
-      "region": 535169,
-      "realm": 19593
+      "world": 1721845,
+      "region": 535236,
+      "realm": 19596
     },
     "class": {
-      "world": 194402,
-      "region": 61734,
-      "realm": 1981
+      "world": 194479,
+      "region": 61740,
+      "realm": 1980
     },
     "healer": {
       "world": 0,
@@ -1763,14 +1763,14 @@
       "realm": 0
     },
     "dps": {
-      "world": 1067465,
-      "region": 329558,
-      "realm": 12048
+      "world": 1068057,
+      "region": 329605,
+      "realm": 12050
     },
     "class_dps": {
-      "world": 110705,
-      "region": 36159,
-      "realm": 1094
+      "world": 110762,
+      "region": 36164,
+      "realm": 1093
     },
     "spec_262": {
       "world": 0,
@@ -1778,8 +1778,8 @@
       "realm": 0
     },
     "spec_263": {
-      "world": 17218,
-      "region": 7782,
+      "world": 17234,
+      "region": 7784,
       "realm": 219
     },
     "spec_264": {
