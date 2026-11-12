@@ -1,7 +1,7 @@
 {
   "note": "История фиксируется с момента подключения трекера; изменения между двумя проверками могут быть пропущены.",
-  "last_checked_at": "2026-11-12T00:34:40+00:00",
-  "last_source_crawled_at": "2026-11-11T22:32:53.000Z",
+  "last_checked_at": "2026-11-12T02:20:21+00:00",
+  "last_source_crawled_at": "2026-11-12T00:54:59.000Z",
   "last_equipped": {
     "head": {
       "item_id": 271483,
@@ -68,7 +68,7 @@
     "chest": {
       "item_id": 271486,
       "name": "Fanged Raiment of the Ophidian Oracle",
-      "item_level": 328,
+      "item_level": 334,
       "enchants": [
         7987
       ],
@@ -79,7 +79,7 @@
         13846,
         13690,
         13698,
-        12852
+        12854
       ]
     },
     "waist": {
@@ -1646,6 +1646,49 @@
               8793,
               13836,
               13696
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "at": "2026-11-12T00:54:59.000Z",
+      "type": "gear_change",
+      "changes": [
+        {
+          "slot": "chest",
+          "before": {
+            "item_id": 271486,
+            "name": "Fanged Raiment of the Ophidian Oracle",
+            "item_level": 328,
+            "enchants": [
+              7987
+            ],
+            "gems": [],
+            "bonuses": [
+              13334,
+              6652,
+              13846,
+              13690,
+              13698,
+              12852
+            ]
+          },
+          "after": {
+            "item_id": 271486,
+            "name": "Fanged Raiment of the Ophidian Oracle",
+            "item_level": 334,
+            "enchants": [
+              7987
+            ],
+            "gems": [],
+            "bonuses": [
+              13334,
+              6652,
+              13846,
+              13690,
+              13698,
+              12854
             ]
           }
         }
