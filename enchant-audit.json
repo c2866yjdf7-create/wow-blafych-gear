@@ -1,5 +1,5 @@
 {
-  "source_last_crawled_at": "2026-11-08T23:44:30.000Z",
+  "source_last_crawled_at": "2026-11-11T22:32:53.000Z",
   "limitations": "Отсутствие зачарования в Raider.IO НЕ доказывает, что слот можно или нужно зачаровать. API не перечисляет доступные пустые гнёзда. Подбор BiS-чар и камней требует актуальных гайдов/симуляции.",
   "observed": [
     {
@@ -18,7 +18,7 @@
     {
       "slot": "neck",
       "item_name": "Strand of Warding Fangs",
-      "item_level": 308,
+      "item_level": 321,
       "enchants": [],
       "gems": [
         {
@@ -31,7 +31,7 @@
     {
       "slot": "shoulder",
       "item_name": "Hissing Mantle of the Ophidian Oracle",
-      "item_level": 302,
+      "item_level": 305,
       "enchants": [
         {
           "id": 243991,
@@ -51,7 +51,7 @@
     {
       "slot": "chest",
       "item_name": "Fanged Raiment of the Ophidian Oracle",
-      "item_level": 318,
+      "item_level": 328,
       "enchants": [
         {
           "id": 243977,
@@ -71,14 +71,14 @@
     {
       "slot": "wrist",
       "item_name": "Farstrider's Plated Bracers",
-      "item_level": 305,
+      "item_level": 331,
       "enchants": [],
       "gems": []
     },
     {
       "slot": "hands",
       "item_name": "Hexing Grips of the Ophidian Oracle",
-      "item_level": 308,
+      "item_level": 318,
       "enchants": [],
       "gems": []
     },
@@ -98,7 +98,7 @@
     {
       "slot": "feet",
       "item_name": "Galerider's Footguards",
-      "item_level": 315,
+      "item_level": 321,
       "enchants": [
         {
           "id": 243953,
@@ -149,7 +149,7 @@
     {
       "slot": "trinket1",
       "item_name": "Vile Vial of Volatile Venom",
-      "item_level": 305,
+      "item_level": 308,
       "enchants": [],
       "gems": []
     },

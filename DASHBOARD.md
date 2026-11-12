@@ -1,18 +1,18 @@
 # Блафыч — панель персонажа
 
-**Специализация:** Enhancement · **Надето:** 315 ilvl · **M+ рейтинг:** 2467.2
+**Специализация:** Enhancement · **Надето:** 319 ilvl · **M+ рейтинг:** 2508.1
 
-**Последнее обновление Raider.IO:** 2026-11-08T23:44:30.000Z
-**GitHub забрал данные:** 2026-11-11T19:45:08+00:00
+**Последнее обновление Raider.IO:** 2026-11-11T22:32:53.000Z
+**GitHub забрал данные:** 2026-11-12T00:34:40+00:00
 
 ⚠️ Данные не в реальном времени: Raider.IO может отставать от игры.
 
 ## Что делать дальше
 
 - Закоулок душегубов: лучший +8; цель **+9**.
-- Гробница королей: лучший +9; цель **+10**.
 - Рубиновые Омуты Жизни: лучший +9; цель **+10**.
 - Слепящая долина: лучший +9; цель **+10**.
+- Храм Сетралисс: лучший +9; цель **+10**.
 
 Полный маршрут: [next-keys.md](next-keys.md).
 
@@ -25,18 +25,18 @@
 | Слот | Вещь | ilvl |
 |---|---|---:|
 | Голова | Serpent Crown of the Ophidian Oracle | 308 |
-| Шея | Strand of Warding Fangs | 308 |
-| Плечи | Hissing Mantle of the Ophidian Oracle | 302 |
+| Шея | Strand of Warding Fangs | 321 |
+| Плечи | Hissing Mantle of the Ophidian Oracle | 305 |
 | Плащ | Silken Voodoo Drape | 318 |
-| Грудь | Fanged Raiment of the Ophidian Oracle | 318 |
+| Грудь | Fanged Raiment of the Ophidian Oracle | 328 |
 | Пояс | Tribal Defender's Cord | 321 |
-| Наручи | Farstrider's Plated Bracers | 305 |
-| Перчатки | Hexing Grips of the Ophidian Oracle | 308 |
+| Наручи | Farstrider's Plated Bracers | 331 |
+| Перчатки | Hexing Grips of the Ophidian Oracle | 318 |
 | Ноги | Cuisses of the Uncoiled Union | 305 |
-| Ботинки | Galerider's Footguards | 315 |
+| Ботинки | Galerider's Footguards | 321 |
 | Кольцо 1 | Band of the Swarmcaller | 321 |
 | Кольцо 2 | Hex Loop | 321 |
-| Аксессуар 1 | Vile Vial of Volatile Venom | 305 |
+| Аксессуар 1 | Vile Vial of Volatile Venom | 308 |
 | Аксессуар 2 | Resonant Bellowstone | 321 |
 | Основная рука | Farstrider's Chopper | 337 |
 | Вторая рука | Soulsealer's Headstone | 328 |
@@ -62,7 +62,7 @@ Raider.IO не вернул таланты; актуальный билд **не
 
 ## Недельный прогресс
 
-Raider.IO вернул 1 записей о лучших недельных ключах. **Это не счётчик Великого хранилища.**
+Raider.IO вернул 3 записей о лучших недельных ключах. **Это не счётчик Великого хранилища.**
 
 **Аффиксы EU:** Xal'atath's Bargain: Ascendant, Fortified, Tyrannical, Xal'atath's Guile
 
@@ -70,11 +70,11 @@ Raider.IO вернул 1 записей о лучших недельных кл�
 
 ## Последние изменения шмота
 
+- **2026-11-11T22:32:53.000Z:** chest: Fanged Raiment of the Ophidian Oracle → Fanged Raiment of the Ophidian Oracle; feet: Galerider's Footguards → Galerider's Footguards; hands: Hexing Grips of the Ophidian Oracle → Hexing Grips of the Ophidian Oracle; neck: Strand of Warding Fangs → Strand of Warding Fangs; shoulder: Hissing Mantle of the Ophidian Oracle → Hissing Mantle of the Ophidian Oracle; trinket1: Vile Vial of Volatile Venom → Vile Vial of Volatile Venom; wrist: Farstrider's Plated Bracers → Farstrider's Plated Bracers
 - **2026-11-08T23:44:30.000Z:** mainhand: Farstrider's Chopper → Farstrider's Chopper
 - **2026-11-08T18:39:30.000Z:** mainhand: Farstrider's Chopper → Farstrider's Chopper; offhand: Soulsealer's Headstone → Soulsealer's Headstone
 - **2026-11-08T02:47:29.000Z:** feet: Galerider's Footguards → Galerider's Footguards; mainhand: Farstrider's Chopper → Farstrider's Chopper; neck: Pendant of Malefic Fury → Strand of Warding Fangs; offhand: Soulsealer's Headstone → Soulsealer's Headstone; trinket1: Vile Vial of Volatile Venom → Vile Vial of Volatile Venom
 - **2026-11-08T02:47:29.000Z:** mainhand: Soulsealer's Headstone → Farstrider's Chopper; offhand: Farstrider's Chopper → Soulsealer's Headstone
-- **2026-11-07T19:42:29.000Z:** mainhand: Soulsealer's Headstone → Soulsealer's Headstone; offhand: Farstrider's Chopper → Farstrider's Chopper
 
 ---
 

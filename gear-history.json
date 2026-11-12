@@ -1,7 +1,7 @@
 {
   "note": "История фиксируется с момента подключения трекера; изменения между двумя проверками могут быть пропущены.",
-  "last_checked_at": "2026-11-11T19:45:08+00:00",
-  "last_source_crawled_at": "2026-11-08T23:44:30.000Z",
+  "last_checked_at": "2026-11-12T00:34:40+00:00",
+  "last_source_crawled_at": "2026-11-11T22:32:53.000Z",
   "last_equipped": {
     "head": {
       "item_id": 271483,
@@ -23,23 +23,23 @@
     "neck": {
       "item_id": 273781,
       "name": "Strand of Warding Fangs",
-      "item_level": 308,
+      "item_level": 321,
       "enchants": [],
       "gems": [
         240983
       ],
       "bonuses": [
-        12842,
         13440,
         6652,
         13668,
-        12699
+        12699,
+        12846
       ]
     },
     "shoulder": {
       "item_id": 271481,
       "name": "Hissing Mantle of the Ophidian Oracle",
-      "item_level": 302,
+      "item_level": 305,
       "enchants": [
         8001
       ],
@@ -49,7 +49,7 @@
         13694,
         6652,
         13697,
-        12836
+        12837
       ]
     },
     "back": {
@@ -68,7 +68,7 @@
     "chest": {
       "item_id": 271486,
       "name": "Fanged Raiment of the Ophidian Oracle",
-      "item_level": 318,
+      "item_level": 328,
       "enchants": [
         7987
       ],
@@ -77,10 +77,9 @@
         13334,
         6652,
         13846,
-        12849,
         13690,
         13698,
-        1571
+        12852
       ]
     },
     "waist": {
@@ -101,7 +100,7 @@
     "wrist": {
       "item_id": 244584,
       "name": "Farstrider's Plated Bracers",
-      "item_level": 305,
+      "item_level": 331,
       "enchants": [],
       "gems": [],
       "bonuses": [
@@ -113,20 +112,24 @@
         8960,
         12384,
         8793,
+        13836,
         13696
       ]
     },
     "hands": {
       "item_id": 271484,
       "name": "Hexing Grips of the Ophidian Oracle",
-      "item_level": 308,
+      "item_level": 318,
       "enchants": [],
       "gems": [],
       "bonuses": [
-        6652,
+        13334,
+        40,
+        12849,
+        14049,
         13691,
         13697,
-        12838
+        1571
       ]
     },
     "legs": {
@@ -147,14 +150,14 @@
     "feet": {
       "item_id": 272248,
       "name": "Galerider's Footguards",
-      "item_level": 315,
+      "item_level": 321,
       "enchants": [
         7963
       ],
       "gems": [],
       "bonuses": [
         13662,
-        12844
+        12846
       ]
     },
     "finger1": {
@@ -192,14 +195,14 @@
     "trinket1": {
       "item_id": 273796,
       "name": "Vile Vial of Volatile Venom",
-      "item_level": 305,
+      "item_level": 308,
       "enchants": [],
       "gems": [],
       "bonuses": [
         13440,
         6652,
         12699,
-        12837
+        12838
       ]
     },
     "trinket2": {
@@ -1399,6 +1402,250 @@
               8960,
               8793,
               13836
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "at": "2026-11-11T22:32:53.000Z",
+      "type": "gear_change",
+      "changes": [
+        {
+          "slot": "chest",
+          "before": {
+            "item_id": 271486,
+            "name": "Fanged Raiment of the Ophidian Oracle",
+            "item_level": 318,
+            "enchants": [
+              7987
+            ],
+            "gems": [],
+            "bonuses": [
+              13334,
+              6652,
+              13846,
+              12849,
+              13690,
+              13698,
+              1571
+            ]
+          },
+          "after": {
+            "item_id": 271486,
+            "name": "Fanged Raiment of the Ophidian Oracle",
+            "item_level": 328,
+            "enchants": [
+              7987
+            ],
+            "gems": [],
+            "bonuses": [
+              13334,
+              6652,
+              13846,
+              13690,
+              13698,
+              12852
+            ]
+          }
+        },
+        {
+          "slot": "feet",
+          "before": {
+            "item_id": 272248,
+            "name": "Galerider's Footguards",
+            "item_level": 315,
+            "enchants": [
+              7963
+            ],
+            "gems": [],
+            "bonuses": [
+              13662,
+              12844
+            ]
+          },
+          "after": {
+            "item_id": 272248,
+            "name": "Galerider's Footguards",
+            "item_level": 321,
+            "enchants": [
+              7963
+            ],
+            "gems": [],
+            "bonuses": [
+              13662,
+              12846
+            ]
+          }
+        },
+        {
+          "slot": "hands",
+          "before": {
+            "item_id": 271484,
+            "name": "Hexing Grips of the Ophidian Oracle",
+            "item_level": 308,
+            "enchants": [],
+            "gems": [],
+            "bonuses": [
+              6652,
+              13691,
+              13697,
+              12838
+            ]
+          },
+          "after": {
+            "item_id": 271484,
+            "name": "Hexing Grips of the Ophidian Oracle",
+            "item_level": 318,
+            "enchants": [],
+            "gems": [],
+            "bonuses": [
+              13334,
+              40,
+              12849,
+              14049,
+              13691,
+              13697,
+              1571
+            ]
+          }
+        },
+        {
+          "slot": "neck",
+          "before": {
+            "item_id": 273781,
+            "name": "Strand of Warding Fangs",
+            "item_level": 308,
+            "enchants": [],
+            "gems": [
+              240983
+            ],
+            "bonuses": [
+              12842,
+              13440,
+              6652,
+              13668,
+              12699
+            ]
+          },
+          "after": {
+            "item_id": 273781,
+            "name": "Strand of Warding Fangs",
+            "item_level": 321,
+            "enchants": [],
+            "gems": [
+              240983
+            ],
+            "bonuses": [
+              13440,
+              6652,
+              13668,
+              12699,
+              12846
+            ]
+          }
+        },
+        {
+          "slot": "shoulder",
+          "before": {
+            "item_id": 271481,
+            "name": "Hissing Mantle of the Ophidian Oracle",
+            "item_level": 302,
+            "enchants": [
+              8001
+            ],
+            "gems": [],
+            "bonuses": [
+              13333,
+              13694,
+              6652,
+              13697,
+              12836
+            ]
+          },
+          "after": {
+            "item_id": 271481,
+            "name": "Hissing Mantle of the Ophidian Oracle",
+            "item_level": 305,
+            "enchants": [
+              8001
+            ],
+            "gems": [],
+            "bonuses": [
+              13333,
+              13694,
+              6652,
+              13697,
+              12837
+            ]
+          }
+        },
+        {
+          "slot": "trinket1",
+          "before": {
+            "item_id": 273796,
+            "name": "Vile Vial of Volatile Venom",
+            "item_level": 305,
+            "enchants": [],
+            "gems": [],
+            "bonuses": [
+              13440,
+              6652,
+              12699,
+              12837
+            ]
+          },
+          "after": {
+            "item_id": 273796,
+            "name": "Vile Vial of Volatile Venom",
+            "item_level": 308,
+            "enchants": [],
+            "gems": [],
+            "bonuses": [
+              13440,
+              6652,
+              12699,
+              12838
+            ]
+          }
+        },
+        {
+          "slot": "wrist",
+          "before": {
+            "item_id": 244584,
+            "name": "Farstrider's Plated Bracers",
+            "item_level": 305,
+            "enchants": [],
+            "gems": [],
+            "bonuses": [
+              12214,
+              13667,
+              12497,
+              13751,
+              14001,
+              8960,
+              12384,
+              8793,
+              13696
+            ]
+          },
+          "after": {
+            "item_id": 244584,
+            "name": "Farstrider's Plated Bracers",
+            "item_level": 331,
+            "enchants": [],
+            "gems": [],
+            "bonuses": [
+              12214,
+              13667,
+              12497,
+              13751,
+              14001,
+              8960,
+              12384,
+              8793,
+              13836,
+              13696
             ]
           }
         }
