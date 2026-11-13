@@ -1,6 +1,6 @@
 {
   "note": "История фиксируется с момента подключения трекера; изменения между двумя проверками могут быть пропущены.",
-  "last_checked_at": "2026-11-13T11:18:18+00:00",
+  "last_checked_at": "2026-11-13T19:54:26+00:00",
   "last_source_crawled_at": "2026-11-12T00:54:59.000Z",
   "last_equipped": {
     "head": {
@@ -39,17 +39,17 @@
     "shoulder": {
       "item_id": 271481,
       "name": "Hissing Mantle of the Ophidian Oracle",
-      "item_level": 305,
+      "item_level": 321,
       "enchants": [
         8001
       ],
       "gems": [],
       "bonuses": [
-        13333,
+        13334,
         13694,
         6652,
         13697,
-        12837
+        12846
       ]
     },
     "back": {
@@ -223,7 +223,8 @@
       "name": "Farstrider's Chopper",
       "item_level": 337,
       "enchants": [
-        8689
+        8689,
+        5401
       ],
       "gems": [],
       "bonuses": [
@@ -244,7 +245,8 @@
       "name": "Soulsealer's Headstone",
       "item_level": 328,
       "enchants": [
-        8689
+        8689,
+        5400
       ],
       "gems": [],
       "bonuses": [
@@ -1689,6 +1691,123 @@
               13690,
               13698,
               12854
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "at": "2026-11-12T00:54:59.000Z",
+      "type": "gear_change",
+      "changes": [
+        {
+          "slot": "mainhand",
+          "before": {
+            "item_id": 237850,
+            "name": "Farstrider's Chopper",
+            "item_level": 337,
+            "enchants": [
+              8689
+            ],
+            "gems": [],
+            "bonuses": [
+              12214,
+              13667,
+              13852,
+              12497,
+              13751,
+              14001,
+              13771,
+              8960,
+              8793,
+              13836
+            ]
+          },
+          "after": {
+            "item_id": 237850,
+            "name": "Farstrider's Chopper",
+            "item_level": 337,
+            "enchants": [
+              8689,
+              5401
+            ],
+            "gems": [],
+            "bonuses": [
+              12214,
+              13667,
+              13852,
+              12497,
+              13751,
+              14001,
+              13771,
+              8960,
+              8793,
+              13836
+            ]
+          }
+        },
+        {
+          "slot": "offhand",
+          "before": {
+            "item_id": 272269,
+            "name": "Soulsealer's Headstone",
+            "item_level": 328,
+            "enchants": [
+              8689
+            ],
+            "gems": [],
+            "bonuses": [
+              6652,
+              12848
+            ]
+          },
+          "after": {
+            "item_id": 272269,
+            "name": "Soulsealer's Headstone",
+            "item_level": 328,
+            "enchants": [
+              8689,
+              5400
+            ],
+            "gems": [],
+            "bonuses": [
+              6652,
+              12848
+            ]
+          }
+        },
+        {
+          "slot": "shoulder",
+          "before": {
+            "item_id": 271481,
+            "name": "Hissing Mantle of the Ophidian Oracle",
+            "item_level": 305,
+            "enchants": [
+              8001
+            ],
+            "gems": [],
+            "bonuses": [
+              13333,
+              13694,
+              6652,
+              13697,
+              12837
+            ]
+          },
+          "after": {
+            "item_id": 271481,
+            "name": "Hissing Mantle of the Ophidian Oracle",
+            "item_level": 321,
+            "enchants": [
+              8001
+            ],
+            "gems": [],
+            "bonuses": [
+              13334,
+              13694,
+              6652,
+              13697,
+              12846
             ]
           }
         }
