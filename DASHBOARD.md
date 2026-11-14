@@ -1,9 +1,9 @@
 # Блафыч — панель персонажа
 
-**Специализация:** Enhancement · **Надето:** 320.875 ilvl · **M+ рейтинг:** 2508.1
+**Специализация:** Enhancement · **Надето:** 321 ilvl · **M+ рейтинг:** 2508.1
 
-**Последнее обновление Raider.IO:** 2026-11-12T00:54:59.000Z
-**GitHub забрал данные:** 2026-11-13T19:54:26+00:00
+**Последнее обновление Raider.IO:** 2026-11-13T23:34:02.000Z
+**GitHub забрал данные:** 2026-11-14T01:31:39+00:00
 
 ⚠️ Данные не в реальном времени: Raider.IO может отставать от игры.
 
@@ -31,13 +31,13 @@
 | Грудь | Fanged Raiment of the Ophidian Oracle | 334 |
 | Пояс | Tribal Defender's Cord | 321 |
 | Наручи | Farstrider's Plated Bracers | 331 |
-| Перчатки | Hexing Grips of the Ophidian Oracle | 318 |
+| Перчатки | Hexing Grips of the Ophidian Oracle | 321 |
 | Ноги | Cuisses of the Uncoiled Union | 305 |
 | Ботинки | Galerider's Footguards | 321 |
 | Кольцо 1 | Band of the Swarmcaller | 321 |
 | Кольцо 2 | Hex Loop | 321 |
 | Аксессуар 1 | Vile Vial of Volatile Venom | 308 |
-| Аксессуар 2 | Resonant Bellowstone | 321 |
+| Аксессуар 2 | Resonant Bellowstone | 328 |
 | Основная рука | Farstrider's Chopper | 337 |
 | Вторая рука | Soulsealer's Headstone | 328 |
 
@@ -62,7 +62,7 @@ Raider.IO не вернул таланты; актуальный билд **не
 
 ## Недельный прогресс
 
-Raider.IO вернул 5 записей о лучших недельных ключах. **Это не счётчик Великого хранилища.**
+Raider.IO вернул 6 записей о лучших недельных ключах. **Это не счётчик Великого хранилища.**
 
 **Аффиксы EU:** Xal'atath's Bargain: Ascendant, Fortified, Tyrannical, Xal'atath's Guile
 
@@ -70,11 +70,11 @@ Raider.IO вернул 5 записей о лучших недельных кл�
 
 ## Последние изменения шмота
 
+- **2026-11-13T23:34:02.000Z:** hands: Hexing Grips of the Ophidian Oracle → Hexing Grips of the Ophidian Oracle; mainhand: Farstrider's Chopper → Farstrider's Chopper; offhand: Soulsealer's Headstone → Soulsealer's Headstone; trinket2: Resonant Bellowstone → Resonant Bellowstone
 - **2026-11-12T00:54:59.000Z:** mainhand: Farstrider's Chopper → Farstrider's Chopper; offhand: Soulsealer's Headstone → Soulsealer's Headstone; shoulder: Hissing Mantle of the Ophidian Oracle → Hissing Mantle of the Ophidian Oracle
 - **2026-11-12T00:54:59.000Z:** chest: Fanged Raiment of the Ophidian Oracle → Fanged Raiment of the Ophidian Oracle
 - **2026-11-11T22:32:53.000Z:** chest: Fanged Raiment of the Ophidian Oracle → Fanged Raiment of the Ophidian Oracle; feet: Galerider's Footguards → Galerider's Footguards; hands: Hexing Grips of the Ophidian Oracle → Hexing Grips of the Ophidian Oracle; neck: Strand of Warding Fangs → Strand of Warding Fangs; shoulder: Hissing Mantle of the Ophidian Oracle → Hissing Mantle of the Ophidian Oracle; trinket1: Vile Vial of Volatile Venom → Vile Vial of Volatile Venom; wrist: Farstrider's Plated Bracers → Farstrider's Plated Bracers
 - **2026-11-08T23:44:30.000Z:** mainhand: Farstrider's Chopper → Farstrider's Chopper
-- **2026-11-08T18:39:30.000Z:** mainhand: Farstrider's Chopper → Farstrider's Chopper; offhand: Soulsealer's Headstone → Soulsealer's Headstone
 
 ---
 

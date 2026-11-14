@@ -1,5 +1,5 @@
 {
-  "source_last_crawled_at": "2026-11-12T00:54:59.000Z",
+  "source_last_crawled_at": "2026-11-13T23:34:02.000Z",
   "limitations": "Отсутствие зачарования в Raider.IO НЕ доказывает, что слот можно или нужно зачаровать. API не перечисляет доступные пустые гнёзда. Подбор BiS-чар и камней требует актуальных гайдов/симуляции.",
   "observed": [
     {
@@ -78,7 +78,7 @@
     {
       "slot": "hands",
       "item_name": "Hexing Grips of the Ophidian Oracle",
-      "item_level": 318,
+      "item_level": 321,
       "enchants": [],
       "gems": []
     },
@@ -156,7 +156,7 @@
     {
       "slot": "trinket2",
       "item_name": "Resonant Bellowstone",
-      "item_level": 321,
+      "item_level": 328,
       "enchants": [],
       "gems": []
     },
