@@ -3,7 +3,7 @@
 **Специализация:** Enhancement · **Надето:** 321 ilvl · **M+ рейтинг:** 2536.6
 
 **Последнее обновление Raider.IO:** 2026-11-22T00:00:33.000Z
-**GitHub забрал данные:** 2026-11-24T23:58:06+00:00
+**GitHub забрал данные:** 2026-11-25T08:54:57+00:00
 
 ⚠️ Данные не в реальном времени: Raider.IO может отставать от игры.
 
@@ -64,7 +64,7 @@ Raider.IO не вернул таланты; актуальный билд **не
 
 Raider.IO вернул 0 записей о лучших недельных ключах. **Это не счётчик Великого хранилища.**
 
-**Аффиксы EU:** Xal'atath's Bargain: Voidbound, Tyrannical, Fortified, Xal'atath's Guile
+**Аффиксы EU:** Xal'atath's Bargain: Devour, Fortified, Tyrannical, Xal'atath's Guile
 
 Полные данные: [weekly.json](weekly.json).
 
